@@ -12,7 +12,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root 
 POSTS = "/workspace/chicago-story"  # post folders (read-only)
 EXCLUDE = {"post40", "post02"}  # post40 = unpublished DuSable duplicate; post02 = intro reel, no caption
 IG = "https://www.instagram.com/312history/"
-SIGNUP_ACTION = "mailto:hello@312history.com?subject=Subscribe%20to%20312%20History"  # PLACEHOLDER: replace with Buttondown/Mailchimp form action
+SIGNUP_ACTION = "mailto:ariana.cholponkadyrova@gmail.com?subject=Subscribe%20to%20312%20History"  # PLACEHOLDER: replace with Buttondown/Mailchimp form action
 SUPPORT = "#support-placeholder"  # PLACEHOLDER: Buy Me a Coffee / Patreon / Ko-fi link
 
 # num: (topic, place, lat, lng, year_override)

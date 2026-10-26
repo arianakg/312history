@@ -26,7 +26,7 @@ def press_page(S):
 {block("awards","AWARDS & RECOGNITION","No awards yet. Format: award, organization, year.")}
 {block("talks","TALKS & EVENTS","No events yet. Format: event, venue, date.")}
 <section class="press-block"><h2 class="sec-title small" data-i18n="press.kit">PRESS KIT & CONTACT</h2><p data-i18n="press.kittext">Journalists: write to us for photos, logos and interviews.</p>
-<a class="btn btn-line" href="mailto:hello@312history.com" data-i18n="press.contact">Contact (placeholder email)</a></section>
+<a class="btn btn-line" href="mailto:ariana.cholponkadyrova@gmail.com" data-i18n="press.contact">Contact (placeholder email)</a></section>
 </div></main>""" + foot(0)
 
 def order(stops):
