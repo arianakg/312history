@@ -1,0 +1,82 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>312history · Chicago's story, from 1833 to today</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Lora:wght@400;600&family=Oswald:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f3ead7;--ink:#2a2118;--red:#a8322a;--blue:#2f4a63;--muted:#6b5c4a;--line:#c9b897}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.6 Lora,Georgia,serif;
+background-image:radial-gradient(rgba(0,0,0,.035) 1px,transparent 1px);background-size:4px 4px}
+a{color:var(--red)}nav{position:sticky;top:0;z-index:1000;background:var(--ink);display:flex;flex-wrap:wrap;gap:4px 18px;padding:10px 16px;justify-content:center}
+nav a{color:var(--paper);text-decoration:none;font:500 14px Oswald,sans-serif;letter-spacing:.12em;text-transform:uppercase}
+header{text-align:center;padding:48px 18px 36px;border-bottom:3px double var(--ink);max-width:900px;margin:auto}
+.stars{color:var(--red);letter-spacing:.5em;font-size:22px}
+h1{font:900 clamp(48px,14vw,110px)/1 'Playfair Display',serif;margin:8px 0}h1 span{color:var(--red)}
+.slogan{font:italic 700 clamp(20px,5vw,30px) 'Playfair Display',serif;margin:6px 0 16px}
+.kicker{font:500 13px Oswald,sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--muted)}
+section{max-width:900px;margin:auto;padding:36px 18px;border-bottom:1px solid var(--line)}
+h2{font:900 clamp(30px,7vw,44px)/1.1 'Playfair Display',serif;margin:0 0 6px}
+.today{border:2px solid var(--ink);padding:20px;background:#fbf5e6;box-shadow:6px 6px 0 var(--ink)}
+.today .date{font:500 15px Oswald;letter-spacing:.15em;color:var(--red);text-transform:uppercase}
+.today h3{font:700 26px 'Playfair Display';margin:4px 0}
+.btn{display:inline-block;background:var(--red);color:#fff;padding:10px 18px;text-decoration:none;font:500 14px Oswald;letter-spacing:.12em;text-transform:uppercase;border:0;cursor:pointer}
+#map{height:460px;border:2px solid var(--ink);filter:sepia(.35)}
+.places{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));margin-top:18px}
+.place{border-top:3px solid var(--ink);padding-top:8px;cursor:pointer}.place b{font:700 19px 'Playfair Display'}
+.yr{font:500 13px Oswald;color:var(--red);letter-spacing:.1em}
+.tl{border-left:3px solid var(--ink);margin-left:8px;padding-left:20px}
+.era{position:relative;margin-bottom:22px}.era:before{content:"";position:absolute;left:-29px;top:6px;width:14px;height:14px;background:var(--red);border:2px solid var(--ink);border-radius:50%}
+.era h3{font:700 22px 'Playfair Display';margin:0}.era ul{margin:6px 0;padding-left:18px}
+footer{text-align:center;padding:28px;font-size:14px;color:var(--muted)}
+.leaflet-popup-content{font:15px/1.5 Lora,serif}
+</style></head><body>
+<nav><a href="#home">Home</a><a href="#map-sec">Map</a><a href="#timeline">Timeline</a><a href="#about">About</a></nav>
+<header id="home"><div class="stars">✶ ✶ ✶ ✶</div><div class="kicker">Est. on Instagram · Chicago, Illinois</div>
+<h1>312<span>history</span></h1><p class="slogan">Chicago's story, from 1833 to today</p>
+<a class="btn" href="https://www.instagram.com/312history/" target="_blank">Follow @312history</a></header>
+<section><div class="today"><div class="date" id="tdate"></div><h3 id="ttitle"></h3><p id="ttext"></p></div></section>
+<section id="map-sec"><div class="kicker">Explore the city</div><h2>The 312history Map</h2><p>Ten places where Chicago's story was made. Tap a pin or a card.</p>
+<div id="map"></div><div class="places" id="places"></div></section>
+<section id="timeline"><div class="kicker">1833 to today</div><h2>Timeline</h2><div class="tl">
+<div class="era"><h3>Frontier Town · 1803–1860</h3><ul><li>1803: Fort Dearborn is built at the mouth of the Chicago River.</li><li>1833: Chicago is incorporated as a town of about 350 people.</li><li>1837: Chicago becomes a city; William B. Ogden is its first mayor.</li><li>1848: The Illinois &amp; Michigan Canal opens and the first railroad arrives.</li></ul></div>
+<div class="era"><h3>Fire &amp; Rebirth · 1860–1893</h3><ul><li>1865: The Union Stock Yards open.</li><li>1871: The Great Chicago Fire burns about 3.3 square miles and leaves some 100,000 homeless.</li><li>1886: The Haymarket affair, a turning point for the labor movement.</li><li>1889: Jane Addams and Ellen Gates Starr open Hull House.</li><li>1893: The World's Columbian Exposition draws more than 27 million visits.</li></ul></div>
+<div class="era"><h3>Big Shoulders · 1900–1945</h3><ul><li>1900: The Chicago River's flow is reversed.</li><li>1909: Burnham and Bennett publish the Plan of Chicago.</li><li>1914: Weeghman Park, today's Wrigley Field, opens.</li><li>1915: The Eastland capsizes in the river, killing 844 people.</li><li>1929: The St. Valentine's Day Massacre.</li><li>1942: The first controlled nuclear chain reaction, at the University of Chicago.</li></ul></div>
+<div class="era"><h3>Modern Metropolis · 1945–2000</h3><ul><li>1955: Richard J. Daley becomes mayor and serves 21 years.</li><li>1958: O'Hare opens to commercial flights; it soon becomes the world's busiest airport.</li><li>1973: Sears Tower is completed, the world's tallest building for 25 years.</li><li>1983: Harold Washington becomes Chicago's first Black mayor.</li></ul></div>
+<div class="era"><h3>Today · 2000–now</h3><ul><li>2004: Millennium Park opens.</li><li>2016: The Chicago Cubs win their first World Series since 1908.</li><li>2019: Lori Lightfoot becomes the first Black woman to serve as mayor.</li></ul></div>
+</div></section>
+<section id="about"><div class="kicker">Behind the page</div><h2>About</h2>
+<p>312history is an Instagram project by Ariana Cholponkadyrova, a Kyrgyz creator living in Chicago. It tells the city's story, one place, one date and one person at a time, from the frontier town of 1833 to the city of today.</p>
+<p>Find Ariana on Instagram at <a href="https://www.instagram.com/arishakg/" target="_blank">@arishakg</a>.</p></section>
+<footer>© 312history · Map data © OpenStreetMap contributors</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const P=[
+["Fort Dearborn site",1803,41.8886,-87.6245,"The U.S. Army built Fort Dearborn here, at the mouth of the Chicago River, in 1803. In 1812 its garrison and settlers were attacked as they evacuated, in what is now called the Battle of Fort Dearborn. Bronze markers in the pavement at Michigan Avenue and Wacker Drive trace the fort's outline."],
+["Water Tower & the Great Fire",1871,41.8972,-87.6245,"The limestone Water Tower was finished in 1869. When the Great Chicago Fire swept the city on October 8 to 10, 1871, it was one of the few buildings in the burned district left standing. It became the symbol of a city that rebuilt itself."],
+["Union Stock Yard Gate",1879,41.8205,-87.6513,"The Union Stock Yards opened in 1865 and made Chicago the meatpacking capital of the world. The limestone gate, attributed to Burnham & Root, dates from 1879. The yards closed in 1971, but the gate still stands on Exchange Avenue."],
+["The Rookery",1888,41.8789,-87.6320,"Designed by Daniel Burnham and John Root and completed in 1888, the Rookery is a landmark of Chicago's early skyscraper era. Its light-filled lobby was remodeled by Frank Lloyd Wright in 1905. Chicago's architects of this age gave the world the modern tall building."],
+["Hull House",1889,41.8718,-87.6477,"Jane Addams and Ellen Gates Starr opened Hull House on Halsted Street in 1889 to serve the immigrant families of the Near West Side. It offered classes, a kindergarten, clubs and much more. Addams won the Nobel Peace Prize in 1931, and the original house is now a museum."],
+["Jackson Park & the 1893 World's Fair",1893,41.7906,-87.5831,"The World's Columbian Exposition opened in Jackson Park in 1893 to mark 400 years since Columbus's voyage. Its 'White City' introduced the first Ferris wheel. The Palace of Fine Arts survives today as the Museum of Science and Industry."],
+["Chicago River reversal",1900,41.8868,-87.6305,"Sewage flowing into Lake Michigan threatened the city's drinking water. In January 1900 the new Chicago Sanitary and Ship Canal opened and the river began flowing away from the lake. It was one of the great engineering feats of its time."],
+["Wrigley Field",1914,41.9484,-87.6553,"Opened in 1914 as Weeghman Park for the Chicago Whales, the ballpark became home of the Cubs in 1916. It took the Wrigley name in 1926, and its ivy was planted in 1937. It is the second-oldest ballpark in Major League Baseball."],
+["Navy Pier",1916,41.8917,-87.6086,"Built as Municipal Pier, part of the Plan of Chicago, it opened in 1916 for shipping and public recreation. It was renamed Navy Pier in 1927 to honor World War I veterans and trained Navy personnel during World War II. Since 1995 it has been a lakefront attraction."],
+["Biograph Theater",1934,41.9266,-87.6493,"On July 22, 1934, FBI agents shot bank robber John Dillinger outside this Lincoln Avenue movie house after he watched 'Manhattan Melodrama.' The 'Public Enemy No. 1' had been tipped off to agents by a companion. The building still stands on Lincoln Avenue."]];
+const map=L.map('map',{scrollWheelZoom:false}).setView([41.86,-87.63],11);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors'}).addTo(map);
+const box=document.getElementById('places');
+P.forEach(p=>{const m=L.marker([p[2],p[3]]).addTo(map).bindPopup(`<b>${p[0]}</b><br><i>${p[1]}</i><br>${p[4]}`);
+const d=document.createElement('div');d.className='place';d.innerHTML=`<div class="yr">${p[1]}</div><b>${p[0]}</b><p>${p[4]}</p>`;
+d.onclick=()=>{document.getElementById('map').scrollIntoView({behavior:'smooth'});map.setView([p[2],p[3]],15);m.openPopup()};box.appendChild(d)});
+const T=[[3,4,1837,"Chicago becomes a city","The Illinois legislature incorporated Chicago as a city; William B. Ogden became its first mayor."],
+[2,14,1929,"St. Valentine's Day Massacre","Seven men were shot in a garage on North Clark Street during the gang wars of the Prohibition era."],
+[5,1,1893,"The World's Fair opens","The World's Columbian Exposition opened in Jackson Park."],[5,4,1886,"The Haymarket affair","A bomb exploded at a labor rally near Haymarket Square, a turning point in labor history."],
+[7,22,1934,"Dillinger at the Biograph","John Dillinger was shot by FBI agents outside the Biograph Theater."],[7,24,1915,"The Eastland disaster","The SS Eastland rolled over at its dock in the Chicago River, killing 844 people."],
+[8,12,1833,"Chicago becomes a town","About 350 residents incorporated the Town of Chicago."],[9,18,1889,"Hull House opens","Jane Addams and Ellen Gates Starr opened Hull House on Halsted Street."],
+[10,8,1871,"The Great Chicago Fire begins","The fire started near the barn of Patrick and Catherine O'Leary and burned for about two days."],
+[12,2,1942,"The atomic age begins","Scientists at the University of Chicago achieved the first controlled nuclear chain reaction."],
+[4,23,1914,"First game at today's Wrigley Field","Weeghman Park hosted its first game, for the Chicago Federal League team."]];
+const now=new Date(),doy=(m,d)=>(new Date(2001,m-1,d)-new Date(2001,0,1))/864e5,td=doy(now.getMonth()+1,now.getDate());
+let best=T[0],bd=999;T.forEach(t=>{let x=(doy(t[0],t[1])-td+365)%365;if(x<bd){bd=x;best=t}});
+const mn=["January","February","March","April","May","June","July","August","September","October","November","December"];
+document.getElementById('tdate').textContent=(bd==0?"Today in Chicago History · ":"Coming up in Chicago History · ")+mn[best[0]-1]+" "+best[1]+", "+best[2];
+document.getElementById('ttitle').textContent=best[3];document.getElementById('ttext').textContent=best[4];
+</script></body></html>
