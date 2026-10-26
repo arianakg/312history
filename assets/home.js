@@ -58,7 +58,7 @@ Object.entries(LAYERS).forEach(([k,v])=>{const b=document.createElement('button'
 const markers=[];
 S.forEach(s=>{
   const icon=L.divIcon({className:'',html:'<div class="star-pin">★</div>',iconSize:[26,26],iconAnchor:[13,13]});
-  const m=L.marker([s.lat,s.lng],{icon,title:s.title}).addTo(map); // approximate coordinates
+  if(s.lat==null) return; const m=L.marker([s.lat,s.lng],{icon,title:s.title}).addTo(map); // approximate coordinates
   m.bindPopup(`<div class="pop"><img src="media/post${s.num}.jpg" alt=""><span class="kicker red">${s.topicName} · ${s.year||'—'}</span><h4>${s.title}</h4><p>${s.place}</p><a href="stories/${s.slug}.html">Read the story →</a></div>`);
   markers.push({m,s});
 });
