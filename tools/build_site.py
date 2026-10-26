@@ -13,7 +13,7 @@ POSTS = "/workspace/chicago-story"  # post folders (read-only)
 EXCLUDE = {"post40", "post02"}  # post40 = unpublished DuSable duplicate; post02 = intro reel, no caption
 IG = "https://www.instagram.com/312history/"
 SIGNUP_ACTION = "mailto:ariana.cholponkadyrova@gmail.com?subject=Subscribe%20to%20312%20History"  # PLACEHOLDER: replace with Buttondown/Mailchimp form action
-SUPPORT = "#support-placeholder"  # PLACEHOLDER: Buy Me a Coffee / Patreon / Ko-fi link
+SUPPORT = "https://ko-fi.com/312history"
 
 # num: (topic, place, lat, lng, year_override)
 # ALL COORDINATES ARE APPROXIMATE (street-corner or neighborhood level), for the draft map only.
@@ -209,7 +209,7 @@ def foot(depth):
 <div class="foot-signup" id="signup"><div><span class="kicker" data-i18n="signup.kicker">Newsletter</span><h2 data-i18n="signup.title">NEW STORIES IN YOUR INBOX</h2><p data-i18n="signup.text">One short email when new Chicago stories go up. No spam.</p></div>
 <form class="signup-form" action="{SIGNUP_ACTION}" method="post" enctype="text/plain" data-placeholder="1"><label class="sr" for="em-{depth}">Email</label><input id="em-{depth}" type="email" name="email" required placeholder="you@example.com"><button class="btn btn-red" type="submit" data-i18n="signup.btn">Subscribe</button>
 <p class="note" data-i18n="signup.note">Placeholder: signup opens your email app until a newsletter service is connected.</p></form></div>
-<div class="foot-btns"><a class="btn btn-line light" href="{IG}" target="_blank" rel="noopener" data-i18n="btn.ig">Instagram @312history</a><a class="btn btn-red" href="{SUPPORT}" data-i18n="btn.support" title="Placeholder: support link coming soon">Support the project ★</a></div>
+<div class="foot-btns"><a class="btn btn-line light" href="{IG}" target="_blank" rel="noopener" data-i18n="btn.ig">Instagram @312history</a><a class="btn btn-red" href="{SUPPORT}" target="_blank" rel="noopener" data-i18n="btn.support">Support the project ★</a></div>
 <p class="draft">Draft site. Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
 <script src="{p}assets/i18n.js"></script><script src="{p}assets/site.js"></script></body></html>"""
 
