@@ -4,6 +4,6 @@ const RU={"about.kicker":"О проекте","about.h1":"ИСТОРИЯ ЧИКА
 els.forEach(e=>e.dataset.en=e.innerHTML);phs.forEach(e=>e.dataset.en=e.placeholder);
 function set(l){document.documentElement.lang=l;els.forEach(e=>{const k=e.dataset.i18n;e.innerHTML=l==='ru'&&RU[k]?RU[k]:e.dataset.en;});
 phs.forEach(e=>{e.placeholder=l==='ru'?RU[e.dataset.i18nPh]:e.dataset.en});
-document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('on',b.dataset.lang===l));try{localStorage.lang=l}catch(_){}}
-document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>set(b.dataset.lang)));
-let l='en';try{l=localStorage.lang||'en'}catch(_){}set(l);})();
+document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('on',b.dataset.lang===l));}
+document.querySelectorAll('[data-lang]').forEach(b=>b.addEventListener('click',()=>{set(b.dataset.lang);try{localStorage.siteLang=b.dataset.lang}catch(_){}}));
+let l='en';try{l=localStorage.siteLang==='ru'?'ru':'en'}catch(_){}set(l);})();
