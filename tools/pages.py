@@ -6,11 +6,12 @@ def about_page(S):
     return head("About — 312 History", 0) + f"""
 <main class="page"><section class="page-hero"><span class="kicker red" data-i18n="about.kicker">About the project</span>
 <h1 class="mega small"><span class="line" data-i18n="about.h1">CHICAGO HISTORY</span><span class="line" data-i18n="about.h2">THROUGH AN</span><span class="line" data-i18n="about.h3">IMMIGRANT'S EYES<b>★</b></span></h1></section>
-<section class="about-grid"><figure class="photo-ph" aria-label="Photo placeholder"><span>PHOTO PLACEHOLDER</span><small data-i18n="about.photo">Ariana's photo goes here</small></figure>
+<section class="about-grid"><figure class="portrait"><img src="img/ariana-portrait.jpg" alt="Ariana Cholponkadyrova, creator of 312 History" width="864" height="1152"></figure>
 <div class="about-text">
 <h2 class="sec-title small" data-i18n="about.who">WHO IS BEHIND 312 HISTORY</h2>
-<p data-i18n="about.p1">Hi, I'm Ariana Cholponkadyrova, the creator of 312 History. I'm an immigrant from Kyrgyzstan who now calls Chicago home.</p>
-<p data-i18n="about.p2">Back in Kyrgyzstan I worked in event management and at a major PR agency. In Chicago I started over, and exploring my new city's past became my way of making it home.</p>
+<p data-i18n="about.p1">Hi, I'm Ariana Cholponkadyrova, the creator of 312 History. I'm from Kyrgyzstan, and Chicago is now my home.</p>
+<p data-i18n="about.p2">Back in Kyrgyzstan I worked on vocational and technical education projects. In agriculture I helped advance the green economy: we built greenhouses and ran green-economy courses. I was the coordinator and organizer of Karagat Fest, the annual berry and fruit festival of the Issyk-Kul region, and worked as a PR specialist on many projects. My background is in event management and a major PR agency.</p>
+<p data-i18n="about.p2b">In Chicago I'm a content creator and a mom of two: my daughter is 5 and my son is 9. I also run a small business printing designs on T-shirts and tote bags, a craft I love. I enjoy photography and making beautiful videos, and right now I'm studying AI neuro-content and AI agents.</p>
 <h2 class="sec-title small" data-i18n="about.mission">MISSION</h2>
 <p data-i18n="about.p3">Chicago was built by immigrants. 312 History tells the city's stories through an immigrant's eyes, in short videos and on an interactive map, so anyone can discover what happened right on their block.</p>
 <ul class="about-list"><li data-i18n="about.l1">Short videos on Instagram</li><li data-i18n="about.l2">An interactive map of every story</li><li data-i18n="about.l3">Every fact checked against sources</li></ul>

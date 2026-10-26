@@ -248,3 +248,5 @@ section{position:relative}
  .lang{margin-left:auto}.nav-ig{margin-left:0}
  .page{padding-top:110px}.foot-signup,.about-grid,.routes{grid-template-columns:1fr}.routes-map{position:relative;top:0;height:60vh}.photo-ph{max-width:320px}
 }
+.portrait{margin:0}.portrait img{width:100%;height:auto;aspect-ratio:3/4;object-fit:cover;border:3px solid var(--ink);box-shadow:10px 10px 0 var(--red)}
+@media(max-width:900px){.portrait{max-width:360px}}
