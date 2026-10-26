@@ -229,7 +229,7 @@ def foot(depth):
     return f"""<footer class="foot"><div class="foot-row"><img src="{p}img/logo_white_transparent.png" alt="312 History"><div><p>Chicago history, one story at a time. Every fact checked against sources.</p>
 <a class="ig-link" href="{IG}" target="_blank" rel="noopener">Follow @312history on Instagram ★</a></div></div>
 <div class="foot-btns"><a class="btn btn-line light" href="{IG}" target="_blank" rel="noopener" data-i18n="btn.ig">Instagram @312history</a><a class="btn btn-red" href="{SUPPORT}" target="_blank" rel="noopener" data-i18n="btn.support">Support the project ★</a></div>
-<p class="draft">Draft site. Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
+<p class="draft">Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
 <script src="{p}assets/i18n.js"></script><script src="{p}assets/site.js"></script></body></html>"""
 
 def area(s):
