@@ -112,8 +112,8 @@ document.querySelectorAll('[data-walk]').forEach(b=>b.addEventListener('click',(
   }
 })();
 
-/* ---------- 4. TOPIC FILTERS ---------- */
-document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{
-  document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x===c));
-  const f=c.dataset.f; document.querySelectorAll('#grid .card').forEach(k=>k.classList.toggle('hide',f!=='ALL'&&k.dataset.topic!==f));
-}));
+/* ---------- 4. SEARCH + FILTERS ---------- */
+(function(){let topic='ALL';const q=document.getElementById('q'),fa=document.getElementById('fArea'),fe=document.getElementById('fEra'),cnt=document.getElementById('fCount'),emp=document.getElementById('fEmpty');
+function apply(){const t=(q.value||'').trim().toLowerCase();let n=0;document.querySelectorAll('#grid .card').forEach(k=>{const ok=(topic==='ALL'||k.dataset.topic===topic)&&(fa.value==='ALL'||k.dataset.area===fa.value)&&(fe.value==='ALL'||k.dataset.era===fe.value)&&(!t||k.dataset.q.includes(t));k.classList.toggle('hide',!ok);if(ok)n++;});cnt.textContent=n+' / '+document.querySelectorAll('#grid .card').length;emp.hidden=n>0;}
+document.querySelectorAll('.chip').forEach(c=>c.addEventListener('click',()=>{document.querySelectorAll('.chip').forEach(x=>x.classList.toggle('on',x===c));topic=c.dataset.f;apply();}));
+[q,fa,fe].forEach(e=>e.addEventListener('input',apply));apply();})();
