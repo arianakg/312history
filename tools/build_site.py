@@ -288,19 +288,19 @@ def index_page(S):
       '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n') + f"""
 <main>
 <section class="hero"><div class="hero-inner">
-<div class="hero-copy"><img class="hero-logo" src="img/logo_white_transparent.png" alt="312 History logo"><span class="kicker red">Chicago history · one story at a time</span>
-<h1 class="mega"><span class="line">THE CITY</span><span class="line">THAT BUILT</span><span class="line">ITSELF<b>★</b></span></h1>
-<p class="lead">{len(S)} fact-checked stories from Fort Dearborn to today, on a map, a timeline and walks you can take this weekend.</p>
-<div class="cta"><a class="btn btn-red" href="{IG}" target="_blank" rel="noopener">Follow @312history ★</a><a class="btn btn-line light" href="#map">Explore the map</a></div></div>
-<div class="grow"><div class="grow-year"><span id="growYear">1803</span><small>CHICAGO GROWS</small></div><svg id="skyline" viewBox="0 0 800 520" preserveAspectRatio="xMidYMax meet"></svg></div>
+<div class="hero-copy"><img class="hero-logo" src="img/logo_white_transparent.png" alt="312 History logo"><span class="kicker red" data-i18n="home.kicker">Chicago history · one story at a time</span>
+<h1 class="mega" data-i18n="home.h1"><span class="line">THE CITY</span><span class="line">THAT BUILT</span><span class="line">ITSELF<b>★</b></span></h1>
+<p class="lead" data-i18n="home.lead" data-n="{len(S)}">{len(S)} fact-checked stories from Fort Dearborn to today, on a map, a timeline and walks you can take this weekend.</p>
+<div class="cta"><a class="btn btn-red" href="{IG}" target="_blank" rel="noopener" data-i18n="home.follow">Follow @312history ★</a><a class="btn btn-line light" href="#map" data-i18n="home.explore">Explore the map</a></div></div>
+<div class="grow"><div class="grow-year"><span id="growYear">1803</span><small data-i18n="home.grows">CHICAGO GROWS</small></div><svg id="skyline" viewBox="0 0 800 520" preserveAspectRatio="xMidYMax meet"></svg></div>
 </div><div class="marquee"><div>{marquee} ★ {marquee}</div></div></section>
 
-<section id="map" class="map-sec"><div class="sec-head"><span class="kicker red">Signature feature</span><h2 class="sec-title">OLD MAPS <span class="outline">OVER</span> TODAY</h2>
-<p>Pick a year, slide the old map in and out, tap a red star to open its story.</p></div>
-<div class="map-ui"><div class="years" id="years"></div><label class="op">Old map <input id="opacity" type="range" min="0" max="100" value="70"> <b id="opv">70%</b></label></div>
+<section id="map" class="map-sec"><div class="sec-head"><span class="kicker red" data-i18n="map.kicker">Signature feature</span><h2 class="sec-title" data-i18n="map.title">OLD MAPS <span class="outline">OVER</span> TODAY</h2>
+<p data-i18n="map.text">Pick a year, slide the old map in and out, tap a red star to open its story.</p></div>
+<div class="map-ui"><div class="years" id="years"></div><label class="op"><span data-i18n="map.old">Old map</span> <input id="opacity" type="range" min="0" max="100" value="70"> <b id="opv">70%</b></label></div>
 <div class="map-wrap"><div id="leaf"></div><div class="map-note" id="mapNote"></div></div></section>
 
-<section id="timeline" class="tl-sec"><div class="sec-head"><span class="kicker red">1803 → today</span><h2 class="sec-title">EVERY STORY <span class="outline">IN TIME</span></h2><p>Each star is a story. Hover or tap to preview.</p></div>
+<section id="timeline" class="tl-sec"><div class="sec-head"><span class="kicker red" data-i18n="tl.kicker">1803 → today</span><h2 class="sec-title" data-i18n="tl.title">EVERY STORY <span class="outline">IN TIME</span></h2><p data-i18n="tl.text">Each star is a story. Hover or tap to preview.</p></div>
 <div class="tl" id="tl"></div><div class="tl-card" id="tlCard"></div></section>
 
 <section class="fire-teaser"><img src="img/fire_flames.jpg" alt="Chicago in Flames, Currier &amp; Ives, 1871"><div><span class="kicker">Scroll story</span><h2>OCTOBER 8, 1871.<br>CHICAGO BURNS.</h2><a class="btn btn-red" href="fire-1871.html">Read the scroll story →</a></div></section>
