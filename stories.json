@@ -2419,9 +2419,9 @@
    "jjetta.jpg: File:Jack Johnson and his wife Etta LCCN2011649815 (cropped).jpg | Public domain | Library of Congress Catalog: https://lccn.loc.gov/2011649815 Image download: https://cdn.loc.gov/service/pnp/p | https://commons.wikimedia.org/wiki/File:Jack_Johnson_and_his_wife_Etta_LCCN2011649815_(cropped).jpg"
   ],
   "topic": "SPORTS",
-  "place": "Chicago",
-  "lat": null,
-  "lng": null,
+  "place": "Café de Champion, 41 W 31st St",
+  "lat": 41.8382,
+  "lng": -87.628,
   "year": 1912,
   "slug": "83-jack-johnson"
  },
@@ -2485,9 +2485,9 @@
    "fwstatue.jpg: File:U.S. Capitol Frances E. Willard Statue.jpg | Public domain | https://www.flickr.com/photos/65191584@N07/6264671344/ | https://commons.wikimedia.org/wiki/File:U.S._Capitol_Frances_E._Willard_Statue.jpg"
   ],
   "topic": "PEOPLE",
-  "place": "Evanston",
-  "lat": null,
-  "lng": null,
+  "place": "Frances Willard House, Evanston",
+  "lat": 42.0483,
+  "lng": -87.6792,
   "year": 1858,
   "slug": "85-frances-willard"
  },

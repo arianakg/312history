@@ -98,9 +98,9 @@ META = {
  "80":("FIRSTS","Indiana Dunes (outside Chicago)",None,None,1896),
  "81":("CULTURE","Chicago",None,None,1912),
  "82":("PEOPLE","Wabash Avenue YMCA, Bronzeville",41.8256,-87.6252,1895),
- "83":("SPORTS","Chicago",None,None,1912),
+ "83":("SPORTS","Café de Champion, 41 W 31st St",41.8382,-87.6280,1912),
  "84":("PEOPLE","Armour Institute (IIT)",41.8349,-87.6270,1890),
- "85":("PEOPLE","Evanston",None,None,1858),
+ "85":("PEOPLE","Frances Willard House, Evanston",42.0483,-87.6792,1858),
  "86":("CULTURE","Art Institute of Chicago",41.8796,-87.6237,1870),
  "87":("CULTURE","Chicago",None,None,1927),
  "88":("CULTURE","Hull House",41.8717,-87.6477,1909),
@@ -185,12 +185,37 @@ def ensure_media(d):
         r=(glob.glob(os.path.join(POSTS,d,f"{d}_reel.mp4"))+glob.glob(os.path.join(POSTS,d,f"{d}_reel_30.mp4")))[0]
         subprocess.run(["ffmpeg","-v","error","-y","-i",r,"-vf","scale=360:-2","-c:v","libx264","-preset","veryfast","-crf","31","-c:a","aac","-b:a","64k","-movflags","+faststart",mp4],check=True)
 
-def head(title, depth, extra=""):
+SITE = "https://312history.com/"
+DEFAULT_DESC = "Chicago history, one story at a time: fact-checked stories on a map, a timeline and walking routes. By 312 History."
+# ANALYTICS (disabled). To switch on GoatCounter: create a free account at https://www.goatcounter.com,
+# pick a site code (e.g. "312history"), put it here, rebuild and push. Empty string = no analytics script.
+GOATCOUNTER = ""
+PAGES_SEEN = []  # filled by head(); used for sitemap.xml
+
+def short(t, n=155):
+    t = re.sub(r"\s+"," ",clean(t)).strip()
+    if len(t) <= n: return t
+    return t[:n].rsplit(" ",1)[0].rstrip(",;:.") + "…"
+
+def head(title, depth, extra="", desc=None, img=None, path="", otype="website"):
     p = "../"*depth
+    desc = short(desc or DEFAULT_DESC)
+    img = SITE + (img or "img/og-default.jpg")
+    url = SITE + path
+    if path != "404.html": PAGES_SEEN.append(path)
+    ga = (f'<script data-goatcounter="https://{GOATCOUNTER}.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>\n'
+          if GOATCOUNTER else "<!-- Analytics hook: GoatCounter disabled (set GOATCOUNTER in tools/build_site.py) -->\n")
     return f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(title)}</title><meta name="description" content="Chicago history, one story at a time. 312 History on Instagram: @312history.">
-<link rel="icon" href="{p}img/logo_black_transparent.png">
+<title>{esc(title)}</title><meta name="description" content="{esc(desc)}">
+<link rel="canonical" href="{url}">
+<meta property="og:type" content="{otype}"><meta property="og:site_name" content="312 History">
+<meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
+<meta property="og:image" content="{img}"><meta property="og:url" content="{url}">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(desc)}"><meta name="twitter:image" content="{img}">
+<link rel="icon" href="{p}favicon.ico" sizes="any"><link rel="apple-touch-icon" href="{p}apple-touch-icon.png">
+{ga}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;800;900&display=swap" rel="stylesheet">
 {extra}<link rel="stylesheet" href="{p}assets/style.css"></head><body>
@@ -201,14 +226,8 @@ def head(title, depth, extra=""):
 
 def foot(depth):
     p="../"*depth
-    return f"""<footer class="foot"><div class="foot-photo"><span class="kicker">Coming soon</span>
-<h2>SEND YOUR OLD CHICAGO PHOTO</h2><p>Grandma's snapshot of State Street? A 1960s Riverview ticket? Soon you'll be able to share old Chicago photos with the year and place, and the best ones will join the map.</p>
-<a class="btn btn-red" href="{IG}" target="_blank" rel="noopener">Tell us on Instagram ★</a></div>
-<div class="foot-row"><img src="{p}img/logo_white_transparent.png" alt="312 History"><div><p>Chicago history, one story at a time. Every fact checked against sources.</p>
+    return f"""<footer class="foot"><div class="foot-row"><img src="{p}img/logo_white_transparent.png" alt="312 History"><div><p>Chicago history, one story at a time. Every fact checked against sources.</p>
 <a class="ig-link" href="{IG}" target="_blank" rel="noopener">Follow @312history on Instagram ★</a></div></div>
-<div class="foot-signup" id="signup"><div><span class="kicker" data-i18n="signup.kicker">Newsletter</span><h2 data-i18n="signup.title">NEW STORIES IN YOUR INBOX</h2><p data-i18n="signup.text">One short email when new Chicago stories go up. No spam.</p></div>
-<form class="signup-form" action="{SIGNUP_ACTION}" method="post" enctype="text/plain" data-placeholder="1"><label class="sr" for="em-{depth}">Email</label><input id="em-{depth}" type="email" name="email" required placeholder="you@example.com"><button class="btn btn-red" type="submit" data-i18n="signup.btn">Subscribe</button>
-<p class="note" data-i18n="signup.note">Placeholder: signup opens your email app until a newsletter service is connected.</p></form></div>
 <div class="foot-btns"><a class="btn btn-line light" href="{IG}" target="_blank" rel="noopener" data-i18n="btn.ig">Instagram @312history</a><a class="btn btn-red" href="{SUPPORT}" target="_blank" rel="noopener" data-i18n="btn.support">Support the project ★</a></div>
 <p class="draft">Draft site. Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
 <script src="{p}assets/i18n.js"></script><script src="{p}assets/site.js"></script></body></html>"""
@@ -232,7 +251,7 @@ def era(s):
 def card(s, depth):
     p="../"*depth
     return f"""<a class="card" href="{p}stories/{s['slug']}.html" data-topic="{s['topic']}" data-area="{area(s)}" data-era="{era(s)}" data-q="{esc((s['title']+' '+s['place']+' '+s['hook']).lower())}"><div class="card-img"><img loading="lazy" src="{p}media/post{s['num']}.jpg" alt="{esc(s['title'])} cover"></div>
-<div class="card-meta"><span class="kicker">{esc(TOPICS[s['topic']])} · {s['year'] or '—'}</span><h3>{esc(s['title'])}</h3></div></a>"""
+<div class="card-meta"><span class="kicker">{esc(TOPICS[s['topic']])} {(' · '+str(s['year'])) if s['year'] else ''}</span><h3>{esc(s['title'])}</h3></div></a>"""
 
 def story_page(s, all_s):
     facts = "".join(f'<li class="fact reveal"><span class="star">★</span><p>{esc(f)}</p></li>' for f in s["facts"])
@@ -241,7 +260,7 @@ def story_page(s, all_s):
     same = [x for x in all_s if x["topic"]==s["topic"] and x["num"]!=s["num"]][:3]
     i = [x["num"] for x in all_s].index(s["num"])
     prv, nxt = all_s[i-1], all_s[(i+1)%len(all_s)]
-    return head(f"{s['title']} — 312 History", 1) + f"""
+    return head(f"{s['title']} | 312 History", 1, desc=s['hook'] or (s['facts'][0] if s['facts'] else None), img=f"media/post{s['num']}.jpg", path=f"stories/{s['slug']}.html", otype="article") + f"""
 <main class="story">
 <section class="story-hero"><div class="story-text"><span class="kicker red">{esc(TOPICS[s['topic']])} · Post #{s['num']}</span>
 <div class="big-year">{s['year'] or ''}</div><h1>{esc(s['title']).upper()}</h1><p class="lead">{esc(s['hook'])}</p>
@@ -265,7 +284,7 @@ def index_page(S):
         stops="".join(f'<li><a href="stories/{s["slug"]}.html"><img src="media/post{s["num"]}.jpg" alt=""><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in [next(x for x in S if x["num"]==k) for k in nums])
         walks+=f'<div class="walk reveal"><span class="walk-n">0{wi+1}</span><h3>{esc(n).upper()}</h3><p>{esc(d)}</p><ol>{stops}</ol><button class="btn btn-line" data-walk="{",".join(nums)}">Show on map ★</button></div>'
     marquee = " ★ ".join(esc(s["title"]).upper() for s in S)
-    return head("312 History — Chicago history, one story at a time", 0,
+    return head("312 History | Chicago history, one story at a time", 0, desc=f"{len(S)} fact-checked stories of Chicago history, from Fort Dearborn to today, on an interactive map, a timeline and walking routes.", path="", extra=
       '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n') + f"""
 <main>
 <section class="hero"><div class="hero-inner">
@@ -312,7 +331,7 @@ def fire_page(S):
         t = texts[i]
         blocks += f'<div class="step" data-i="{i}"><div class="step-box"><span class="kicker red">0{i+1}</span><p>{esc(t)}</p></div></div>'
     imgs = "".join(f'<figure class="fig{" on" if i==0 else ""}" data-i="{i}"><img src="{im}" alt="{esc(c)}"><figcaption>{esc(c)}</figcaption></figure>' for i,(im,c) in enumerate(steps))
-    return head("The Great Chicago Fire, 1871 — 312 History scroll story",0) + f"""
+    return head("The Great Chicago Fire, 1871 | 312 History scroll story",0, desc="Scroll through the Great Chicago Fire of October 8, 1871, step by step, with archival images and checked facts.", img="img/fire_flames.jpg", path="fire-1871.html") + f"""
 <main class="scrolly"><section class="fire-hero"><span class="kicker red">Scroll story · from post #05</span><h1 class="mega"><span class="line">OCTOBER 8,</span><span class="line">1871.</span><span class="line">CHICAGO<b>★</b></span><span class="line">BURNS.</span></h1><p class="lead">Scroll down ↓</p></section>
 <section class="scroll-wrap"><div class="sticky">{imgs}</div><div class="steps">{blocks}</div></section>
 <section class="fire-end"><h2 class="sec-title">THE FULL STORY</h2><p>Watch the reel and see the sources.</p><a class="btn btn-red" href="stories/{s['slug']}.html">Open the story page →</a></section></main>
@@ -339,6 +358,15 @@ def main():
     for fn,f in (("about.html",about_page),("press.html",press_page),("routes.html",routes_page)):
         open(os.path.join(ROOT,fn),"w",encoding="utf-8").write(f(S))
     json.dump(S, open(os.path.join(ROOT,"stories.json"),"w"), indent=1, ensure_ascii=False)
+    nf = head("Page not found | 312 History", 0, '<base href="/">\n', desc="This page does not exist. Explore Chicago history stories on 312 History.", path="404.html") + """
+<main class="page"><section class="page-hero"><span class="kicker red">Error 404</span>
+<h1 class="mega small"><span class="line">LOST IN</span><span class="line">CHICAGO<b>★</b></span></h1>
+<p class="lead dark">This page does not exist, but 99+ stories do.</p>
+<div class="cta"><a class="btn btn-red" href="index.html">Back to the map ★</a><a class="btn btn-line" href="index.html#topics">All stories</a></div></section></main>""" + foot(0)
+    open(os.path.join(ROOT,"404.html"),"w",encoding="utf-8").write(nf)
+    urls = "".join(f"<url><loc>{SITE}{u}</loc></url>\n" for u in dict.fromkeys(PAGES_SEEN))
+    open(os.path.join(ROOT,"sitemap.xml"),"w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls+'</urlset>\n')
+    open(os.path.join(ROOT,"robots.txt"),"w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n")
     print(f"built {len(S)} stories")
 
 if __name__=="__main__": main()
