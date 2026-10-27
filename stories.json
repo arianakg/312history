@@ -3018,5 +3018,123 @@
   "lng": null,
   "year": 1895,
   "slug": "102-schwinn-bicycles"
+ },
+ {
+  "num": "103",
+  "title": "Lincoln Park Conservatory",
+  "hook": "Built from 1890 to 1895, Lincoln Park Conservatory still grows exotic plants under glass.",
+  "facts": [
+   "It was built in phases between 1890 and 1895, replacing an earlier greenhouse.",
+   "It is a Victorian-era glass house with an iron-and-glass structure.",
+   "It has four display houses: the Palm House, Fern Room, Orchid House and Show House.",
+   "It was designed both to show exotic plants and to grow plants for use in the parks.",
+   "Admission is free."
+  ],
+  "extra": [],
+  "images": "Images: Krzysztof Ziarnek, Kenraiz (CC BY-SA 4.0); American Gardening 1892 (PD); Victor Grigas (CC BY-SA 3.0); Newberry Library (PD); Steven & Courtney Johnson & Horwitz (CC BY-SA 2.0); Ronincmc (CC BY-SA 4.0);",
+  "sources_line": "Chicago Park District, Lincoln Park Conservancy, The Cultural Landscape Foundation",
+  "sources": [
+   "Chicago Park District: https://www.chicagoparkdistrict.com/parks-facilities/lincoln-park-conservatory",
+   "Lincoln Park Conservancy: https://www.lincolnparkconservancy.org/projects/conservatory-garden/",
+   "The Cultural Landscape Foundation: https://www.tclf.org/lincoln-park-conservatory",
+   "Images: see src/licences.json (kz01, ag1892, inside, n1568, lp84, lpc2012), all Wikimedia Commons."
+  ],
+  "topic": "NATURE",
+  "place": "Lincoln Park Conservatory, Lincoln Park",
+  "lat": 41.9254,
+  "lng": -87.6359,
+  "year": 1890,
+  "slug": "103-lincoln-park-conservatory"
+ },
+ {
+  "num": "104",
+  "title": "Brookfield Zoo & Su-Lin",
+  "hook": "In 1937, a baby giant panda named Su-Lin became a sensation at Brookfield Zoo.",
+  "facts": [
+   "Brookfield Zoo opened in 1934 with barless exhibits.",
+   "In 1937, Su-Lin, a baby giant panda brought from China, came to the zoo.",
+   "Su-Lin was introduced as a “she,” but turned out to be a male.",
+   "After Su-Lin died in 1938, his body went to Chicago’s Field Museum.",
+   "In 1966, the zoo got its first Mold-A-Rama souvenir machine."
+  ],
+  "extra": [],
+  "images": "Images: Tichnor Brothers postcards via Boston Public Library (PD); Ruth Harkness (PD); Rand McNally / Newberry Library (PD); Zagalejo (PD); Warren LeMay (CC BY-SA 2.0);",
+  "sources_line": "Brookfield Zoo Chicago, Historic American Buildings Survey, Chicago Collections, TIME (1939), Guinness World Records, BBC, The Henry Ford, WTTW",
+  "sources": [
+   "Brookfield Zoo Chicago history: https://brookfieldzoo.org/history",
+   "HABS Brookfield Zoo data pages: https://tile.loc.gov/storage-services/master/pnp/habshaer/il/il1000/il1043/data/il1043data.pdf",
+   "Chicago Collections Consortium: https://chicagocollections.org/news-events/news/welcoming-chicago-zoological-society/",
+   "TIME, 1939: https://time.com/archive/6760472/animals-he-or-she/",
+   "Guinness World Records: https://www.guinnessworldrecords.com/world-records/446321-first-giant-panda-maintained-outside-china",
+   "BBC, 2013: https://www.bbc.com/news/magazine-25136118",
+   "The Henry Ford: https://www.thehenryford.org/collections/explore/articles/molding-the-future-with-mold-a-ramas",
+   "WTTW, 2019: https://news.wttw.com/2019/09/26/story-mold-a-rama-chicagos-very-own-souvenir-machine",
+   "Images: src/licences.json (Wikimedia Commons). bears_c.jpg is a crop of bears.jpg removing the printed title."
+  ],
+  "topic": "NATURE",
+  "place": "Brookfield Zoo, Brookfield (west of Chicago)",
+  "lat": 41.8317,
+  "lng": -87.8353,
+  "year": 1937,
+  "slug": "104-brookfield-zoo-su-lin"
+ },
+ {
+  "num": "105",
+  "title": "The U-505 Submarine",
+  "hook": "In 1954, a German submarine captured in World War II became an exhibit at Chicago’s Museum of Science and Industry.",
+  "facts": [
+   "On June 4, 1944, a U.S. Navy task group captured the German submarine U-505 off West Africa.",
+   "The Navy kept the capture secret until after the war.",
+   "In 1954, U-505 was towed to Chicago through the St. Lawrence River and the Great Lakes.",
+   "On September 25, 1954, it was dedicated at the Museum of Science and Industry as a war memorial.",
+   "In 2004, the museum moved it into a climate-controlled hall four stories below ground."
+  ],
+  "extra": [],
+  "images": "Images: GualdimG (CC BY-SA 4.0); U.S. Navy (PD); U.S. National Archives (PD); ArnoldReinhold (CC BY-SA 4.0);",
+  "sources_line": "Griffin Museum of Science and Industry, U.S. Naval Institute Proceedings, National Park Service (NHL nomination)",
+  "sources": [
+   "Griffin MSI, U-505 exhibit: https://www.msichicago.org/explore/whats-here/exhibits/u-505-submarine",
+   "Griffin MSI, Capturing the U-505: https://www.griffinmsi.org/exhibits/u-505-submarine/capturing-the-u-505",
+   "Griffin MSI, The First Exhibition of U-505: https://www.griffinmsi.org/exhibits/u-505-submarine/the-first-exhibition-of-u-505",
+   "Griffin MSI, Restoration & Relocation: https://www.griffinmsi.org/exhibits/u-505-submarine/restoration-relocation",
+   "USNI Proceedings, July 2005: https://www.usni.org/magazines/proceedings/2005/july/new-u-505-experience",
+   "NPS NHL nomination: https://npgallery.nps.gov/GetAsset/5aca3f60-9f4f-4d55-90e5-82146cbbe772/",
+   "Images: src/licences.json (Wikimedia Commons). arr54.jpg = frame at 0:35 of NARA newsreel 428-NPC-5652; pills44_c.jpg = crop of pills44.jpg."
+  ],
+  "topic": "CULTURE",
+  "place": "Museum of Science and Industry, Hyde Park",
+  "lat": 41.7906,
+  "lng": -87.5831,
+  "year": 1954,
+  "slug": "105-the-u-505-submarine"
+ },
+ {
+  "num": "106",
+  "title": "Jackson Park’s Japanese Garden",
+  "hook": "A Japanese garden on Jackson Park’s Wooded Island began with Japan’s pavilion at the 1893 World’s Fair.",
+  "facts": [
+   "In 1893, Japan built its Phoenix Pavilion (Ho-o-den) on the Wooded Island for the World’s Fair.",
+   "After the fair, Japan gave the Phoenix Pavilion to the City of Chicago.",
+   "In 1935, a new Japanese garden opened beside it, with ponds, a waterfall, a moon bridge and stone lanterns.",
+   "The garden was later named the Osaka Garden to honor Chicago’s sister city, Osaka.",
+   "Jackson Park, where the garden sits, was listed on the National Register of Historic Places in 1972."
+  ],
+  "extra": [],
+  "images": "Images: Steven Kevil (CC BY-SA 3.0); C.D. Arnold (PD); Urbanrules (CC BY-SA 3.0); Jules Verne Times Two (CC BY-SA 4.0); Michael Christensen (CC BY-SA 4.0);",
+  "sources_line": "Chicago Park District, The Cultural Landscape Foundation, Art Institute of Chicago, Garden of the Phoenix Foundation, National Park Service",
+  "sources": [
+   "Chicago Park District, Osaka Garden: https://www.chicagoparkdistrict.com/parks-facilities/osaka-garden",
+   "The Cultural Landscape Foundation: https://www.tclf.org/osaka-japanese-garden",
+   "Art Institute of Chicago: https://www.artic.edu/articles/34/transoms-from-the-ashes-of-phoenix-hall",
+   "Garden of the Phoenix Foundation: https://www.gardenofthephoenix.org/",
+   "National Park Service NPGallery (NRIS 72001565): https://npgallery.nps.gov/AssetDetail/NRIS/72001565",
+   "Images: src/licences.json (Wikimedia Commons). hoo17_c.jpg and hoo05_c.jpg are crops removing archive borders and printed plate text."
+  ],
+  "topic": "NATURE",
+  "place": "Osaka Garden, Wooded Island, Jackson Park",
+  "lat": 41.7915,
+  "lng": -87.5805,
+  "year": 1893,
+  "slug": "106-jackson-park-s-japanese-garden"
  }
 ]

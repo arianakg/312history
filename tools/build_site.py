@@ -118,6 +118,10 @@ META = {
  "100":("CULTURE","Bronzeville to Washington Park",41.7930,-87.6170,1929),
  "101":("CULTURE","Aragon Ballroom, Uptown",41.9690,-87.6580,1926),
  "102":("FIRSTS","Chicago",None,None,1895),
+ "103":("NATURE","Lincoln Park Conservatory, Lincoln Park",41.9254,-87.6359,1890),
+ "104":("NATURE","Brookfield Zoo, Brookfield (west of Chicago)",41.8317,-87.8353,1937),
+ "105":("CULTURE","Museum of Science and Industry, Hyde Park",41.7906,-87.5831,1954),
+ "106":("NATURE","Osaka Garden, Wooded Island, Jackson Park",41.7915,-87.5805,1893),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
