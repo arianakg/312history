@@ -230,10 +230,10 @@ def head(title, depth, extra="", desc=None, img=None, path="", otype="website"):
 
 def foot(depth):
     p="../"*depth
-    return f"""<footer class="foot"><div class="foot-row"><img src="{p}img/logo_white_transparent.png" alt="312 History"><div><p>Chicago history, one story at a time. Every fact checked against sources.</p>
-<a class="ig-link" href="{IG}" target="_blank" rel="noopener">Follow @312history on Instagram ★</a></div></div>
+    return f"""<footer class="foot"><div class="foot-row"><img src="{p}img/logo_white_transparent.png" alt="312 History"><div><p data-i18n="foot.tag">Chicago history, one story at a time. Every fact checked against sources.</p>
+<a class="ig-link" href="{IG}" target="_blank" rel="noopener" data-i18n="foot.follow">Follow @312history on Instagram ★</a></div></div>
 <div class="foot-btns"><a class="btn btn-line light" href="{IG}" target="_blank" rel="noopener" data-i18n="btn.ig">Instagram @312history</a><a class="btn btn-red" href="{SUPPORT}" target="_blank" rel="noopener" data-i18n="btn.support">Support the project ★</a></div>
-<p class="draft">Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
+<p class="draft" data-i18n="foot.credits">Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
 <script src="{p}assets/i18n.js"></script><script src="{p}assets/site.js"></script></body></html>"""
 
 def area(s):
@@ -255,7 +255,7 @@ def era(s):
 def card(s, depth):
     p="../"*depth
     return f"""<a class="card" href="{p}stories/{s['slug']}.html" data-topic="{s['topic']}" data-area="{area(s)}" data-era="{era(s)}" data-q="{esc((s['title']+' '+s['place']+' '+s['hook']).lower())}"><div class="card-img"><img loading="lazy" src="{p}media/post{s['num']}.jpg" alt="{esc(s['title'])} cover"></div>
-<div class="card-meta"><span class="kicker">{esc(TOPICS[s['topic']])} {(' · '+str(s['year'])) if s['year'] else ''}</span><h3>{esc(s['title'])}</h3></div></a>"""
+<div class="card-meta"><span class="kicker"><span data-i18n="topic.{s['topic']}">{esc(TOPICS[s['topic']])}</span> {(' · '+str(s['year'])) if s['year'] else ''}</span><h3>{esc(s['title'])}</h3></div></a>"""
 
 def story_page(s, all_s):
     facts = "".join(f'<li class="fact reveal"><span class="star">★</span><p>{esc(f)}</p></li>' for f in s["facts"])
@@ -281,12 +281,12 @@ def story_page(s, all_s):
 
 def index_page(S):
     years = [s for s in S if isinstance(s["year"], int)]
-    chips = '<button class="chip on" data-f="ALL">All <i>%d</i></button>' % len(S) + "".join(
-        f'<button class="chip" data-f="{k}">{v} <i>{sum(1 for s in S if s["topic"]==k)}</i></button>' for k,v in TOPICS.items() if any(s["topic"]==k for s in S))
+    chips = '<button class="chip on" data-f="ALL"><span data-i18n="chip.all">All</span> <i>%d</i></button>' % len(S) + "".join(
+        f'<button class="chip" data-f="{k}"><span data-i18n="topic.{k}">{v}</span> <i>{sum(1 for s in S if s["topic"]==k)}</i></button>' for k,v in TOPICS.items() if any(s["topic"]==k for s in S))
     walks = ""
     for wi,(n,d,nums) in enumerate(WALKS):
         stops="".join(f'<li><a href="stories/{s["slug"]}.html"><img src="media/post{s["num"]}.jpg" alt=""><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in [next(x for x in S if x["num"]==k) for k in nums])
-        walks+=f'<div class="walk reveal"><span class="walk-n">0{wi+1}</span><h3>{esc(n).upper()}</h3><p>{esc(d)}</p><ol>{stops}</ol><button class="btn btn-line" data-walk="{",".join(nums)}">Show on map ★</button></div>'
+        walks+=f'<div class="walk reveal"><span class="walk-n">0{wi+1}</span><h3>{esc(n).upper()}</h3><p>{esc(d)}</p><ol>{stops}</ol><button class="btn btn-line" data-walk="{",".join(nums)}" data-i18n="r.show">Show on map ★</button></div>'
     marquee = " ★ ".join(esc(s["title"]).upper() for s in S)
     return head("312 History | Chicago history, one story at a time", 0, desc=f"{len(S)} fact-checked stories of Chicago history, from Fort Dearborn to today, on an interactive map, a timeline and walking routes.", path="", extra=
       '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n') + f"""
@@ -307,15 +307,15 @@ def index_page(S):
 <section id="timeline" class="tl-sec"><div class="sec-head"><span class="kicker red" data-i18n="tl.kicker">1803 → today</span><h2 class="sec-title" data-i18n="tl.title">EVERY STORY <span class="outline">IN TIME</span></h2><p data-i18n="tl.text">Each star is a story. Hover or tap to preview.</p></div>
 <div class="tl" id="tl"></div><div class="tl-card" id="tlCard"></div></section>
 
-<section class="fire-teaser"><img src="img/fire_flames.jpg" alt="Chicago in Flames, Currier &amp; Ives, 1871"><div><span class="kicker">Scroll story</span><h2>OCTOBER 8, 1871.<br>CHICAGO BURNS.</h2><a class="btn btn-red" href="fire-1871.html">Read the scroll story →</a></div></section>
+<section class="fire-teaser"><img src="img/fire_flames.jpg" alt="Chicago in Flames, Currier &amp; Ives, 1871"><div><span class="kicker" data-i18n="fire.tkicker">Scroll story</span><h2 data-i18n="fire.ttitle">OCTOBER 8, 1871.<br>CHICAGO BURNS.</h2><a class="btn btn-red" href="fire-1871.html" data-i18n="fire.tbtn">Read the scroll story →</a></div></section>
 
-<section id="topics" class="topics"><div class="sec-head"><span class="kicker red">{len(S)} stories</span><h2 class="sec-title">PICK A <span class="outline">TOPIC</span></h2><p class="ru-note" data-i18n="ru.storynote"></p></div>
+<section id="topics" class="topics"><div class="sec-head"><span class="kicker red" data-i18n="topics.count" data-n="{len(S)}">{len(S)} stories</span><h2 class="sec-title" data-i18n="topics.title">PICK A <span class="outline">TOPIC</span></h2><p class="ru-note" data-i18n="ru.storynote"></p></div>
 <div class="filters"><input id="q" type="search" placeholder="Search stories, places, years…" data-i18n-ph="f.search" aria-label="Search">
-<select id="fArea" aria-label="Neighborhood"><option value="ALL" data-i18n="f.allareas">All neighborhoods</option>{''.join(f'<option value="{k}">{v}</option>' for k,v in AREAS.items())}</select>
-<select id="fEra" aria-label="Era"><option value="ALL" data-i18n="f.alleras">All eras</option>{''.join(f'<option value="{k}">{n}</option>' for k,n,a,b in ERAS)}<option value="NONE">No single year</option></select>
+<select id="fArea" aria-label="Neighborhood"><option value="ALL" data-i18n="f.allareas">All neighborhoods</option>{''.join(f'<option value="{k}" data-i18n="area.{k}">{v}</option>' for k,v in AREAS.items())}</select>
+<select id="fEra" aria-label="Era"><option value="ALL" data-i18n="f.alleras">All eras</option>{''.join(f'<option value="{k}" data-i18n="era.{k}">{n}</option>' for k,n,a,b in ERAS)}<option value="NONE" data-i18n="era.NONE">No single year</option></select>
 <span class="count" id="fCount"></span></div><div class="chips">{chips}</div><p class="empty" id="fEmpty" data-i18n="f.empty" hidden>No stories match. Try another filter.</p><div class="grid" id="grid">{''.join(card(s,0) for s in S)}</div></section>
 
-<section id="walks" class="walks"><div class="sec-head"><span class="kicker red">Walk it</span><h2 class="sec-title">WALKS FROM <span class="outline">THE POSTS</span></h2><p>Routes built only from published stories. Times are rough guides.</p></div><div class="walk-row">{walks}</div></section>
+<section id="walks" class="walks"><div class="sec-head"><span class="kicker red" data-i18n="w.kicker">Walk it</span><h2 class="sec-title" data-i18n="w.title">WALKS FROM <span class="outline">THE POSTS</span></h2><p data-i18n="w.text">Routes built only from published stories. Times are rough guides.</p></div><div class="walk-row">{walks}</div></section>
 </main>
 <script>window.STORIES={json.dumps([dict(num=s['num'],title=s['title'],year=s['year'],topic=s['topic'],topicName=TOPICS[s['topic']],place=s['place'],lat=s['lat'],lng=s['lng'],slug=s['slug'],hook=s['hook']) for s in S])};</script>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

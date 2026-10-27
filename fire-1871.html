@@ -24,8 +24,8 @@
 const figs=[...document.querySelectorAll('.fig')];
 const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){const i=e.target.dataset.i;figs.forEach(f=>f.classList.toggle('on',f.dataset.i===i));e.target.classList.add('in');}}),{rootMargin:'-45% 0px -45% 0px'});
 document.querySelectorAll('.step').forEach(s=>io.observe(s));
-</script><footer class="foot"><div class="foot-row"><img src="img/logo_white_transparent.png" alt="312 History"><div><p>Chicago history, one story at a time. Every fact checked against sources.</p>
-<a class="ig-link" href="https://www.instagram.com/312history/" target="_blank" rel="noopener">Follow @312history on Instagram ★</a></div></div>
+</script><footer class="foot"><div class="foot-row"><img src="img/logo_white_transparent.png" alt="312 History"><div><p data-i18n="foot.tag">Chicago history, one story at a time. Every fact checked against sources.</p>
+<a class="ig-link" href="https://www.instagram.com/312history/" target="_blank" rel="noopener" data-i18n="foot.follow">Follow @312history on Instagram ★</a></div></div>
 <div class="foot-btns"><a class="btn btn-line light" href="https://www.instagram.com/312history/" target="_blank" rel="noopener" data-i18n="btn.ig">Instagram @312history</a><a class="btn btn-red" href="https://ko-fi.com/312history" target="_blank" rel="noopener" data-i18n="btn.support">Support the project ★</a></div>
-<p class="draft">Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
+<p class="draft" data-i18n="foot.credits">Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
 <script src="assets/i18n.js"></script><script src="assets/site.js"></script></body></html>
