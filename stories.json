@@ -3136,5 +3136,61 @@
   "lng": -87.5805,
   "year": 1893,
   "slug": "106-jackson-park-s-japanese-garden"
+ },
+ {
+  "num": "107",
+  "title": "The Art Institute Lions",
+  "hook": "Two bronze lions have flanked the Art Institute of Chicago’s entrance since 1894.",
+  "facts": [
+   "The lions were sculpted in 1893 and installed in front of the Art Institute in 1894.",
+   "A donor paid for the lions to be cast in bronze.",
+   "The two lions are not identical; each has its own pose.",
+   "Every holiday season, the lions are dressed in wreaths and bows.",
+   "During postseason runs by Chicago teams, the lions are given giant hats or helmets."
+  ],
+  "extra": [],
+  "images": "Images: TonyTheTiger (CC BY-SA 3.0); Chicago Inter-Ocean, 1894 (PD); steveblane (CC BY 2.0); Kim Scarborough (CC BY-SA 3.0); swimfinfan (CC BY-SA 2.0); Ndshankar (CC BY-SA 4.0);",
+  "sources_line": "Chicago Park District, CBS News Chicago, WTTW News",
+  "sources": [
+   "Chicago Park District, Lions | Artwork: https://www.chicagoparkdistrict.com/parks-facilities/lions-artwork",
+   "CBS News Chicago: https://www.cbsnews.com/chicago/news/art-institute-of-chicago-lions-wreaths-2023/",
+   "WTTW News, Ask Geoffrey: https://news.wttw.com/2019/10/02/ask-geoffrey-history-art-institute-lions",
+   "Images: src/licences.json (Wikimedia Commons). lion_ai.png (AI-generated illustration, cover/slide 1 icon). sketch94_c.jpg, south14_c.jpg and hockey15_c.jpg are crops of the Commons files."
+  ],
+  "topic": "CULTURE",
+  "place": "Art Institute of Chicago, Michigan Ave",
+  "lat": 41.8796,
+  "lng": -87.6237,
+  "year": 1894,
+  "slug": "107-the-art-institute-lions"
+ },
+ {
+  "num": "108",
+  "title": "The Wrigley Building",
+  "hook": "Floodlights have lit Chicago’s Wrigley Building at night almost continuously since it opened.",
+  "facts": [
+   "The south tower opened in 1921 and the north tower in 1924.",
+   "The clock tower was modeled on the Giralda, a cathedral tower in Seville, Spain.",
+   "The terra-cotta tiles come in six shades of white that change as the building rises.",
+   "It was the first major commercial building on the newly widened Michigan Avenue.",
+   "The Wrigley Building became a Chicago Landmark in 2012."
+  ],
+  "extra": [],
+  "images": "Images: Matt Kieffer (CC BY-SA 2.0); Teemu008 (CC BY-SA 2.0); Alvesgaspar (CC BY-SA 4.0); Dan Perry (CC BY 2.0); postcard, c. 1921 (PD); Ken Lund (CC BY-SA 2.0);",
+  "sources_line": "Chicago Architecture Center, Zeller Realty (The Wrigley Building), WBEZ, Chicago City Council",
+  "sources": [
+   "Chicago Architecture Center, Wrigley Building: https://www.architecture.org/online-resources/buildings-of-chicago/wrigley-building",
+   "Zeller Realty, The Wrigley Building (Centennial): https://zeller.us/thewrigleybuilding/legacy/",
+   "WBEZ, Wrigley Building possibly headed for landmark status: https://www.wbez.org/culture/2012/01/30/something-to-chew-on-wrigley-building-possibly-headed-for-landmark-status",
+   "Landmarks Illinois, 2014 Award for Rehabilitation: https://www.landmarks.org/preservation-programs/richard-h-driehaus-foundation-preservation-awards/2014-award-recipients/award-for-rehabilitation-2/",
+   "Chicago City Council, Ordinance O2012-2216: https://chicago.councilmatic.org/legislation/o2012-2216/",
+   "Images: src/licences.json (Wikimedia Commons). *_c.jpg files are crops. wrigley_ai.png (AI-generated illustration, cover/slide 1 icon)."
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Wrigley Building, 400-410 N Michigan Ave",
+  "lat": 41.8887,
+  "lng": -87.6245,
+  "year": 1921,
+  "slug": "108-the-wrigley-building"
  }
 ]
