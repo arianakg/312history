@@ -124,6 +124,12 @@ META = {
  "106":("NATURE","Osaka Garden, Wooded Island, Jackson Park",41.7915,-87.5805,1893),
  "107":("CULTURE","Art Institute of Chicago, Michigan Ave",41.8796,-87.6237,1894),
  "108":("ARCHITECTURE","Wrigley Building, 400-410 N Michigan Ave",41.8887,-87.6245,1921),
+ "109":("LAKEFRONT","Michigan Avenue Bridge, Chicago River",41.8885,-87.6245,1920),
+ "110":("LAKEFRONT","Montrose Point Bird Sanctuary, Lincoln Park",41.9636,-87.6339,""),
+ "111":("NATURE","Lurie Garden, Millennium Park",41.8814,-87.6219,2004),
+ "112":("ARCHITECTURE","Chinatown Gate, Wentworth Ave at Cermak Rd",41.8528,-87.6322,1975),
+ "113":("LAKEFRONT","Promontory Point, Hyde Park",41.7945,-87.5795,1939),
+ "114":("ARCHITECTURE","Carbide & Carbon Building, 230 N Michigan Ave",41.8866,-87.6249,1929),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",

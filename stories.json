@@ -3192,5 +3192,172 @@
   "lng": -87.6245,
   "year": 1921,
   "slug": "108-the-wrigley-building"
+ },
+ {
+  "num": "109",
+  "title": "Chicago’s Bridge Lifts",
+  "hook": "Each spring and fall, Chicago raises its river bridges one at a time so recreational boats can pass.",
+  "facts": [
+   "Each spring and fall boat run raises 27 bridges in turn, from Ashland Avenue to Lake Shore Drive.",
+   "Each bridge lift takes an average of 8 to 12 minutes.",
+   "Counterweights balance each bridge leaf, so relatively small motors can open and close it.",
+   "The Michigan Avenue Bridge opened for traffic in 1920.",
+   "It once opened thousands of times a year; now it opens on a limited seasonal schedule."
+  ],
+  "extra": [],
+  "images": "Images: Marcin Wichary (CC BY 2.0); David B. Gleason (CC BY-SA 2.0); Michael from Mannheim (CC BY-SA 2.0); Marcin Wichary (CC BY 2.0); postcard, 1928 (PD); Ken Lund (CC BY-SA 2.0);",
+  "sources_line": "Chicago Department of Transportation, Chicago Sun-Times, Waterway Guide, McCormick Bridgehouse & Chicago River Museum, Chicago History Museum, Chicago Architecture Center",
+  "sources": [
+   "CDOT, \"CDOT Announces Spring Bridge Lifts Along the Chicago River Starting Wednesday, April 22\" (Apr 20, 2026): https://www.chicago.gov/city/en/depts/cdot/provdrs/bridge/news/2026/april/cdot-announces-spring-bridge-lifts-along-the-chicago-river-start.html",
+   "Chicago Sun-Times, \"Fall bridge lifts along Chicago River begin\" (Sep 30, 2026): https://chicago.suntimes.com/news/2026/09/30/fall-bridge-lifts-along-chicago-river-begin",
+   "Waterway Guide, \"Syncronizing Chicago's 27 Lift Bridges\" (Sep 5, 2022): https://www.waterwayguide.com/knowledge-center/news-post/11923/syncronizing-chicagos-27-lift-bridges",
+   "McCormick Bridgehouse & Chicago River Museum, About the Bridge: https://bridgehousemuseum.org/about-the-bridge",
+   "Chicago History Museum, Michigan Avenue Bridge: https://www.chicagohistory.org/michigan-avenue-bridge/",
+   "Chicago Architecture Center, Michigan Avenue Bridge (DuSable Bridge): https://www.architecture.org/online-resources/buildings-of-chicago/michigan-avenue-bridge-dusable-bridge",
+   "Images: src/licences.json (Wikimedia Commons). *_c.jpg files are crops. bridge_ai.png (AI-generated illustration, cover/slide 1 icon; bridge_ai_gen.jpg = raw output)."
+  ],
+  "topic": "LAKEFRONT",
+  "place": "Michigan Avenue Bridge, Chicago River",
+  "lat": 41.8885,
+  "lng": -87.6245,
+  "year": 1920,
+  "slug": "109-chicago-s-bridge-lifts"
+ },
+ {
+  "num": "110",
+  "title": "Montrose Point’s Magic Hedge",
+  "hook": "Each spring and fall, migrating birds stop to rest and feed at Montrose Point on Chicago’s lakefront.",
+  "facts": [
+   "More than 300 bird species have been recorded at Montrose Point.",
+   "The bird sanctuary covers 15 acres of Lincoln Park.",
+   "A row of shrubs and trees there, the “Magic Hedge,” is known for drawing many migrating birds.",
+   "The sanctuary sits on a small point of land that reaches out into Lake Michigan.",
+   "Its habitats include grassland, wildflowers, trees and shrubs."
+  ],
+  "extra": [],
+  "images": "Images: Raed Mansour (CC BY 2.0); peterwchen (CC BY 4.0); Raed Mansour (CC BY 2.0); Brandon Olafsson (CC BY-SA 2.0); JeremyA (CC BY-SA 2.5); Alanscottwalker (CC BY-SA 3.0);",
+  "sources_line": "Chicago Park District, Chicago Bird Alliance, Lake-Cook Audubon, Time Out Chicago",
+  "sources": [
+   "Chicago Park District, Lincoln Park – Montrose Point Bird Sanctuary: https://www.chicagoparkdistrict.com/parks-facilities/lincoln-park-montrose-point-bird-sanctuary",
+   "Chicago Bird Alliance (formerly Chicago Audubon Society), Montrose Point Bird Sanctuary: https://chicagobirdalliance.org/chicago-area-birding-hotspots/2019/3/21/montrose-point-bird-sanctuary",
+   "Lake-Cook Audubon, Montrose Point Bird Sanctuary: https://www.lakecookaudubon.org/birding-sites/montrose-point-bird-sanctuary/",
+   "Time Out Chicago, Montrose Point Bird Sanctuary (Sep 8, 2020): https://www.timeout.com/chicago/things-to-do/montrose-point-bird-sanctuary",
+   "Images: src/licences.json (Wikimedia Commons). *_c.jpg files are crops/copies. bird_ai.png (AI-generated illustration, cover/slide 1 icon; bird_ai_gen.jpg = raw output)."
+  ],
+  "topic": "LAKEFRONT",
+  "place": "Montrose Point Bird Sanctuary, Lincoln Park",
+  "lat": 41.9636,
+  "lng": -87.6339,
+  "year": "",
+  "slug": "110-montrose-point-s-magic-hedge"
+ },
+ {
+  "num": "111",
+  "title": "Lurie Garden",
+  "hook": "Lurie Garden in Millennium Park is a rooftop garden built over a parking garage.",
+  "facts": [
+   "The garden was completed in 2004.",
+   "A tall “Shoulder Hedge” encloses the garden on two sides, a nod to Chicago’s “City of Big Shoulders” nickname.",
+   "A metal frame, or armature, gives the hedge its shape as the plants grow.",
+   "A wooden boardwalk floats over shallow pools along the Seam between the two plantings.",
+   "The garden sits just south of the park’s concert bandshell."
+  ],
+  "extra": [],
+  "images": "Images: Señor Codo (CC BY-SA 2.0); rcktmanil (CC BY-SA 2.0); Alex Cheek (CC BY-SA 2.0); TonyTheTiger (CC BY-SA 3.0); Torsodog (CC BY-SA 3.0); J. Crocker (Attribution);",
+  "sources_line": "Lurie Garden, GGN (garden designers), MIT “Urban Nature” case study",
+  "sources": [
+   "Lurie Garden, Garden Features: https://www.luriegarden.org/about/garden-features/ (curl → lgf.txt)",
+   "Lurie Garden, Sustainability: https://www.luriegarden.org/about/sustainability/ (curl → lgs.txt)",
+   "Lurie Garden, Fact Sheet 2016 (PDF): http://www.luriegarden.org/wp-content/uploads/2015/11/Lurie-Garden-Fact-Sheet-2016.pdf (curl got an empty stream; opened via WebFetch → lgfs_webfetch.txt)",
+   "GGN (Gustafson Guthrie Nichol), The Lurie Garden at Millennium Park: https://www.ggnltd.com/the-lurie-garden-at-millennium-park (curl → ggn.txt)",
+   "MIT, \"Urban Nature – Contemporary Urban Waterscapes\" case study, Lurie Garden: https://web.mit.edu/nature/archive/student_projects/fmr/project_cases_lurie.htm (curl → mit.txt)",
+   "Images: src/licences.json (Wikimedia Commons). *_c.jpg files are crops/copies. garden_ai.png (AI-generated illustration, cover/slide 1 icon; garden_ai_gen.jpg = raw output)."
+  ],
+  "topic": "NATURE",
+  "place": "Lurie Garden, Millennium Park",
+  "lat": 41.8814,
+  "lng": -87.6219,
+  "year": 2004,
+  "slug": "111-lurie-garden"
+ },
+ {
+  "num": "112",
+  "title": "The Chinatown Gate",
+  "hook": "Chicago’s Chinatown Gate stands over Wentworth Avenue, just south of Cermak Road.",
+  "facts": [
+   "The gate was built in 1975.",
+   "Its pagoda-style roofs sit on a steel frame.",
+   "Four Chinese characters on the gate read “Tian Xia Wei Gong.”",
+   "The phrase is often translated as “The world is for all.”",
+   "When it was built, the gate marked the entrance to Chinatown."
+  ],
+  "extra": [],
+  "images": "Images: Warren LeMay (CC BY-SA 4.0);",
+  "sources_line": "WBEZ, Traditional Dwellings and Settlements Review (IASTE), Midstory, Free Tours by Foot",
+  "sources": [
+   "WBEZ, Dennis Rodkin, \"Chicago Icons: Chinatown Gate\" (June 15, 2023): https://www.wbez.org/reset-with-sasha-ann-simons/2023/06/15/chinatown-gate-chicago-history (curl → wbez.txt)",
+   "IASTE (author surname Li), \"Community Building in Chicago's Chinatown\", Traditional Dwellings and Settlements Review 27.1 (PDF): https://iaste.org/wp-content/uploads/2012/09/2016/05/Li_27.1_TDSR.pdf (curl + pdftotext → iaste.txt)",
+   "Midstory, Nicole Tan, \"Against the Odds, Chicago's Chinatown Continues to Flourish\" (July 14, 2022): https://www.midstory.org/against-the-odds-chicagos-chinatown-continues-to-flourish/ (curl empty; opened via WebFetch → midstory_webfetch.txt)",
+   "Free Tours by Foot, \"Chicago Chinatown Food Tour | Free Self Guided Tour\": https://freetoursbyfoot.com/chicagochinatown-self-guided/ (curl → ftbf.txt)",
+   "Images: src/licences.json (Wikimedia Commons, all Warren LeMay, CC BY-SA 4.0). *_c.jpg files are crops. gate_ai.png (AI-generated illustration, cover/slide 1 icon; gate_ai_gen.jpg = raw output)."
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Chinatown Gate, Wentworth Ave at Cermak Rd",
+  "lat": 41.8528,
+  "lng": -87.6322,
+  "year": 1975,
+  "slug": "112-the-chinatown-gate"
+ },
+ {
+  "num": "113",
+  "title": "Promontory Point",
+  "hook": "Promontory Point is a man-made peninsula that juts into Lake Michigan on Chicago’s South Side lakefront.",
+  "facts": [
+   "It was completed in 1939.",
+   "Its shore is edged with stepped limestone.",
+   "Its pavilion has a central tower.",
+   "It lies east of DuSable Lake Shore Drive, between 54th and 56th streets.",
+   "It became an official Chicago Landmark in 2023."
+  ],
+  "extra": [],
+  "images": "Images: TonyTheTiger (CC BY-SA 4.0), Kim Scarborough (CC BY-SA 2.0), Paul R. Burley (CC BY-SA 4.0);",
+  "sources_line": "City of Chicago, WTTW, National Park Service (NRHP nomination)",
+  "sources": [
+   "City of Chicago DPD news release, 19 Apr 2023 — https://www.chicago.gov/city/en/depts/dcd/provdrs/hist/news/2023/april/promontory-point-designated-as-official-chicago-landmark.html (citynews.txt)",
+   "WTTW, Patty Wetli, 21 Apr 2023, Promontory Point landmark designation — https://news.wttw.com/2023/04/21/it-s-official-promontory-point-now-chicago-landmark-after-decades-long-preservation-fight (wttw.txt)",
+   "National Park Service, NRHP registration form, Promontory Point — https://npgallery.nps.gov/GetAsset/6fe2ec20-89c5-4339-bdba-9f18c20e55ee (nps.txt via pdftotext)"
+  ],
+  "topic": "LAKEFRONT",
+  "place": "Promontory Point, Hyde Park",
+  "lat": 41.7945,
+  "lng": -87.5795,
+  "year": 1939,
+  "slug": "113-promontory-point"
+ },
+ {
+  "num": "114",
+  "title": "The Carbide & Carbon Building",
+  "hook": "The Carbide and Carbon Building on Michigan Avenue is dressed in black granite, green terra cotta and gold.",
+  "facts": [
+   "It was completed in 1929.",
+   "Its lowest floors are faced with polished black granite.",
+   "Above them, its walls are dark green terra cotta.",
+   "Gold accents the top of its tower.",
+   "It was built for the company that developed the first dry cell battery."
+  ],
+  "extra": [],
+  "images": "Images: Chicago Architectural Photographing Co. via Newberry Library (public domain), MusikAnimal (CC BY-SA 4.0), Kim Scarborough (CC BY-SA 3.0), Traveler100 (CC BY-SA 4.0);",
+  "sources_line": "Chicago Architecture Center, City of Chicago (Commission on Chicago Landmarks), Pendry Chicago history page",
+  "sources": [
+   "Chicago Architecture Center, Buildings of Chicago: Carbide and Carbon Building — https://www.architecture.org/online-resources/buildings-of-chicago/carbide-and-carbon-building (cac.txt)",
+   "City of Chicago, Commission on Chicago Landmarks designation report (archive.org full text) — https://archive.org/stream/CityOfChicagoLandmarkDesignationReports/CarbideAndCarbonBuilding_djvu.txt (report.txt); City landmark details page https://webapps1.chicago.gov/landmarksweb/web/landmarkdetails.htm?lanId=1263 (citylm.txt) — counted as ONE publisher",
+   "Pendry Chicago, history page — https://www.pendry.com/chicago/experiences/history/ (pendry.txt) — hotel operator's page, used only for building facts; hotel brand not named on screen"
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Carbide & Carbon Building, 230 N Michigan Ave",
+  "lat": 41.8866,
+  "lng": -87.6249,
+  "year": 1929,
+  "slug": "114-the-carbide-carbon-building"
  }
 ]
