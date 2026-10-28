@@ -201,7 +201,7 @@ SITE = "https://312history.com/"
 DEFAULT_DESC = "Chicago history, one story at a time: fact-checked stories on a map, a timeline and walking routes. By 312 History."
 # ANALYTICS (disabled). To switch on GoatCounter: create a free account at https://www.goatcounter.com,
 # pick a site code (e.g. "312history"), put it here, rebuild and push. Empty string = no analytics script.
-GOATCOUNTER = ""
+GOATCOUNTER = "312history"
 PAGES_SEEN = []  # filled by head(); used for sitemap.xml
 
 def short(t, n=155):
