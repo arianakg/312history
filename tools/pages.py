@@ -46,7 +46,7 @@ def routes_page(S):
         st=order([by[k] for k in nums if k in by and by[k]["lat"] is not None])
         km=sum(math.hypot((a["lat"]-b["lat"])*111,(a["lng"]-b["lng"])*83) for a,b in zip(st,st[1:]))
         routes.append(dict(name=n,stops=[dict(num=s["num"],title=s["title"],lat=s["lat"],lng=s["lng"],slug=s["slug"]) for s in st]))
-        li="".join(f'<li><a href="stories/{s["slug"]}.html"><img src="media/post{s["num"]}.jpg" alt=""><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in st)
+        li="".join(f'<li><a href="stories/{s["slug"]}.html"><img loading="lazy" decoding="async" width="720" height="1280" src="media/post{s["num"]}.jpg" alt="{esc(s["title"])}"><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in st)
         html+=f'''<div class="walk"><span class="walk-n">0{wi+1}</span><h3>{esc(n).upper()}</h3><p>{esc(d)}</p>
 <p class="kicker">{len(st)} <span data-i18n="r.stops">stops</span> · ≈{km:.1f} km <span data-i18n="r.straight">straight-line</span></p><ol>{li}</ol>
 <button class="btn btn-red" data-route="{wi}" data-i18n="r.show">Show on map ★</button></div>'''

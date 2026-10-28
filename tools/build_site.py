@@ -209,7 +209,9 @@ def short(t, n=155):
     if len(t) <= n: return t
     return t[:n].rsplit(" ",1)[0].rstrip(",;:.") + "…"
 
-def head(title, depth, extra="", desc=None, img=None, path="", otype="website"):
+def ld(obj): return '<script type="application/ld+json">'+json.dumps(obj,ensure_ascii=False).replace("</","<\\/")+"</script>\n"
+
+def head(title, depth, extra="", desc=None, img=None, path="", otype="website", jsonld=None):
     p = "../"*depth
     desc = short(desc or DEFAULT_DESC)
     img = SITE + (img or "img/og-default.jpg")
@@ -223,14 +225,14 @@ def head(title, depth, extra="", desc=None, img=None, path="", otype="website"):
 <link rel="canonical" href="{url}">
 <meta property="og:type" content="{otype}"><meta property="og:site_name" content="312 History">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
-<meta property="og:image" content="{img}"><meta property="og:url" content="{url}">
+<meta property="og:image" content="{img}"><meta property="og:image:alt" content="{esc(title)}"><meta property="og:url" content="{url}"><meta property="og:locale" content="en_US"><meta property="og:locale:alternate" content="ru_RU">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{esc(title)}">
 <meta name="twitter:description" content="{esc(desc)}"><meta name="twitter:image" content="{img}">
 <link rel="icon" href="{p}favicon.ico" sizes="any"><link rel="apple-touch-icon" href="{p}apple-touch-icon.png">
 {ga}
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;800;900&display=swap" rel="stylesheet">
-{extra}<link rel="stylesheet" href="{p}assets/style.css"></head><body>
+{ld(jsonld) if jsonld else ""}{extra}<link rel="stylesheet" href="{p}assets/style.css"></head><body>
 <header class="nav"><a class="nav-logo" href="{p}index.html"><img src="{p}img/logo_white_transparent.png" alt="312 History"></a>
 <nav><a href="{p}index.html#map" data-i18n="nav.map">Map</a><a href="{p}index.html#topics" data-i18n="nav.stories">Stories</a><a href="{p}routes.html" data-i18n="nav.routes">Walking routes</a><a href="{p}fire-1871.html" data-i18n="nav.fire">Great Fire</a><a href="{p}about.html" data-i18n="nav.about">About</a><a href="{p}press.html" data-i18n="nav.press">Press</a></nav>
 <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="ru">RU</button></div>
@@ -265,6 +267,20 @@ def card(s, depth):
     return f"""<a class="card" href="{p}stories/{s['slug']}.html" data-topic="{s['topic']}" data-area="{area(s)}" data-era="{era(s)}" data-q="{esc((s['title']+' '+s['place']+' '+s['hook']).lower())}"><div class="card-img"><img loading="lazy" src="{p}media/post{s['num']}.jpg" alt="{esc(s['title'])} cover"></div>
 <div class="card-meta"><span class="kicker"><span data-i18n="topic.{s['topic']}">{esc(TOPICS[s['topic']])}</span> {(' · '+str(s['year'])) if s['year'] else ''}</span><h3>{esc(s['title'])}</h3></div></a>"""
 
+def story_ld(s):
+    url=SITE+f"stories/{s['slug']}.html"
+    art={"@type":"Article","headline":s['title'][:110],"description":short(s['hook'] or (s['facts'][0] if s['facts'] else DEFAULT_DESC)),
+         "image":SITE+f"media/post{s['num']}.jpg","url":url,"mainEntityOfPage":url,"inLanguage":"en",
+         "author":{"@type":"Person","name":"Ariana Cholponkadyrova","url":SITE+"about.html"},
+         "publisher":{"@type":"Organization","name":"312 History","url":SITE,"logo":{"@type":"ImageObject","url":SITE+"img/logo_white_transparent.png"}},
+         "articleSection":TOPICS[s['topic']]}
+    if s.get('place'):
+        pl={"@type":"Place","name":s['place'],"address":{"@type":"PostalAddress","addressLocality":"Chicago","addressRegion":"IL","addressCountry":"US"}}
+        if s.get('lat') is not None and s.get('lng') is not None: pl["geo"]={"@type":"GeoCoordinates","latitude":s['lat'],"longitude":s['lng']}
+        art["contentLocation"]=pl
+    crumbs={"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"312 History","item":SITE},{"@type":"ListItem","position":2,"name":s['title'],"item":url}]}
+    return {"@context":"https://schema.org","@graph":[art,crumbs]}
+
 def story_page(s, all_s):
     facts = "".join(f'<li class="fact reveal"><span class="star">★</span><p>{esc(f)}</p></li>' for f in s["facts"])
     extra = "".join(f'<p class="extra reveal">{esc(e)}</p>' for e in s["extra"])
@@ -272,7 +288,7 @@ def story_page(s, all_s):
     same = [x for x in all_s if x["topic"]==s["topic"] and x["num"]!=s["num"]][:3]
     i = [x["num"] for x in all_s].index(s["num"])
     prv, nxt = all_s[i-1], all_s[(i+1)%len(all_s)]
-    return head(f"{s['title']} | 312 History", 1, desc=s['hook'] or (s['facts'][0] if s['facts'] else None), img=f"media/post{s['num']}.jpg", path=f"stories/{s['slug']}.html", otype="article") + f"""
+    return head(f"{s['title']} | 312 History", 1, desc=s['hook'] or (s['facts'][0] if s['facts'] else None), img=f"media/post{s['num']}.jpg", path=f"stories/{s['slug']}.html", otype="article", jsonld=story_ld(s)) + f"""
 <main class="story">
 <section class="story-hero"><div class="story-text"><span class="kicker red">{esc(TOPICS[s['topic']])} · Post #{s['num']}</span>
 <div class="big-year">{s['year'] or ''}</div><h1>{esc(s['title']).upper()}</h1><p class="lead">{esc(s['hook'])}</p>
@@ -293,10 +309,12 @@ def index_page(S):
         f'<button class="chip" data-f="{k}"><span data-i18n="topic.{k}">{v}</span> <i>{sum(1 for s in S if s["topic"]==k)}</i></button>' for k,v in TOPICS.items() if any(s["topic"]==k for s in S))
     walks = ""
     for wi,(n,d,nums) in enumerate(WALKS):
-        stops="".join(f'<li><a href="stories/{s["slug"]}.html"><img src="media/post{s["num"]}.jpg" alt=""><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in [next(x for x in S if x["num"]==k) for k in nums])
+        stops="".join(f'<li><a href="stories/{s["slug"]}.html"><img loading="lazy" decoding="async" width="720" height="1280" src="media/post{s["num"]}.jpg" alt="{esc(s["title"])}"><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in [next(x for x in S if x["num"]==k) for k in nums])
         walks+=f'<div class="walk reveal"><span class="walk-n">0{wi+1}</span><h3>{esc(n).upper()}</h3><p>{esc(d)}</p><ol>{stops}</ol><button class="btn btn-line" data-walk="{",".join(nums)}" data-i18n="r.show">Show on map ★</button></div>'
     marquee = " ★ ".join(esc(s["title"]).upper() for s in S)
-    return head("312 History | Chicago history, one story at a time", 0, desc=f"{len(S)} fact-checked stories of Chicago history, from Fort Dearborn to today, on an interactive map, a timeline and walking routes.", path="", extra=
+    return head("312 History | Chicago history, one story at a time", 0, desc=f"{len(S)} fact-checked stories of Chicago history, from Fort Dearborn to today, on an interactive map, a timeline and walking routes.", path="", jsonld={"@context":"https://schema.org","@graph":[
+      {"@type":"WebSite","name":"312 History","url":SITE,"inLanguage":["en","ru"],"description":DEFAULT_DESC},
+      {"@type":"Organization","name":"312 History","url":SITE,"logo":SITE+"img/logo_white_transparent.png","sameAs":[IG],"founder":{"@type":"Person","name":"Ariana Cholponkadyrova"}}]}, extra=
       '<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n') + f"""
 <main>
 <section class="hero"><div class="hero-inner">
@@ -315,7 +333,7 @@ def index_page(S):
 <section id="timeline" class="tl-sec"><div class="sec-head"><span class="kicker red" data-i18n="tl.kicker">1803 → today</span><h2 class="sec-title" data-i18n="tl.title">EVERY STORY <span class="outline">IN TIME</span></h2><p data-i18n="tl.text">Each star is a story. Hover or tap to preview.</p></div>
 <div class="tl" id="tl"></div><div class="tl-card" id="tlCard"></div></section>
 
-<section class="fire-teaser"><img src="img/fire_flames.jpg" alt="Chicago in Flames, Currier &amp; Ives, 1871"><div><span class="kicker" data-i18n="fire.tkicker">Scroll story</span><h2 data-i18n="fire.ttitle">OCTOBER 8, 1871.<br>CHICAGO BURNS.</h2><a class="btn btn-red" href="fire-1871.html" data-i18n="fire.tbtn">Read the scroll story →</a></div></section>
+<section class="fire-teaser"><img loading="lazy" decoding="async" src="img/fire_flames.jpg" alt="Chicago in Flames, Currier &amp; Ives, 1871"><div><span class="kicker" data-i18n="fire.tkicker">Scroll story</span><h2 data-i18n="fire.ttitle">OCTOBER 8, 1871.<br>CHICAGO BURNS.</h2><a class="btn btn-red" href="fire-1871.html" data-i18n="fire.tbtn">Read the scroll story →</a></div></section>
 
 <section id="topics" class="topics"><div class="sec-head"><span class="kicker red" data-i18n="topics.count" data-n="{len(S)}">{len(S)} stories</span><h2 class="sec-title" data-i18n="topics.title">PICK A <span class="outline">TOPIC</span></h2><p class="ru-note" data-i18n="ru.storynote"></p></div>
 <div class="filters"><input id="q" type="search" placeholder="Search stories, places, years…" data-i18n-ph="f.search" aria-label="Search">
@@ -370,13 +388,14 @@ def main():
     for fn,f in (("about.html",about_page),("press.html",press_page),("routes.html",routes_page)):
         open(os.path.join(ROOT,fn),"w",encoding="utf-8").write(f(S))
     json.dump(S, open(os.path.join(ROOT,"stories.json"),"w"), indent=1, ensure_ascii=False)
-    nf = head("Page not found | 312 History", 0, '<base href="/">\n', desc="This page does not exist. Explore Chicago history stories on 312 History.", path="404.html") + """
+    nf = head("Page not found | 312 History", 0, '<base href="/">\n<meta name="robots" content="noindex">\n', desc="This page does not exist. Explore Chicago history stories on 312 History.", path="404.html") + """
 <main class="page"><section class="page-hero"><span class="kicker red">Error 404</span>
 <h1 class="mega small"><span class="line">LOST IN</span><span class="line">CHICAGO<b>★</b></span></h1>
 <p class="lead dark">This page does not exist, but 99+ stories do.</p>
 <div class="cta"><a class="btn btn-red" href="index.html">Back to the map ★</a><a class="btn btn-line" href="index.html#topics">All stories</a></div></section></main>""" + foot(0)
     open(os.path.join(ROOT,"404.html"),"w",encoding="utf-8").write(nf)
-    urls = "".join(f"<url><loc>{SITE}{u}</loc></url>\n" for u in dict.fromkeys(PAGES_SEEN))
+    import datetime; today=datetime.date.today().isoformat()
+    urls = "".join(f"<url><loc>{SITE}{u}</loc><lastmod>{today}</lastmod></url>\n" for u in dict.fromkeys(PAGES_SEEN))
     open(os.path.join(ROOT,"sitemap.xml"),"w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+urls+'</urlset>\n')
     open(os.path.join(ROOT,"robots.txt"),"w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}sitemap.xml\n")
     print(f"built {len(S)} stories")
