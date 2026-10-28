@@ -310,7 +310,7 @@ def index_page(S):
     walks = ""
     for wi,(n,d,nums) in enumerate(WALKS):
         stops="".join(f'<li><a href="stories/{s["slug"]}.html"><img loading="lazy" decoding="async" width="720" height="1280" src="media/post{s["num"]}.jpg" alt="{esc(s["title"])}"><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in [next(x for x in S if x["num"]==k) for k in nums])
-        walks+=f'<div class="walk reveal"><span class="walk-n">0{wi+1}</span><h3>{esc(n).upper()}</h3><p>{esc(d)}</p><ol>{stops}</ol><button class="btn btn-line" data-walk="{",".join(nums)}" data-i18n="r.show">Show on map ★</button></div>'
+        walks+=f'<div class="walk reveal"><span class="walk-n">0{wi+1}</span><h3 data-i18n="walk{wi}.n">{esc(n).upper()}</h3><p data-i18n="walk{wi}.d">{esc(d)}</p><ol>{stops}</ol><button class="btn btn-line" data-walk="{",".join(nums)}" data-i18n="r.show">Show on map ★</button></div>'
     marquee = " ★ ".join(esc(s["title"]).upper() for s in S)
     return head("312 History | Chicago history, one story at a time", 0, desc=f"{len(S)} fact-checked stories of Chicago history, from Fort Dearborn to today, on an interactive map, a timeline and walking routes.", path="", jsonld={"@context":"https://schema.org","@graph":[
       {"@type":"WebSite","name":"312 History","url":SITE,"inLanguage":["en","ru"],"description":DEFAULT_DESC},
@@ -362,9 +362,9 @@ def fire_page(S):
         blocks += f'<div class="step" data-i="{i}"><div class="step-box"><span class="kicker red">0{i+1}</span><p>{esc(t)}</p></div></div>'
     imgs = "".join(f'<figure class="fig{" on" if i==0 else ""}" data-i="{i}"><img src="{im}" alt="{esc(c)}"><figcaption>{esc(c)}</figcaption></figure>' for i,(im,c) in enumerate(steps))
     return head("The Great Chicago Fire, 1871 | 312 History scroll story",0, desc="Scroll through the Great Chicago Fire of October 8, 1871, step by step, with archival images and checked facts.", img="img/fire_flames.jpg", path="fire-1871.html") + f"""
-<main class="scrolly"><section class="fire-hero"><span class="kicker red">Scroll story · from post #05</span><h1 class="mega"><span class="line">OCTOBER 8,</span><span class="line">1871.</span><span class="line">CHICAGO<b>★</b></span><span class="line">BURNS.</span></h1><p class="lead">Scroll down ↓</p></section>
+<main class="scrolly"><section class="fire-hero"><span class="kicker red" data-i18n="fire.kicker">Scroll story · from post #05</span><h1 class="mega" data-i18n="fire.h1"><span class="line">OCTOBER 8,</span><span class="line">1871.</span><span class="line">CHICAGO<b>★</b></span><span class="line">BURNS.</span></h1><p class="lead" data-i18n="fire.down">Scroll down ↓</p></section>
 <section class="scroll-wrap"><div class="sticky">{imgs}</div><div class="steps">{blocks}</div></section>
-<section class="fire-end"><h2 class="sec-title">THE FULL STORY</h2><p>Watch the reel and see the sources.</p><a class="btn btn-red" href="stories/{s['slug']}.html">Open the story page →</a></section></main>
+<section class="fire-end"><h2 class="sec-title" data-i18n="fire.endtitle">THE FULL STORY</h2><p data-i18n="fire.endtext">Watch the reel and see the sources.</p><a class="btn btn-red" href="stories/{s['slug']}.html" data-i18n="fire.endbtn">Open the story page →</a></section></main>
 <script>
 const figs=[...document.querySelectorAll('.fig')];
 const io=new IntersectionObserver(es=>es.forEach(e=>{{if(e.isIntersecting){{const i=e.target.dataset.i;figs.forEach(f=>f.classList.toggle('on',f.dataset.i===i));e.target.classList.add('in');}}}}),{{rootMargin:'-45% 0px -45% 0px'}});

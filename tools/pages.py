@@ -47,7 +47,7 @@ def routes_page(S):
         km=sum(math.hypot((a["lat"]-b["lat"])*111,(a["lng"]-b["lng"])*83) for a,b in zip(st,st[1:]))
         routes.append(dict(name=n,stops=[dict(num=s["num"],title=s["title"],lat=s["lat"],lng=s["lng"],slug=s["slug"]) for s in st]))
         li="".join(f'<li><a href="stories/{s["slug"]}.html"><img loading="lazy" decoding="async" width="720" height="1280" src="media/post{s["num"]}.jpg" alt="{esc(s["title"])}"><span><b>{esc(s["title"])}</b><em>{esc(s["place"])}</em></span></a></li>' for s in st)
-        html+=f'''<div class="walk"><span class="walk-n">0{wi+1}</span><h3>{esc(n).upper()}</h3><p>{esc(d)}</p>
+        html+=f'''<div class="walk"><span class="walk-n">0{wi+1}</span><h3 data-i18n="walk{wi}.n">{esc(n).upper()}</h3><p data-i18n="walk{wi}.d">{esc(d)}</p>
 <p class="kicker">{len(st)} <span data-i18n="r.stops">stops</span> · ≈{km:.1f} km <span data-i18n="r.straight">straight-line</span></p><ol>{li}</ol>
 <button class="btn btn-red" data-route="{wi}" data-i18n="r.show">Show on map ★</button></div>'''
     return head("Walking routes | 312 History",0, desc="Self-guided Chicago history walks built from 312 History stories: the Loop, Michigan Avenue to the lake, and the South Loop.", path="routes.html", extra='<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">\n') + f"""
