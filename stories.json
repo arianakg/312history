@@ -3359,5 +3359,577 @@
   "lng": -87.6249,
   "year": 1929,
   "slug": "114-the-carbide-carbon-building"
+ },
+ {
+  "num": "115",
+  "title": "The Marquette Building",
+  "hook": "Chicago’s Marquette Building has stood in the Loop since 1895.",
+  "facts": [
+   "It was completed in 1895.",
+   "Its “Chicago windows” have a fixed center pane between two narrow sash windows.",
+   "Its lobby glass mosaics were made with the Tiffany Glass company.",
+   "Its original cornice was removed around 1950.",
+   "A restoration begun in 2001 replaced the missing cornice."
+  ],
+  "extra": [],
+  "images": "Images: J. Crocker (attribution), HABS / Library of Congress (public domain), TonyTheTiger (CC BY-SA 2.5);",
+  "sources_line": "Chicago Architecture Center, City of Chicago (Commission on Chicago Landmarks), MacArthur Foundation Marquette Building exhibit",
+  "sources": [
+   "Chicago Architecture Center, Buildings of Chicago: Marquette Building — https://www.architecture.org/online-resources/buildings-of-chicago/marquette-building (cac.txt)",
+   "City of Chicago, Commission on Chicago Historical and Architectural Landmarks, Marquette Building summary report (archive.org full text) — https://archive.org/stream/CityOfChicagoLandmarkDesignationReports/MarquetteBuilding_djvu.txt (report.txt)",
+   "MacArthur Foundation, Marquette Building online exhibit — https://marquette.macfound.org/ (mac.txt) and slides /slide/chicago-window.html, /slide/louis-comfort-tiffany-j.a.-holzer.html, /slide/restoration.html, /slide/decor-the-mosaics.html (mac_*.txt) — one publisher"
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Marquette Building, 140 S Dearborn St",
+  "lat": 41.8795,
+  "lng": -87.6301,
+  "year": 1895,
+  "slug": "115-the-marquette-building"
+ },
+ {
+  "num": "116",
+  "title": "The Christkindlmarket",
+  "hook": "Chicago’s Christkindlmarket is a free, German-style outdoor holiday market.",
+  "facts": [
+   "It was first held in 1996.",
+   "The first market had just 13 vendors.",
+   "It began as a German-American trade initiative.",
+   "Its hot spiced wine, Glühwein, literally means “glow wine.”",
+   "It has drawn more than 1.5 million visitors in a season."
+  ],
+  "extra": [],
+  "images": "Images: MinJae Kim (CC BY 2.0), DR04 / Douglas Rahden (CC BY 3.0; attribution), Daniel X. O’Neil (CC BY 2.0), Loyna (CC BY-SA 2.5);",
+  "sources_line": "Christkindlmarket Chicago, Choose Chicago, Thrillist, DNAinfo",
+  "sources": [
+   "Christkindlmarket Chicago (organizer, German American Events / GACC Midwest) — one publisher:",
+   "https://www.christkindlmarket.com/about/ (ckm_about.txt)",
+   "https://www.christkindlmarket.com/history-tradition/ (ckm_hist.txt)",
+   "https://www.christkindlmarket.com/history-and-traditions/blog-1996-when-how-it-all-started/ (ckm_1996.txt)",
+   "https://www.christkindlmarket.com/history-and-traditions/blog-the-christkindlmarket-mugs/ (ckm_mugs.txt)",
+   "Choose Chicago — https://www.choosechicago.com/articles/holidays/christkindlmarket-chicago/ (choose.txt)",
+   "Thrillist, Vanita Salisbury — https://www.thrillist.com/travel/nation/christmas-market-mulled-wine-boot (thrillist.txt)",
+   "DNAinfo Chicago, 27 Oct 2017 — https://www.dnainfo.com/chicago/20171027/downtown/christkindlmarket-boot-mugs-history-through-the-years-favorite-christmas-daley-plaza-souvenir/ (dnainfo.txt)"
+  ],
+  "topic": "CULTURE",
+  "place": "Christkindlmarket, Chicago Loop",
+  "lat": 41.8838,
+  "lng": -87.6302,
+  "year": 1996,
+  "slug": "116-the-christkindlmarket"
+ },
+ {
+  "num": "117",
+  "title": "Chicago’s Coyotes",
+  "hook": "Thousands of wild coyotes live in the Chicago area — some even downtown.",
+  "facts": [
+   "Researchers have tracked Chicago-area coyotes since 2000.",
+   "They eat mostly natural prey like rodents, rarely garbage or pets.",
+   "Cars are the biggest danger they face.",
+   "Their mating season peaks in February, around Valentine’s Day.",
+   "The area’s coyote population has grown since the 2000s."
+  ],
+  "extra": [],
+  "images": "Images: John Picken (CC BY 2.0), Ryan Stavely (CC BY 2.0);",
+  "sources_line": "Science News, WTTW News, Ohio State University Extension (Cook County Coyote Project)",
+  "sources": [
+   "Science News, Kate Baggaley, 29 Dec 2014 — https://www.sciencenews.org/article/cities-are-brimming-wildlife-worth-studying (sn.txt)",
+   "WTTW News, 27 Dec 2017 — https://news.wttw.com/2017/12/27/why-are-coyotes-thriving-chicago-area (wttw.txt)",
+   "Ohio State University Extension Bulletin 929, Stanley D. Gehrt, \"Urban Coyote Ecology and Management: The Cook County, Illinois, Coyote Project\" — https://urbancoyoteresearch.com/sites/default/files/resources/UrbanCoyoteManagementPDF.pdf (opened via WebFetch; pdftotext failed; quotes in ucr_webfetch.txt)"
+  ],
+  "topic": "NATURE",
+  "place": "Coyotes in Lincoln Park, Chicago",
+  "lat": 41.942,
+  "lng": -87.638,
+  "year": 2000,
+  "slug": "117-chicago-s-coyotes"
+ },
+ {
+  "num": "118",
+  "title": "The Green Chicago River",
+  "hook": "Every March, Chicago turns its river bright green — using a powder that’s orange.",
+  "facts": [
+   "The river was first dyed green in 1962.",
+   "The idea came from a plumbers’ leak-detection dye that stained a worker’s coveralls.",
+   "That first year, 100 pounds of dye kept it green for a whole week.",
+   "The dye goes in as an orange powder and turns green in the water.",
+   "Two families have dyed it for decades and keep the recipe secret."
+  ],
+  "extra": [],
+  "images": "Images: Scott L (CC BY-SA 2.0), Knowledge Seeker (public domain), Mike Boehmer (CC BY 2.0), Victorgrigas (CC BY-SA 3.0), ScottMLiebenson (CC BY-SA 3.0), TDKR Chicago 101 (CC BY-SA 4.0);",
+  "sources_line": "NPR, Smithsonian, Chicago Sun-Times, CNN, NBC Chicago",
+  "sources": [
+   "NPR, 16 Mar 2022 — https://www.npr.org/2022/03/16/1086988193/st-patricks-day-green-chicago-river (npr.txt)",
+   "Smithsonian Magazine — https://www.smithsonianmag.com/arts-culture/a-new-meaning-to-green-urban-design-dyeing-the-chicago-river-2954176/ (smith.txt)",
+   "Chicago Sun-Times, 10 Mar 2023 — https://chicago.suntimes.com/2023/3/10/23632330/dye-dyeing-chicago-river-green-st-patricks-day-why (st.txt)",
+   "CNN, 16 Mar 2019 — https://www.cnn.com/2019/03/16/us/man-dyes-chicago-river-green-st-patricks-day-trnd (cnn.txt)",
+   "NBC Chicago — https://www.nbcchicago.com/news/local/whats-in-dye-how-chicago-river-is-dyed-green-for-st-patricks-day/3384629/ (nbc.txt)"
+  ],
+  "topic": "CULTURE",
+  "place": "Chicago River at Michigan Avenue",
+  "lat": 41.8885,
+  "lng": -87.6245,
+  "year": 1962,
+  "slug": "118-the-green-chicago-river"
+ },
+ {
+  "num": "119",
+  "title": "The Tucker 48",
+  "hook": "In 1948, a Chicago factory built a car with a third headlight that turned with the steering wheel.",
+  "facts": [
+   "It was built in Chicago in 1947–48.",
+   "Its center “Cyclops” headlight turned with the steering.",
+   "Its rear engine was adapted from a helicopter engine.",
+   "It had a padded dashboard for safety.",
+   "Only 51 were ever made."
+  ],
+  "extra": [],
+  "images": "Images: Thomas (CC BY 2.0), Mr.choppers (CC BY-SA 4.0), Martinautomuseum (CC BY-SA 4.0), Rennett Stowe (CC BY 2.0), Kevauto (CC BY-SA 4.0);",
+  "sources_line": "The Henry Ford, Audrain Automobile Museum, MotorTrend, RM Sotheby’s, AACA Museum, Tucker Corporation (Preston Tucker LLC)",
+  "sources": [
+   "The Henry Ford, \"Preston Tucker and the Tucker 48\" — https://www.thehenryford.org/collections/explore/sets/detail/preston-tucker-and-the-tucker-48?AssetId=THF111173 (hf.txt)",
+   "The Henry Ford, \"The Tucker 48: The Car You Have Been Waiting For\" (2018) — https://www.thehenryford.org/collections/explore/articles/detail/articles/2018/02/09/the-tucker-48-the-car-you-have-been-waiting-for (hf2.txt; same publisher as hf)",
+   "Audrain Automobile Museum — https://www.audrainautomuseum.org/shining-bright/1948-tucker-model-48 (aud.txt)",
+   "MotorTrend — https://www.motortrend.com/news/brand-new-tucker-flat-six-engine-sells-nearly-35000-auction (mt.txt)",
+   "RM Sotheby's, Monaco 2016 lot — https://rmsothebys.com/auctions/mc16/lots/r137-tucker-48-engine-no-33578/ (rm.txt)",
+   "AACA Museum, Cammack Tucker Collection — https://atexpa.org/exhibit/tucker-automobiles/ (aaca.txt)",
+   "Tucker Corporation / Preston Tucker LLC (family site) — https://www.tuckercorporation.com/ (tc.txt)"
+  ],
+  "topic": "FIRSTS",
+  "place": "Tucker Corporation plant, 7401 S. Cicero Ave, Chicago",
+  "lat": 41.757,
+  "lng": -87.742,
+  "year": 1948,
+  "slug": "119-the-tucker-48"
+ },
+ {
+  "num": "120",
+  "title": "The Chicago Railroad Fair",
+  "hook": "In 1948, a lakefront fair full of trains may have helped inspire Disneyland.",
+  "facts": [
+   "It opened in 1948 on the lakefront, in Burnham Park.",
+   "It marked 100 years since the first train ran west from Chicago, in 1848.",
+   "Its “Wheels a-Rolling” pageant showed historic trains with performers in period costumes.",
+   "Visitors could walk through themed areas, or “lands.”",
+   "Walt Disney visited — and the fair is believed to have helped inspire Disneyland."
+  ],
+  "extra": [],
+  "images": "Images: Newberry Library (public domain);",
+  "sources_line": "Newberry Library, Chicago History Museum, The Walt Disney Family Museum",
+  "sources": [
+   "Newberry Library, \"A Mini World's Fair\" — https://www.newberry.org/blog/a-mini-worlds-fair (newb.txt)",
+   "Chicago History Museum, LibGuide \"Chicago Railroad Fair, 1948-1949\" — https://libguides.chicagohistory.org/worldsfairs/chicagorailroadfair (chm.txt)",
+   "The Walt Disney Family Museum, \"Riding the Rails with Walt Disney\" — https://www.waltdisney.org/blog/riding-rails-walt-disney (wdfm3.txt)",
+   "The Walt Disney Family Museum, \"All Aboard\" exhibition page — https://www.waltdisney.org/exhibitions/all-aboard-celebration-walts-trains (wdfm1.txt; same publisher as wdfm3)"
+  ],
+  "topic": "EVENTS",
+  "place": "Chicago Railroad Fair, Burnham Park",
+  "lat": 41.846,
+  "lng": -87.608,
+  "year": 1948,
+  "slug": "120-the-chicago-railroad-fair"
+ },
+ {
+  "num": "121",
+  "title": "The Chicago Picasso",
+  "hook": "Chicago’s Picasso has stood in the Loop since 1967 — and people still argue about what it is.",
+  "facts": [
+   "It was unveiled on August 15, 1967.",
+   "It stands 50 feet tall and weighs 162 tons.",
+   "Its Cor-Ten steel was made by a bridge company in Gary, Indiana, then reassembled in Chicago.",
+   "Picasso turned down the $100,000 fee — he called it a gift to Chicago.",
+   "No one can say for sure what it shows; guesses include a woman’s profile and an Afghan hound."
+  ],
+  "extra": [],
+  "images": "Images: J. Crocker (public domain), Dan DeLuca (CC BY 2.0), Jorge Láscar (CC BY 2.0), Bait30 (public domain), Caitriana Nicholson (public domain), Marlin Keesler (CC BY 2.0);",
+  "sources_line": "Chicago History Museum, Museo Picasso Málaga, CBS Chicago",
+  "sources": [
+   "Chicago History Museum, \"Picasso’s Gift to Chicago\" — https://www.chicagohistory.org/picasso50/ (chm.txt)",
+   "Museo Picasso Málaga, \"A maquette, a monument and a hat\" — https://www.museopicassomalaga.org/en/universo-picasso/a-maquette-a-monument-and-a-hat (mal.txt)",
+   "CBS Chicago, \"Daley Plaza Picasso Sculpture Turning 50; So What Is It?\" — https://www.cbsnews.com/chicago/news/daley-plaza-picasso-sculpture-turning-50-so-what-is-it/ (cbs.txt)"
+  ],
+  "topic": "CULTURE",
+  "place": "The Picasso, Civic Center plaza, the Loop",
+  "lat": 41.884,
+  "lng": -87.6303,
+  "year": 1967,
+  "slug": "121-the-chicago-picasso"
+ },
+ {
+  "num": "122",
+  "title": "Calder’s Flamingo",
+  "hook": "In 1974, a giant red steel “Flamingo” landed in the Loop — and its big day included a circus parade.",
+  "facts": [
+   "It was unveiled in Federal Plaza on October 25, 1974.",
+   "It stands 53 feet tall.",
+   "Its bright “Calder red” stands out against the black steel buildings around it.",
+   "Its unveiling day featured a parade with circus wagons, marching bands and clowns.",
+   "People can walk under and through it."
+  ],
+  "extra": [],
+  "images": "Images: John Picken (public domain), Nicolas G. Mertens (CC BY-SA 4.0), Christine Zenino (CC BY 2.0), Bex Walton (CC BY 2.0), Onasill / Bill Badzo (CC BY-SA 2.0), Vincent Desjardins (CC BY 2.0);",
+  "sources_line": "Calder Foundation, U.S. General Services Administration, Smithsonian American Art Museum, WTTW News, City of Chicago Public Art Guide (DCASE)",
+  "sources": [
+   "Calder Foundation, \"Universe (1974)\" chronology — https://calder.org/works/monumental-sculpture/universe-1974/ (cal.txt, curl)",
+   "WTTW News, 30 Mar 2017 — https://news.wttw.com/2017/03/30/preservation-chicago-sounds-alarm-over-flamingo-sculpture (wttw.txt, curl)",
+   "City of Chicago DCASE, \"The Chicago Public Art Guide\" (PDF) — https://www.travelready.org/PDF%20Files/Public%20Art%20Directories/Chicago%20-%20Public%20Art%20Directory.pdf (dir.pdf / dir.txt, curl + pdftotext)",
+   "U.S. General Services Administration, \"Art in Architecture: Selected Artworks 1997–2008\" (PDF) — https://www.gsa.gov/system/files/GSA-AIA-Selected-Artwork-1997-2008.pdf (gsa.pdf / gsa.txt, curl + pdftotext)",
+   "Smithsonian American Art Museum, \"Maquette for Flamingo\" — https://americanart.si.edu/artwork/maquette-flamingo-3644 (saam.txt, curl)"
+  ],
+  "topic": "CULTURE",
+  "place": "Flamingo, Federal Plaza, the Loop",
+  "lat": 41.8789,
+  "lng": -87.6297,
+  "year": 1974,
+  "slug": "122-calder-s-flamingo"
+ },
+ {
+  "num": "123",
+  "title": "Lights at Wrigley",
+  "hook": "On 8/8/88, Wrigley Field finally played under the lights — and then the rain came.",
+  "facts": [
+   "Wrigley Field’s first night game was played on August 8, 1988.",
+   "That night, the lights were switched on at 6:09 p.m.",
+   "The Cubs were the last Major League team to add lights to their ballpark.",
+   "Rain stopped that first night game in the fourth inning.",
+   "The next night, the Cubs beat the Mets 6–4 in the first official night game."
+  ],
+  "extra": [],
+  "images": "Images: Edward Stojakovic (CC BY 2.0), Jblesage (CC BY-SA 3.0), Michael Barera (CC BY-SA 4.0), Minorfreak (CC BY-SA 2.0), Bryan McDonald (CC BY-SA 2.0), TonyTheTiger (CC BY-SA 3.0);",
+  "sources_line": "National Baseball Hall of Fame and Museum, MLB.com, Chicago Cubs (MLB.com), Society for American Baseball Research (SABR)",
+  "sources": [
+   "National Baseball Hall of Fame and Museum, \"#Shortstops: Light Comes to Wrigley Field\" — https://baseballhall.org/discover/shortstops/light-comes-to-wrigley-field (hof.txt)",
+   "MLB.com, \"Wrigley Field FAQ\" — https://www.mlb.com/news/wrigley-field-faq (mlbfaq.txt)",
+   "Chicago Cubs / MLB.com, \"Wrigley Field Renovations: 1914 to Today\" — https://www.mlb.com/cubs/guide/wrigley-field-renovations-history (cubsguide.txt; same publisher group as MLB.com, never counted as a separate second source)",
+   "MLB.com, \"Official or not, first Wrigley night game was special\" — https://www.mlb.com/news/official-or-not-first-wrigley-night-game-was-special/c-56336428 (mlb25.txt)",
+   "SABR Games Project, \"August 8, 1988: Nature intervenes as first Wrigley Field night game is rained out\" — https://sabr.org/gamesproj/game/august-8-1988-nature-intervenes-as-first-wrigley-field-night-game-is-rained-out/ (sabr8.txt)",
+   "SABR Baseball Research Journal, \"The Game That Was Not — Phillies at Cubs, August 8, 1988\" — https://sabr.org/journal/article/the-game-that-was-not-philadelphia-phillies-at-chicago-cubs-august-8-1988/ (sabrj.txt)",
+   "SABR Games Project, \"August 9, 1988: Cubs win first official night game at Wrigley Field\" — https://sabr.org/gamesproj/game/august-9-1988-cubs-win-first-official-night-game-at-wrigley-field/ (sabr9.txt)"
+  ],
+  "topic": "SPORTS",
+  "place": "Wrigley Field, Lakeview",
+  "lat": 41.9484,
+  "lng": -87.6553,
+  "year": 1988,
+  "slug": "123-lights-at-wrigley"
+ },
+ {
+  "num": "124",
+  "title": "Crown Fountain",
+  "hook": "In 2004, Millennium Park got two glass towers with giant faces that spit water.",
+  "facts": [
+   "Crown Fountain debuted with Millennium Park in 2004.",
+   "Its two glass-brick towers stand 50 feet tall.",
+   "The towers show the faces of about 1,000 Chicagoans.",
+   "Water spouts from the faces’ mouths, like a modern gargoyle.",
+   "The water on its granite pool is only 1/8 inch deep, so visitors can walk on it."
+  ],
+  "extra": [],
+  "images": "Images: Gorup de Besanez (CC BY-SA 4.0), jjlthree (CC BY 2.0), TonyTheTiger (CC BY-SA 3.0), Vincent Desjardins (CC BY 2.0), Frank Skornia (CC BY-SA 3.0);",
+  "sources_line": "City of Chicago (DCASE), Jaume Plensa Studio, Chicago Architecture Center, WaterShapes",
+  "sources": [
+   "City of Chicago, DCASE Public Art, \"Crown Fountain in Millennium Park\" — https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_s_publicartcrownfountaininmillenniumpark.html (city.txt, curl)",
+   "Jaume Plensa Studio (artist's official site), \"Crown Fountain, 2004\" — https://jaumeplensa.com/works-and-projects/public-space/the-crown-fountain-2004 (plensa.txt; curl got no response, so it was opened with WebFetch and the excerpt saved)",
+   "Chicago Architecture Center, \"Millennium Park\" (Buildings of Chicago) — https://www.architecture.org/online-resources/buildings-of-chicago/millennium-park (cac.txt, curl)",
+   "WaterShapes (trade magazine), \"A Crowning Achievement\" — https://watershapes.com/a-crowning-achievement-2/ (ws.txt, curl)"
+  ],
+  "topic": "CULTURE",
+  "place": "Crown Fountain, Millennium Park",
+  "lat": 41.8816,
+  "lng": -87.6237,
+  "year": 2004,
+  "slug": "124-crown-fountain"
+ },
+ {
+  "num": "125",
+  "title": "Cloud Gate",
+  "hook": "Chicagoans call it “The Bean” — but its real name is Cloud Gate.",
+  "facts": [
+   "Cloud Gate was formally dedicated on May 15, 2006.",
+   "It weighs 110 tons.",
+   "Its skin is 168 stainless steel plates, polished until no seams show.",
+   "Its design was inspired by liquid mercury.",
+   "A 12-foot-high arch lets visitors walk underneath it."
+  ],
+  "extra": [],
+  "images": "Images: EightySixFilms (CC BY 2.0), orangemania (CC BY 2.0), Roman Boed (CC BY 2.0), Karen (CC BY 2.0), Kellyjank (CC BY-SA 4.0), Kevin Dooley (CC BY 2.0);",
+  "sources_line": "City of Chicago (DCASE), Chicago Architecture Center, WBEZ Chicago, UPI, The Fabricator",
+  "sources": [
+   "City of Chicago, DCASE Public Art, \"Cloud Gate in Millennium Park\" — https://www.chicago.gov/city/en/depts/dca/supp_info/chicago_s_publicartcloudgateinmillenniumpark.html (city2.txt, curl)",
+   "Chicago Architecture Center, \"Millennium Park\" (Buildings of Chicago) — https://www.architecture.org/online-resources/buildings-of-chicago/millennium-park (cac.txt, curl)",
+   "WBEZ Chicago, \"\"The Bean\" Dedicated Today\", published 2006-05-15 — https://www.wbez.org/2006/05/15/the-bean-dedicated-today (wbez.txt, curl)",
+   "UPI, \"'The Bean' dedicated in Chicago\", May 15, 2006 — https://www.upi.com/Odd_News/2006/05/15/The-Bean-dedicated-in-Chicago/90491147713987/ (upi.txt; curl got a 403, so it was opened with WebFetch and the excerpt saved)",
+   "The Fabricator (trade magazine), \"Metal fabricating \"The Bean\" in a new millennium\" — https://www.thefabricator.com/thefabricator/article/arcwelding/metal-fabricating-the-bean-in-a-new-millennium (fab.txt, curl)"
+  ],
+  "topic": "CULTURE",
+  "place": "Cloud Gate, Millennium Park",
+  "lat": 41.8827,
+  "lng": -87.6233,
+  "year": 2006,
+  "slug": "125-cloud-gate"
+ },
+ {
+  "num": "126",
+  "title": "The 606",
+  "hook": "In 2015, an old rail line on the Northwest Side became a park in the sky — and its name hides a Chicago number.",
+  "facts": [
+   "The 606 opened on June 6, 2015 — 6/06/15.",
+   "It is named for the 606 ZIP code prefix all Chicagoans share.",
+   "Its centerpiece is the elevated, 2.7-mile Bloomingdale Trail.",
+   "The trail runs along an old, unused elevated rail line.",
+   "It links four neighborhoods: Bucktown, Wicker Park, Logan Square and Humboldt Park."
+  ],
+  "extra": [],
+  "images": "Images: Charles Carper (CC BY 2.0), Payton Chung (CC BY 2.0), J. Crocker (Attribution), Steven Vance (CC BY 2.0), AlphaBeta135 (CC BY 4.0);",
+  "sources_line": "City of Chicago, Chicago Park District, The Trust for Public Land, Chicago Sun-Times",
+  "sources": [
+   "City of Chicago press release, June 6, 2015 (opening) — https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2015/june/fw--mayor-emanuel-joins-senator-durbin--the-chicago-park-distric.html (city.txt)",
+   "City of Chicago press release, April 2015 (\"To Open On – 6/06/15\") — https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2015/april/mayor-emanuel-announces-the-606-park-and-trail-to-open-on--6-06-.html (city04.txt)",
+   "City of Chicago press release, Aug 2013 (groundbreaking; name) — https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2013/august_2013/mayor_emanuel_leadsgroundbreakingonbloomingdaletrail.html (city13.txt)",
+   "Chicago Park District, \"About The 606\" — https://www.chicagoparkdistrict.com/about-606 (cpd.txt)",
+   "The Trust for Public Land, \"The 606 is Chicago's Next Great Park\" + \"The 606\" project page — https://www.tpl.org/media-room/606-chicagos-next-great-park ; https://www.tpl.org/our-work/606 (tpl.txt, tpl2.txt)",
+   "Chicago Sun-Times, June 6, 2015, \"Chicago's long-planned 'The 606' Bloomingdale Trail opens…\" — https://chicago.suntimes.com/2015/6/6/18606519/chicago-s-long-planned-the-606-bloomingdale-trail-opens-bringing-out-runners-bikers-strollers (st.txt)"
+  ],
+  "topic": "TRAVEL",
+  "place": "The 606, Bloomingdale Trail",
+  "lat": 41.9139,
+  "lng": -87.69,
+  "year": 2015,
+  "slug": "126-the-606"
+ },
+ {
+  "num": "127",
+  "title": "The Museum Campus",
+  "hook": "In the 1990s, Chicago moved part of Lake Shore Drive so three museums could share one lakefront park.",
+  "facts": [
+   "The Museum Campus took its present shape in 1998.",
+   "Northbound Lake Shore Drive was moved west of the Field Museum and Soldier Field.",
+   "That joined the Field Museum, Shedd Aquarium and Adler Planetarium in one lakefront park.",
+   "The campus covers 57 acres.",
+   "Parkland and bike paths now run where the old northbound lanes were."
+  ],
+  "extra": [],
+  "images": "Images: Sea Cow (CC BY-SA 4.0), Ken Lund (CC BY-SA 2.0), David K. Staub (CC BY-SA 4.0), Matt Lewis (CC BY-SA 2.0), Alex Ford (CC BY 2.0);",
+  "sources_line": "City of Chicago, Chicago Park District, The Cultural Landscape Foundation, Illinois-Indiana Sea Grant, WTTW News",
+  "sources": [
+   "City of Chicago, Museum Campus Working Group, \"The Museum Campus\" — https://www.chicago.gov/city/en/sites/museum-campus-working-group/home/the-museum-campus.html (city.txt)",
+   "Chicago Park District, \"Grant Park History\" timeline (PDF) — https://www.chicagoparkdistrict.com/media/29956/download?inline= (cpd.pdf → cpdf.txt via pdftotext)",
+   "The Cultural Landscape Foundation, \"Lake Shore Drive – Museum Campus\" — https://www.tclf.org/lake-shore-drive-museum-campus (tclf.txt)",
+   "Illinois-Indiana Sea Grant, Chicago Water Walk, \"Museum Campus\" — https://www.iiseagrant.org/chicagowaterwalk/cww5_rtmc_mc_getstarted.html (sg.txt)",
+   "WTTW News, Feb 15, 2022 — https://news.wttw.com/2022/02/15/when-it-comes-reimagining-museum-campus-greatest-untapped-amenity-already-exists-nature (wttw.txt)"
+  ],
+  "topic": "LAKEFRONT",
+  "place": "Museum Campus",
+  "lat": 41.8663,
+  "lng": -87.617,
+  "year": 1998,
+  "slug": "127-the-museum-campus"
+ },
+ {
+  "num": "128",
+  "title": "The Ledge",
+  "hook": "Since 2009, visitors can step into glass boxes hanging off the 103rd floor.",
+  "facts": [
+   "The Ledge opened to the public at the Skydeck on July 2, 2009.",
+   "Its glass boxes stick out a little more than 4 feet from the 103rd floor.",
+   "Standing inside, you look 1,353 feet straight down to the street.",
+   "Each box is made of three layers of half-inch glass, built to hold about 5 tons.",
+   "In May 2014 a protective coating cracked underfoot. The glass itself did not."
+  ],
+  "extra": [],
+  "images": "Images: Vincent Desjardins (CC BY 2.0), Olga Bandelowa (CC BY-SA 2.0 DE), Ken Lund (CC BY-SA 2.0), endymion120 (CC BY 2.0), HaSt (CC BY-SA 4.0);",
+  "sources_line": "CBC News, CNN, CBS Chicago, WBEZ, Skydeck Chicago press release",
+  "sources": [
+   "CBC News, \"Chicago's Sears Tower unveils glass balconies with jaw-dropping view\", July 2, 2009 — https://www.cbc.ca/news/entertainment/chicago-s-sears-tower-unveils-glass-balconies-with-jaw-dropping-view-1.818978 (cbc.txt)",
+   "CNN, \"Willis Tower cracks frighten tourists, but officials say no one was in danger\", May 2014 — https://edition.cnn.com/travel/article/willis-tower-cracks/index.html (cnn.txt)",
+   "CBS Chicago, \"Willis Tower's Glass 'Ledge' Repaired After Cracks Appear\", May 2014 — https://www.cbsnews.com/chicago/news/cracks-form-on-surface-of-willis-towers-ledge/ (cbs.txt)",
+   "WBEZ Chicago, \"Coating on Willis Tower Skydeck cracks, but not the glass\", May 29, 2014 — https://www.wbez.org/news/2014/05/29/coating-on-willis-tower-skydeck-cracks-but-not-the-glass (wbez.txt)",
+   "Skydeck Chicago (the operator, official) press release, July 1, 2009 (PDF) — https://theskydeck.com/wp-content/uploads/2013/08/skydeckchicagodaringvisitorstostandoutjuly09.pdf (sky.pdf → sky.txt)"
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "The Ledge, Willis Tower Skydeck",
+  "lat": 41.8789,
+  "lng": -87.6359,
+  "year": 2009,
+  "slug": "128-the-ledge"
+ },
+ {
+  "num": "129",
+  "title": "Maggie Daley Park",
+  "hook": "Downtown Chicago has a park where you skate a loop instead of a rink.",
+  "facts": [
+   "The skating ribbon opened on December 13, 2014. The whole park opened in 2015.",
+   "The park sits on top of an underground parking garage.",
+   "Its hills are built from geofoam, about 100 times lighter than soil.",
+   "The skating ribbon is nearly a quarter of a mile long.",
+   "Maggie Daley Park covers 20 acres in the north end of Grant Park."
+  ],
+  "extra": [],
+  "images": "Images: Alanscottwalker (CC BY-SA 4.0), Another Believer (CC BY-SA 4.0), Mack Male (CC BY-SA 2.0);",
+  "sources_line": "City of Chicago, Chicago Park District, NBC Chicago, Chicago Architecture Center, ABC7 Chicago, WTTW News",
+  "sources": [
+   "City of Chicago press release, Dec 13, 2014, opening of Maggie Daley Park (official, issued jointly with the Chicago Park District) — https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2014/dec/mayor-emanuel--chicago-park-district-celebrate-opening-of-maggie.html (city.txt)",
+   "NBC Chicago, \"Maggie Daley Park Ice Skating Ribbon Officially Open\", Dec 13, 2014 — https://www.nbcchicago.com/news/local/maggie-daley-park-ice-rink-opens-today/1990909/ (nbc.txt)",
+   "Chicago Architecture Center, \"6 things you need to know: Maggie Daley Park\" — https://www.architecture.org/news/chicagos-playscapes/six-things-you-need-to-know-maggie-daley-park (cac.txt)",
+   "Chicago Architecture Center, Buildings of Chicago: Maggie Daley Park — https://www.architecture.org/online-resources/buildings-of-chicago/maggie-daley-park (cac2.txt)",
+   "ABC7 Chicago, \"Maggie Daley Park to turn garage into rolling hills\", June 9, 2014 — https://abc7chicago.com/post/maggie-daley-park-to-turn-garage-into-rolling-hills-/102573/ (abc7.txt)",
+   "WTTW News, \"The Future of Maggie Daley Park\", Apr 14, 2014 — https://news.wttw.com/2014/04/14/future-maggie-daley-park (wttw.txt)"
+  ],
+  "topic": "NATURE",
+  "place": "Maggie Daley Park, Grant Park",
+  "lat": 41.8826,
+  "lng": -87.6189,
+  "year": 2015,
+  "slug": "129-maggie-daley-park"
+ },
+ {
+  "num": "130",
+  "title": "The Chicago Riverwalk",
+  "hook": "Chicago built a walkway under its downtown bridges, right at the water's edge.",
+  "facts": [
+   "The final section of the Riverwalk opened in October 2016.",
+   "That completed a 1.25-mile walkway along the river through downtown.",
+   "The new stretch is split into \"rooms,\" each with its own design and purpose.",
+   "The River Theater is a wide set of steps from Upper Wacker Drive down to the water.",
+   "One room, the Cove, offers kayak rentals right on the river."
+  ],
+  "extra": [],
+  "images": "Images: Mack Male (CC BY-SA 2.0), Joseph Blewitt (CC BY-SA 2.0), Cole Camplese (CC BY 2.0), MusikAnimal (CC BY-SA 4.0), Jrbarc! (CC BY-SA 4.0);",
+  "sources_line": "City of Chicago (CDOT), ABC7 Chicago, Chicago Architecture Center, Chicago Sun-Times",
+  "sources": [
+   "City of Chicago / CDOT press release, Oct 25, 2016, completion of the expanded Riverwalk — https://www.chicago.gov/city/en/depts/cdot/provdrs/future_projects_andconcepts/news/2016/october/mayor-emanuel--ray-lahood---city-officials-celebrate-completion-.html (city.txt)",
+   "City of Chicago / CDOT press release, Oct 2016, preview of the final section — https://www.chicago.gov/city/en/depts/cdot/provdrs/future_projects_andconcepts/news/2016/october/mayor-emanuel-previews-final-section-of-expanded-chicago-riverwa.html (citypre.txt)",
+   "City of Chicago / CDOT press release, May 2015, Riverwalk sections open for summer 2015 — https://www.chicago.gov/city/en/depts/cdot/provdrs/future_projects_andconcepts/news/2015/may/mayor-emanuel-announces-riverwalk-attractions-to-open-for-summer.html (city2015.txt)",
+   "ABC7 Chicago, \"Final section of Chicago Riverwalk opens Saturday\", Oct 22, 2016 — https://abc7chicago.com/post/final-section-of-chicago-riverwalk-opens-saturday/1567865/ (abc7.txt)",
+   "Chicago Architecture Center, Buildings of Chicago: Chicago Riverwalk — https://www.architecture.org/online-resources/buildings-of-chicago/chicago-riverwalk (cac.txt)",
+   "Chicago Sun-Times, \"Third section of Riverwalk opens\", June 12, 2015 — https://chicago.suntimes.com/2015/6/12/18427446/third-section-of-riverwalk-opens (suntimes.txt)"
+  ],
+  "topic": "TRAVEL",
+  "place": "Chicago Riverwalk",
+  "lat": 41.8868,
+  "lng": -87.6295,
+  "year": 2016,
+  "slug": "130-the-chicago-riverwalk"
+ },
+ {
+  "num": "131",
+  "title": "Monty & Rose",
+  "hook": "Two endangered shorebirds, from only about 70 Great Lakes pairs, picked a busy Chicago beach.",
+  "facts": [
+   "In July 2019, piping plover chicks hatched in Chicago for the first time since 1955.",
+   "Their parents were nicknamed Monty and Rose, after Montrose Beach.",
+   "High lake water flooded the first nest. The eggs were rescued but did not develop.",
+   "In a second nest, three chicks hatched. Two grew up and flew.",
+   "That August, a beach music festival was canceled, partly because of the plovers."
+  ],
+  "extra": [],
+  "images": "Images: Raed Mansour (CC BY 2.0);",
+  "sources_line": "Chicago Sun-Times, WBEZ, Audubon, BirdWatching, Block Club Chicago",
+  "sources": [
+   "Chicago Sun-Times, July 19, 2019 (festival canceled as plovers hatch) — https://chicago.suntimes.com/2019/7/19/20701321/mamby-on-the-beach-canceled-piper-plover-endangered-birds-montrose (suntimes.txt)",
+   "WBEZ Chicago, Aug 13, 2019, \"Montrose Beach Piping Plover Chicks Flying Now\" — https://www.wbez.org/chicago/2019/08/13/rare-bird-chicks-that-quashed-music-fest-are-flying-now (wbez.txt)",
+   "National Audubon Society, \"Piping Plovers Nest in Chicago for the First Time in Over Half a Century\", 2019 — https://www.audubon.org/news/piping-plovers-nest-chicago-first-time-over-half-century (audubon.txt)",
+   "BirdWatching magazine, \"Three Piping Plover chicks hatch in Chicago; concert axed\", July 2019 — https://www.birdwatchingdaily.com/news/conservation/three-piping-plover-chicks-chicago/ (bw.txt)",
+   "Block Club Chicago, Aug 29, 2019 — https://blockclubchicago.org/2019/08/29/plover-summer-has-come-to-an-end-with-the-final-chick-likely-flying-south/ (blockclub.txt)"
+  ],
+  "topic": "NATURE",
+  "place": "Montrose Beach",
+  "lat": 41.9653,
+  "lng": -87.638,
+  "year": 2019,
+  "slug": "131-monty-rose"
+ },
+ {
+  "num": "132",
+  "title": "The St. Regis Chicago",
+  "hook": "Chicago's newest supertall looks like it bends. It doesn't.",
+  "facts": [
+   "When it was finished in 2020, it became the third-tallest building in Chicago.",
+   "It was designed by Chicago architect Jeanne Gang, the tallest building in the world designed by a woman.",
+   "It is three connected towers, each a different height.",
+   "The glass looks curved, but the building has no curves. It steps in and out instead.",
+   "Near the top, an open floor lets wind blow straight through to calm the sway."
+  ],
+  "extra": [],
+  "images": "Images: TonyTheTiger (CC BY-SA 4.0), Rgottlieb310 (CC BY-SA 4.0), Chris Rycroft (CC BY 2.0), R Boed (CC BY 2.0), Jules Verne Times Two (CC BY-SA 4.0);",
+  "sources_line": "Chicago Architecture Center, NPR, Engineering News-Record, Architectural Record, Time Out Chicago",
+  "sources": [
+   "Chicago Architecture Center, Buildings of Chicago: The St. Regis Chicago — https://www.architecture.org/online-resources/buildings-of-chicago/st-regis (cac.txt)",
+   "NPR Weekend Edition, June 11, 2022, \"The St. Regis Chicago is the world's tallest structure designed by a woman\" — https://www.npr.org/2022/06/11/1104368932/the-st-regis-chicago-is-the-worlds-tallest-structure-designed-by-a-woman (npr.txt)",
+   "Engineering News-Record, March 16, 2020 — https://www.enr.com/articles/48869-a-double-decker-road-tower-runs-through-vista-tower-chicagos-third-tallest-building (enr.txt)",
+   "Architectural Record, Dec 14, 2021, \"St. Regis Tower by Studio Gang\" — https://www.architecturalrecord.com/articles/15424-st-regis-tower-by-studio-gang (archrec.txt)",
+   "Time Out Chicago, Nov 25, 2020, \"Vista Tower has a new name\" — https://www.timeout.com/chicago/news/vista-tower-has-a-new-name-and-a-restaurant-deal-with-alinea-group-112520 (timeout.txt)"
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "St. Regis Chicago, Lakeshore East",
+  "lat": 41.8875,
+  "lng": -87.6178,
+  "year": 2020,
+  "slug": "132-the-st-regis-chicago"
+ },
+ {
+  "num": "133",
+  "title": "Chicago's Renamed Giants",
+  "hook": "Chicago's tallest towers keep changing their names. Do you keep up?",
+  "facts": [
+   "Sears Tower officially became Willis Tower on July 16, 2009, after 36 years under the Sears name.",
+   "Aon Center opened in 1973 as the Standard Oil Building. It became the Amoco Building in 1985, then Aon Center.",
+   "Its thin Italian marble cracked and bowed in Chicago weather, so from 1990 to 1992 it was refaced in granite.",
+   "The new skin cost about $80 million. Old marble was crushed for landscaping at an Amoco refinery in Indiana.",
+   "In 2018 the John Hancock Center lost its name and became 875 North Michigan Avenue, its street address."
+  ],
+  "extra": [],
+  "images": "Images: J. Crocker (public domain), Acabashi (CC BY-SA 4.0), Ulli 2mecs (CC BY-SA 4.0), Chris6d (CC BY-SA 4.0), atramos (CC BY 2.0);",
+  "sources_line": "ABC News, ABC7 Chicago, Chicago Architecture Center, The Globe and Mail, UPI, Wiss, Janney, Elstner Associates, Chicago Sun-Times, FOX 32 Chicago, Bisnow",
+  "sources": [],
+  "topic": "ARCHITECTURE",
+  "place": "Renamed skyscrapers, the Loop and Streeterville",
+  "lat": 41.8789,
+  "lng": -87.6359,
+  "year": 2009,
+  "slug": "133-chicago-s-renamed-giants"
+ },
+ {
+  "num": "134",
+  "title": "Chicago's 5 Tallest Buildings",
+  "hook": "Can you name Chicago's five tallest buildings, in order?",
+  "facts": [
+   "No. 5, 875 North Michigan Avenue, about 1,128 ft: offices below, homes above, starting on the 46th floor.",
+   "No. 4, Aon Center, 1,136 ft: its architect gave Toronto a near-twin, First Canadian Place.",
+   "No. 3, St. Regis Chicago, about 1,191 ft: it is built from frustums, pyramids with the tips cut off.",
+   "No. 2, Trump International Hotel & Tower, about 1,389 ft: its first setback lines up with the Wrigley Building.",
+   "No. 1, Willis Tower: nine square tubes bundled together, ending at different heights to make its steps."
+  ],
+  "extra": [],
+  "images": "Images: Joe+Jeanette Archie (CC BY 2.0), Chris6d (CC BY-SA 4.0), R Boed (CC BY 2.0), solarwind-chicago (CC BY 2.0), J. Crocker (public domain);",
+  "sources_line": "CTBUH Skyscraper Center, Illinois Institute of Technology, Chicago Architecture Center, SOM, IABSE, The Globe and Mail, WTTW, New Civil Engineer",
+  "sources": [],
+  "topic": "ARCHITECTURE",
+  "place": "Chicago skyline, the Loop and Streeterville",
+  "lat": 41.8838,
+  "lng": -87.63,
+  "year": 2026,
+  "slug": "134-chicago-s-5-tallest-buildings"
+ },
+ {
+  "num": "135",
+  "title": "The 41st Street Bridge",
+  "hook": "Why does this South Side bridge snake like an S?",
+  "facts": [
+   "It opened in December 2018, linking Bronzeville to the lakefront and the new 41st Street Beach.",
+   "The S-shaped span is 1,470 feet long and crosses the commuter rail tracks and Lake Shore Drive.",
+   "It is fully accessible, with ramps for bikes, wheelchairs and even emergency vehicles.",
+   "Its blue steel arches are inclined, leaning at an angle instead of standing upright.",
+   "Its design grew out of Bridging the Drive, a city design competition for lakefront bridges."
+  ],
+  "extra": [],
+  "images": "Images: AlphaBeta135 (CC BY 4.0);",
+  "sources_line": "City of Chicago, Streetsblog Chicago, Chronicle Media, Engineering News-Record, American Institute of Architects",
+  "sources": [],
+  "topic": "TRAVEL",
+  "place": "41st Street Bridge, Bronzeville lakefront",
+  "lat": 41.8213,
+  "lng": -87.6003,
+  "year": 2018,
+  "slug": "135-the-41st-street-bridge"
  }
 ]
