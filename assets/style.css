@@ -255,3 +255,29 @@ section{position:relative}
 .about-grid{padding-top:56px}.about-cols{display:grid;grid-template-columns:1fr 1fr;gap:48px;padding:0 4vw 80px}
 .angle-list{margin:16px 0 0 20px}.angle-list li{padding:8px 0;border-bottom:1px solid #ddd;font-weight:600}.angle-list li::marker{color:var(--red);font-weight:900}
 @media(max-width:900px){.about-cols{grid-template-columns:1fr;gap:12px}}
+/* coloring book */
+.book-teaser,.book-hero{display:grid;grid-template-columns:minmax(220px,380px) 1fr;gap:5vw;align-items:center;padding:7vw 6vw;background:var(--cream)}
+.book-cover img{width:100%;height:auto;box-shadow:14px 14px 0 var(--red);transform:rotate(-2deg);transition:transform .3s}
+.book-cover img:hover{transform:rotate(0) scale(1.02)}
+.book-copy h2{font-weight:900;font-size:clamp(34px,4.6vw,72px);line-height:.95;margin:14px 0 18px}
+.book-copy p{max-width:560px;font-size:17px}
+.book-mini{display:flex;gap:12px;margin:22px 0 26px}
+.book-mini img{width:92px;height:123px;object-fit:cover;border:3px solid #fff;box-shadow:0 6px 18px rgba(0,0,0,.15)}
+.book-mini img:nth-child(2){transform:translateY(-8px) rotate(2deg)}
+.book-teaser .cta,.book-hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+.book-hero{padding-top:120px}
+.book-facts{list-style:none;margin:22px 0 28px;display:grid;gap:8px}
+.book-facts li{padding-left:26px;position:relative}
+.book-facts li:before{content:"★";color:var(--red);position:absolute;left:0}
+.book-note{margin-top:18px;font-size:14px;color:var(--grey)}
+.book-inside{padding:6vw}
+.cpages{display:grid;grid-template-columns:repeat(3,1fr);gap:3vw;margin:34px 0 40px}
+.cpage{cursor:pointer;outline:none}
+.cpage-img{position:relative;background:#fff;box-shadow:0 10px 30px rgba(0,0,0,.12);border:1px solid #eee}
+.cpage-img img{width:100%;height:auto}
+.cpage-img .col{position:absolute;inset:0;clip-path:inset(0 100% 0 0);transition:clip-path .9s cubic-bezier(.6,0,.2,1)}
+.cpage:hover .col,.cpage:focus .col,.cpage.on .col{clip-path:inset(0 0 0 0)}
+.cpage figcaption{margin-top:12px;font-size:14px;color:var(--grey)}
+.cta.center{display:flex;justify-content:center}
+.foot-book{margin:18px 0 6px}.foot-book a{color:#fff}
+@media(max-width:760px){.book-teaser,.book-hero{grid-template-columns:1fr}.book-cover{max-width:300px;margin:0 auto}.cpages{grid-template-columns:1fr}.book-hero{padding-top:100px}}

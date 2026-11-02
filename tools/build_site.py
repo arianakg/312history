@@ -281,11 +281,36 @@ def head(title, depth, extra="", desc=None, img=None, path="", otype="website", 
 <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="ru">RU</button></div>
 <a class="btn btn-red nav-ig" href="{IG}" target="_blank" rel="noopener" aria-label="Instagram @312history">★ IG</a></header>"""
 
+BOOK_URL="https://a.co/d/00Yp6NDF"
+BOOK_PAGES=[("bean","The Bean as a mirror planet, with whales in the sky"),("ltrain","The L train on a track through the clouds above the river"),("ferris","A flower Ferris wheel over Lake Michigan")]
+def book_section(p=""):
+    return f"""<section class="book-teaser"><div class="book-cover"><a href="{p}coloring-book.html"><img loading="lazy" decoding="async" width="850" height="1108" src="{p}img/book/cover.jpg" alt="Where Chicago Dreams coloring book cover"></a></div>
+<div class="book-copy"><span class="kicker red">Support 312 History ★</span><h2>WHERE CHICAGO <span class="red">DREAMS</span></h2>
+<p>Our Chicago coloring book: 50 surreal coloring pages of the city we love: the Bean, the L, the river, Navy Pier and more. Every copy helps keep these stories free.</p>
+<div class="book-mini">{''.join(f'<img loading="lazy" decoding="async" src="{p}img/book/{k}_c.jpg" alt="{esc(a)}">' for k,a in BOOK_PAGES)}</div>
+<div class="cta"><a class="btn btn-red" href="{BOOK_URL}" target="_blank" rel="noopener">Get it on Amazon ★</a><a class="btn btn-line" href="{p}coloring-book.html">See inside</a></div></div></section>"""
+
+def book_page(S):
+    pages="".join(f'''<figure class="cpage" tabindex="0"><div class="cpage-img"><img loading="lazy" decoding="async" width="864" height="1152" src="img/book/{k}.jpg" alt="{esc(a)}, line art"><img class="col" loading="lazy" decoding="async" width="864" height="1152" src="img/book/{k}_c.jpg" alt="{esc(a)}, colored example"></div><figcaption>{esc(a)}</figcaption></figure>''' for k,a in BOOK_PAGES)
+    return head("Where Chicago Dreams: a surreal Chicago coloring book | 312 History",0,desc="Support 312 History: 50 surreal coloring pages of Chicago landmarks by Ariana Cholponkadyrova. Paperback on Amazon.",img="img/book/cover.jpg",path="coloring-book.html") + f"""
+<main class="page book-page"><section class="book-hero"><div class="book-cover"><img width="850" height="1108" src="img/book/cover.jpg" alt="Where Chicago Dreams coloring book cover"></div>
+<div class="book-copy"><span class="kicker red">Support 312 History ★</span>
+<h1 class="mega small"><span class="line">WHERE</span><span class="line">CHICAGO</span><span class="line">DREAMS<b>★</b></span></h1>
+<p class="lead dark">A surreal coloring journey through the Windy City. Inside, the Bean floats as a mirror planet with whales in the sky, the L races up into the clouds, and a Ferris wheel blooms over the lake.</p>
+<ul class="book-facts"><li><b>50</b> original surreal Chicago designs</li><li><b>8.5 × 11 in</b> large format, 106 pages</li><li><b>Single-sided</b> pages, so markers won’t bleed</li><li>Color test page included · for adults &amp; teens</li></ul>
+<div class="cta"><a class="btn btn-red" href="{BOOK_URL}" target="_blank" rel="noopener">Get it on Amazon ★</a><a class="btn btn-line" href="#inside">Peek inside</a></div>
+<p class="book-note">By Ariana Cholponkadyrova, creator of 312 History. Every copy supports new fact-checked stories.</p></div></section>
+<section id="inside" class="book-inside"><div class="sec-head"><span class="kicker red">Peek inside</span><h2 class="sec-title">COLOR IT <span class="red">YOURSELF</span></h2><p>Hover or tap a page to see it in color.</p></div>
+<div class="cpages">{pages}</div>
+<div class="cta center"><a class="btn btn-red" href="{BOOK_URL}" target="_blank" rel="noopener">Get Where Chicago Dreams on Amazon ★</a></div></section></main>
+<script>document.querySelectorAll('.cpage').forEach(f=>f.addEventListener('click',()=>f.classList.toggle('on')));</script>""" + foot(0)
+
 def foot(depth):
     p="../"*depth
     return f"""<footer class="foot"><div class="foot-row"><img src="{p}img/logo_white_transparent.png" alt="312 History"><div><p data-i18n="foot.tag">Chicago history, one story at a time. Every fact checked against sources.</p>
 <a class="ig-link" href="{IG}" target="_blank" rel="noopener" data-i18n="foot.follow">Follow @312history on Instagram ★</a></div></div>
 <div class="foot-btns"><a class="btn btn-line light" href="{IG}" target="_blank" rel="noopener" data-i18n="btn.ig">Instagram @312history</a><a class="btn btn-red" href="{SUPPORT}" target="_blank" rel="noopener" data-i18n="btn.support">Support the project ★</a></div>
+<p class="foot-book"><a href="{p}coloring-book.html">★ New: <b>Where Chicago Dreams</b>, our Chicago coloring book</a></p>
 <p class="draft" data-i18n="foot.credits">Images: Wikimedia Commons, Library of Congress and other public-domain / CC sources as credited on each story. Map pins are approximate.</p></footer>
 <script src="{p}assets/i18n.js"></script><script src="{p}assets/site.js"></script></body></html>"""
 
@@ -378,6 +403,8 @@ def index_page(S):
 
 <section class="fire-teaser"><img loading="lazy" decoding="async" src="img/fire_flames.jpg" alt="Chicago in Flames, Currier &amp; Ives, 1871"><div><span class="kicker" data-i18n="fire.tkicker">Scroll story</span><h2 data-i18n="fire.ttitle">OCTOBER 8, 1871.<br>CHICAGO BURNS.</h2><a class="btn btn-red" href="fire-1871.html" data-i18n="fire.tbtn">Read the scroll story →</a></div></section>
 
+{book_section()}
+
 <section id="topics" class="topics"><div class="sec-head"><span class="kicker red" data-i18n="topics.count" data-n="{len(S)}">{len(S)} stories</span><h2 class="sec-title" data-i18n="topics.title">PICK A <span class="outline">TOPIC</span></h2><p class="ru-note" data-i18n="ru.storynote"></p></div>
 <div class="filters"><input id="q" type="search" placeholder="Search stories, places, years…" data-i18n-ph="f.search" aria-label="Search">
 <select id="fArea" aria-label="Neighborhood"><option value="ALL" data-i18n="f.allareas">All neighborhoods</option>{''.join(f'<option value="{k}" data-i18n="area.{k}">{v}</option>' for k,v in AREAS.items())}</select>
@@ -427,6 +454,7 @@ def main():
         open(os.path.join(ROOT,"stories",s["slug"]+".html"),"w",encoding="utf-8").write(story_page(s,S))
     open(os.path.join(ROOT,"index.html"),"w",encoding="utf-8").write(index_page(S))
     open(os.path.join(ROOT,"fire-1871.html"),"w",encoding="utf-8").write(fire_page(S))
+    open(os.path.join(ROOT,"coloring-book.html"),"w",encoding="utf-8").write(book_page(S))
     from pages import about_page, press_page, routes_page
     for fn,f in (("about.html",about_page),("press.html",press_page),("routes.html",routes_page)):
         open(os.path.join(ROOT,fn),"w",encoding="utf-8").write(f(S))
