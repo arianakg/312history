@@ -3931,5 +3931,592 @@
   "lng": -87.6003,
   "year": 2018,
   "slug": "135-the-41st-street-bridge"
+ },
+ {
+  "num": "136",
+  "title": "The Chicago Rat Hole",
+  "hook": "How did a hole in a sidewalk become a Chicago legend?",
+  "facts": [
+   "In early 2024, comedian Winslow Dumaine posted a photo of a rat-shaped hole in a Roscoe Village sidewalk.",
+   "Neighbors had walked past the imprint for decades before it went viral.",
+   "Fans left coins and tributes. Crowds drew complaints, and in April 2024 city crews removed the slab.",
+   "The slab is now preserved under glass at City Hall, in the care of the Streets and Sanitation Department.",
+   "In 2025 researchers concluded it was most likely made by a squirrel, not a rat."
+  ],
+  "extra": [],
+  "images": "Images: WinslowDumaine, Asskii, Piemadd, Kevie0508 (all CC BY-SA 4.0);",
+  "sources_line": "Block Club Chicago, NBC News, PBS / WTTW (Chicago Tours with Geoffrey Baer)",
+  "sources": [],
+  "topic": "CULTURE",
+  "place": "Chicago Rat Hole, Roscoe Village",
+  "lat": 41.9435,
+  "lng": -87.6766,
+  "year": 2024,
+  "slug": "136-the-chicago-rat-hole"
+ },
+ {
+  "num": "137",
+  "title": "Sue the T. rex",
+  "hook": "Chicago paid $8.4 MILLION for a dinosaur?",
+  "facts": [
+   "A fossil hunter, Sue Hendrickson, found it in South Dakota on August 12, 1990. The dinosaur is named for her.",
+   "In 1997 the Field Museum bought it at auction for about $8.4 million, a record for a fossil.",
+   "It is about 90 percent complete: 250 of the roughly 380 bones known in a T. rex skeleton.",
+   "It debuted in Stanley Field Hall in 2000, then moved to its own gallery in 2018.",
+   "Its skeleton even includes a wishbone, the same bone birds have."
+  ],
+  "extra": [],
+  "images": "Images: Evolutionnumber9 (CC BY-SA 4.0), Shoffman11 (public domain), Jason M Ramos (CC BY 2.0), Dallas Krentzel (CC BY 2.0), Fritz Geller-Grimm (CC BY-SA 2.5), Zissoudisctrucker (CC BY-SA 4.0);",
+  "sources_line": "Field Museum, HISTORY, Los Angeles Times, Guinness World Records",
+  "sources": [],
+  "topic": "CULTURE",
+  "place": "Field Museum, Museum Campus",
+  "lat": 41.8663,
+  "lng": -87.617,
+  "year": 1997,
+  "slug": "137-sue-the-t-rex"
+ },
+ {
+  "num": "138",
+  "title": "Lake Michigan",
+  "hook": "Lake Michigan is secretly HALF of a bigger lake?",
+  "facts": [
+   "Lake Michigan is joined to Lake Huron at the Straits of Mackinac, and the two behave like one huge lake.",
+   "It is the only Great Lake entirely inside the United States, bordered by Illinois, Indiana, Michigan and Wisconsin.",
+   "It holds about 1,180 cubic miles of fresh water, second among the Great Lakes by volume.",
+   "Its deepest point is about 925 feet down.",
+   "Its shoreline, islands included, runs more than 1,600 miles."
+  ],
+  "extra": [],
+  "images": "Images: NASA (public domain), Chris Rycroft (CC BY 2.0);",
+  "sources_line": "U.S. EPA, NOAA Great Lakes Environmental Research Laboratory, Michigan Sea Grant, Great Lakes Commission",
+  "sources": [],
+  "topic": "NATURE",
+  "place": "Lake Michigan, Chicago lakefront",
+  "lat": 41.9,
+  "lng": -87.61,
+  "year": 2026,
+  "slug": "138-lake-michigan"
+ },
+ {
+  "num": "139",
+  "title": "The Atwood Sphere",
+  "hook": "Chicago's oldest planetarium is a giant METAL BALL?",
+  "facts": [
+   "The Atwood Celestial Sphere opened in June 1913 at the Chicago Academy of Sciences, 17 years before the Adler Planetarium.",
+   "It is a ball of thin galvanized sheet metal, about 15 feet across.",
+   "Light shines through 692 holes in the metal, showing the brightest stars as seen from Chicago.",
+   "Visitors sit inside while the sphere turns around them, so the stars wheel across the sky.",
+   "In 1997 the sphere moved to the Adler Planetarium, which restored it to its 1913 look."
+  ],
+  "extra": [],
+  "images": "Images: Michael Barera (CC BY-SA 4.0), Fritz Geller-Grimm (CC BY-SA 2.5), Popular Science Monthly 1914 (public domain), Sea Cow (CC BY-SA 4.0);",
+  "sources_line": "Adler Planetarium, Chicago Academy of Sciences / Peggy Notebaert Nature Museum, CBS Chicago",
+  "sources": [
+   "Hook \"Chicago's oldest planetarium\": Adler exhibit page (src/adler_exhibit.txt: \"Chicago's oldest planetarium\"); CBS Chicago (src/cbs.txt: opened 1913, \"oldest one in the United States\" per museum officials); Nature Museum (1913 planetarium); Adler opened 1930 (Adler blog src/adler.txt; post34 sources)",
+   "F1 June 1913, Chicago Academy of Sciences: Nature Museum/CAS (src/nature2.txt \"opened at the Academy in June of 1913\"); Adler blog (src/adler.txt \"debuting at the Chicago Academy of Sciences (CAS) in 1913\"); CBS (1913)",
+   "F2 thin galvanized sheet metal, about 15 ft: Nature Museum (nature1/nature2: \"thin galvanized sheet metal ... 15 feet in diameter\"); Adler exhibit (15 feet); Adler blog (~16 ft); CBS (17 ft) -> \"about\"",
+   "F3 692 holes, brightest stars, Chicago sky: Adler exhibit; CBS; Adler blog (692, stars visible from Chicago); Nature Museum (stellar sky as seen from Chicago)",
+   "F4 sphere rotates around visitors inside: Nature Museum (nature2 \"the Sphere rotates around the cart\"; nature1 \"rotated around them\"); Adler blog (\"rotate the sphere\")",
+   "F5 moved to Adler 1997, restored to 1913 look: Nature Museum (Dec 16, 1997; \"restore it to its original 1913 appearance\"); Adler blog (January 1997) -> year only"
+  ],
+  "topic": "CULTURE",
+  "place": "Adler Planetarium, Museum Campus",
+  "lat": 41.8663,
+  "lng": -87.6068,
+  "year": 1913,
+  "slug": "139-the-atwood-sphere"
+ },
+ {
+  "num": "140",
+  "title": "Famous Chicagoans",
+  "hook": "They're ALL from Chicago?",
+  "facts": [
+   "Walt Disney was born in Chicago on December 5, 1901, in a house his father built in the Hermosa neighborhood.",
+   "Ernest Hemingway was born on July 21, 1899, in Oak Park, the suburb just west of Chicago.",
+   "The Oprah Winfrey Show was made in Chicago for 25 seasons, from 1986 to 2011.",
+   "Quincy Jones was born in Chicago in 1933 and spent his early childhood on the South Side.",
+   "At age 11, Herbie Hancock played Mozart with the Chicago Symphony Orchestra."
+  ],
+  "extra": [],
+  "images": "Images: NASA and Agence Meurisse (public domain), Lloyd Arnold (public domain), Alan Light (CC BY 2.0), Hufvudstadsbladet (CC BY 4.0), John Mathew Smith (CC BY-SA 2.0);",
+  "sources_line": "Walt Disney Birthplace, WBEZ, JFK Library, Nobel Prize, Ernest Hemingway Foundation of Oak Park, Smithsonian NMAAHC, NBC Chicago, HistoryLink, National Endowment for the Arts, Chicago Symphony Orchestra",
+  "sources": [
+   "Disney born Dec 5, 1901 in Chicago, house built by his father, Hermosa: The Walt Disney Birthplace (src/dis_birthplace.txt: born December 5, 1901; Elias built the house); WBEZ 2011 (src/dis_wbez.txt: born Dec 5, 1901 at 2156 N. Tripp; Hermosa district; Elias built the cottage)",
+   "Hemingway born July 21, 1899, Oak Park: JFK Library (src/hem_jfk.txt); Nobel Prize biography (src/hem_nobel.txt \"born in Oak Park, Illinois\"); Ernest Hemingway Foundation of Oak Park (src/hem_oak.txt: born July 21, 1899; \"this Chicago suburb\")",
+   "Oprah show in Chicago for 25 seasons, 1986-2011: Smithsonian NMAAHC (src/op_nmaahc.txt: \"25 seasons from September 8, 1986, to May 25, 2011, in Chicago, IL\"); NBC Chicago 2011 (src/op_nbc.txt: last show \"after 25 years\"; \"thanks Chicago for 25 years\"; Harpo Studios)",
+   "Quincy Jones born in Chicago 1933, South Side: HistoryLink (src/qj_historylink.txt: born March 14, 1933; family lived on Chicago's South Side; left in 1943); NEA Jazz Masters (src/qj_nea.txt \"Born in Chicago in 1933\")",
+   "Herbie Hancock at 11 played Mozart with the CSO: NEA (src/hh_nea.txt \"at age 11, he performed Mozart's D Major Piano Concerto with the Chicago Symphony Orchestra\"); Chicago Symphony Orchestra (src/hh_cso.txt, Feb 5, 1952, age 11); CSO Archives (src/hh_csoarch.txt)"
+  ],
+  "topic": "PEOPLE",
+  "place": "Walt Disney Birthplace, Hermosa",
+  "lat": 41.9205,
+  "lng": -87.733,
+  "year": 1901,
+  "slug": "140-famous-chicagoans"
+ },
+ {
+  "num": "141",
+  "title": "The Egyptian Tomb in Chicago",
+  "hook": "A real Egyptian TOMB in Chicago?",
+  "facts": [
+   "The Field Museum holds original rooms from the tomb of Unis-ankh, believed to be a son of the Egyptian pharaoh Unis.",
+   "Those two original tomb rooms date to about 2400 BC, roughly 4,400 years ago.",
+   "Visitors walk into the exhibit through a three-story recreation of the tomb.",
+   "Inside are 23 human mummies and more than 30 animal mummies.",
+   "In 2024, 26 mummies were wheeled out to a mobile CT scanner parked outside the museum."
+  ],
+  "extra": [],
+  "images": "Images: Sailko (CC BY 3.0), Field Museum postcard 1929 via TIMEA (CC BY-SA 2.5);",
+  "sources_line": "Field Museum, National Museum Prague / Charles University (Onderka 2009), CNN, NBC Chicago, Smithsonian Magazine",
+  "sources": [
+   "F1 Unis-ankh, believed son of Pharaoh Unis: Field Museum press (src/fm_press.txt \"the son of the 5th Dynasty Egyptian Pharaoh Unis\"); National Museum Prague / Charles University, Onderka 2009 (src/nm_prague.txt \"broadly considered to have been son of Unis\") -> \"believed to be\"",
+   "F2 two original rooms c. 2400 BC: Field Museum press (\"two authentic chamber rooms dating back to 2400 BC\"); CNN 2024 (src/cnn.txt \"burial chambers, dated to 2400 BC\"); Field hall page",
+   "F3 three-story recreation as entrance: Field Museum press (\"monumental three-story recreation of the tomb of Unis-ankh\"); CNN (\"a three-story replica\")",
+   "F4 23 human, 30+ animal mummies: Field Museum hall page (src/fm_hall.txt); CNN; Choose Chicago (src/choosechi.txt: 23 human, 30 animal)",
+   "F5 2024 CT scan of 26 mummies, mobile scanner outside: Field Museum press Oct 2024 (src/fm_ct.txt); CNN Nov 2024 (parking lot, September); NBC Chicago Oct 2024 (src/nbc.txt, trailer on museum lot); Smithsonian Magazine (src/smithsonian.txt)"
+  ],
+  "topic": "CULTURE",
+  "place": "Field Museum, Museum Campus",
+  "lat": 41.8663,
+  "lng": -87.617,
+  "year": 2016,
+  "slug": "141-the-egyptian-tomb-in-chicago"
+ },
+ {
+  "num": "142",
+  "title": "The Temple of Light",
+  "hook": "It took 41 YEARS to build this?",
+  "facts": [
+   "The Bahá’í House of Worship in Wilmette had its cornerstone laid in 1912 and was dedicated in 1953, 41 years later.",
+   "The building has nine sides.",
+   "Its lacy white skin is cast concrete mixed with crushed quartz, made by John Earley’s studio.",
+   "Architect Louis Bourgeois died in 1930 and never saw the temple finished.",
+   "It is the only Bahá’í House of Worship in the United States."
+  ],
+  "extra": [],
+  "images": "Images: MichaelDPhotos, King of Hearts, PudProof, HourlierAdrien (CC BY-SA 4.0), Louis Bourgeois portrait (public domain);",
+  "sources_line": "SAH Archipedia (Society of Architectural Historians), Chicago Architecture Center, Bahá’ís of the United States, Bahá’í Library Online",
+  "sources": [
+   "F1 cornerstone 1912, dedicated 1953, 41 years: SAH Archipedia (src/sah.txt \"in 1953, forty-one years after 'Abdu'l-Baha laid the cornerstone\"; cornerstone spring 1912); Bahá'í Library Online chronology (src/chron.txt foundation stone 1 May 1912; dedication 1953); Bahá'ís of the US (src/bahai_arch.txt opened May 2, 1953)",
+   "F2 nine sides: SAH Archipedia (\"nine-sided, domed space\"); Chicago Architecture Center (src/cac.txt \"Each temple is nine-sided\")",
+   "F3 cast concrete with crushed quartz, John Earley: Bahá'ís of the US (\"Earley experimented with white Portland cement combined with crushed quartz\"); Chicago Architecture Center (\"he used two types of quartz\"); SAH (Earley Studio cast the exterior skin)",
+   "F4 Bourgeois died 1930, never saw it finished: SAH (\"Bourgeois died in 1930\"); Chicago Architecture Center (\"Neither Bourgeois nor Earley saw the completed temple\"); Bahá'ís of the US (Bourgeois 1856-1930)",
+   "F5 only one in the US: Chicago Architecture Center (\"remains the only Bahá'í temple in the U.S.\"); SAH (\"the only Temple on the North American continent\")"
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Bahá’í House of Worship, Wilmette",
+  "lat": 42.0743,
+  "lng": -87.6842,
+  "year": 1953,
+  "slug": "142-the-temple-of-light"
+ },
+ {
+  "num": "143",
+  "title": "The Garden of Nine Islands",
+  "hook": "This garden used to be a SWAMP?",
+  "facts": [
+   "The Chicago Botanic Garden was built on a flooded marsh in Glencoe, with ground broken in 1965.",
+   "Its master plan reshaped the wet land into lakes and nine islands.",
+   "After seven years of work, it opened to the public in 1972.",
+   "Today it covers 385 acres, owned by the Forest Preserves of Cook County.",
+   "In 2020, the Garden was one of 10 featured on a set of U.S. Forever stamps."
+  ],
+  "extra": [],
+  "images": "Images: cultivar413 (CC BY 2.0), Kaosfere (CC BY-SA 2.5);",
+  "sources_line": "WTTW, The Cultural Landscape Foundation, Forest Preserves of Cook County, Chicago Botanic Garden, U.S. Postal Service",
+  "sources": [
+   "Marsh, ground broken 1965 — WTTW \"Chicago Botanic Garden Opens\" (src/wttw.txt); FPDCC \"CBG Celebrates 40th Anniversary\" (src/fpdcc40.txt)",
+   "Master plan reshaped wet land into lakes + nine islands — The Cultural Landscape Foundation (src/tclf.txt: master plan by Simonds & Rausch \"comprises nine islands\"); WTTW Chicago from the Air (src/wttw_air.txt: \"nine islands\"). Also FPDCC 40th. Backhoes/dump-trucks wording dropped (FPDCC only).",
+   "Opened 1972, seven years — WTTW (\"took … seven years\", opened 1972); CBG About (src/cbg_about.txt)",
+   "385 acres, owned by FPDCC — TCLF (385-acre, owned by Forest Preserve District); WTTW Chicago from the Air (385-acre); also FPDCC + CBG",
+   "2020 Forever stamp, one of 10 gardens — USPS Postal Bulletin 22543 + USPS Newsroom 12 May 2020; CBG \"50+ years\" (Japanese Garden vista on a U.S. stamp)"
+  ],
+  "topic": "NATURE",
+  "place": "Chicago Botanic Garden, Glencoe",
+  "lat": 42.1483,
+  "lng": -87.79,
+  "year": 1972,
+  "slug": "143-the-garden-of-nine-islands"
+ },
+ {
+  "num": "144",
+  "title": "The Marble Palace",
+  "hook": "17 kinds of MARBLE in one house?",
+  "facts": [
+   "Banker Samuel Nickerson’s mansion was finished in 1883, after the 1871 Great Fire burned his earlier home.",
+   "It was built as one of the first fireproof houses in Chicago.",
+   "Nicknamed the “Marble Palace,” it is lined with 17 types of marble.",
+   "In 1919, Chicago citizens bought it and gave it to the American College of Surgeons.",
+   "Richard Driehaus bought it in 2003 and, after five years of restoration, opened it as a museum in 2008."
+  ],
+  "extra": [],
+  "images": "Images: w_lemay (CC BY-SA 2.0);",
+  "sources_line": "City of Chicago Landmarks, Chicago Tribune, Gadling, Chicago House Museums, American College of Surgeons",
+  "sources": [
+   "Finished 1883; earlier home lost in 1871 fire — City of Chicago Landmarks (src/landmarks.txt: built 1883, post-Fire Near North development); Gadling 2013 (src/gadling.txt: built 1879–1883, original home burned 1871)",
+   "One of the first fireproof houses — Chicago Tribune 1900 sale notice quoted by Chicagology (src/chicagology.txt: \"one of the first fireproof houses in the city\"); Chicago Tribune 15 May 2008 (reprinted on museum site, src/trib2008.txt: \"built his mansion to be fire-proof\"); also Gadling",
+   "\"Marble Palace\", 17 types of marble — nickname: City of Chicago Landmarks + Tribune 2008; 17 types: Gadling + Chicago House Museums (src/chm.txt)",
+   "1919 citizens bought it, gave to American College of Surgeons — ACS Yearbook 1922 (archive.org, src/acs1922.txt: offices moved to 40 E. Erie 1 May 1920, building \"purchased and presented\" by citizens); Chicago Tribune 21 Dec 1919 (quoted by Chicagology)",
+   "Driehaus bought 2003, five-year restoration, opened 2008 — Chicago Tribune 15 May 2008; Gadling 2013"
+  ],
+  "topic": "CULTURE",
+  "place": "Driehaus Museum, River North",
+  "lat": 41.8941,
+  "lng": -87.6262,
+  "year": 1883,
+  "slug": "144-the-marble-palace"
+ },
+ {
+  "num": "145",
+  "title": "The Wrapped Museum",
+  "hook": "Chicago WRAPPED a whole museum?",
+  "facts": [
+   "The Museum of Contemporary Art opened in 1967 in a former bakery on East Ontario Street.",
+   "In 1969, Christo wrapped the museum in canvas, the first building he wrapped in the U.S.",
+   "In 1996, it moved to the site of the old National Guard Armory on East Chicago Avenue.",
+   "Berlin architect Josef Paul Kleihues designed the new building, clad in aluminum and limestone.",
+   "It opened in June 1996 with a free, nonstop 24-hour summer solstice preview."
+  ],
+  "extra": [],
+  "images": "Images: GualdimG (CC BY-SA 4.0), Céline (CC BY-SA 2.0), JeremyA (CC BY-SA 2.5), Richie Diesterheft (CC BY 2.0);",
+  "sources_line": "Encyclopedia of Chicago, Chicago Tribune, Chicago Sun-Times",
+  "sources": [
+   "Opened 1967, former bakery, East Ontario St — Chicago Tribune (Artner, \"June 21, 1996\"; src/trib_1996_artner.txt); Chicago Tribune 12 May 1996 (bakery; src/trib_1996_may.txt); Encyclopedia of Chicago (1967, Ontario Street; src/eoc.txt)",
+   "1969 Christo wrap, first U.S. building — Chicago Sun-Times (2020 reprint of 8 Jan 1969 article; src/suntimes.txt); Encyclopedia of Chicago (\"first U.S. wrapping of a public building by Christo in 1969\")",
+   "1996 move to old National Guard Armory site, E. Chicago Ave — Tribune Artner + Tribune 12 May 1996; Encyclopedia of Chicago",
+   "Kleihues, aluminum + limestone — Encyclopedia of Chicago (\"aluminum and Indiana limestone\"); Tribune editorial 21 Jun 1996 (\"aluminum-panel exterior\"; Berlin-based Kleihues; src/trib_1996_ed.txt); Tribune Artner (Kleihues)",
+   "June 1996, free 24-hour solstice preview — Tribune editorial 21 Jun 1996 (no charge, 7 p.m. Fri–7 p.m. Sat \"Summer Solstice\"); Tribune Artner (24-hour preview); Encyclopedia of Chicago"
+  ],
+  "topic": "CULTURE",
+  "place": "Museum of Contemporary Art, Streeterville",
+  "lat": 41.8972,
+  "lng": -87.6213,
+  "year": 1967,
+  "slug": "145-the-wrapped-museum"
+ },
+ {
+  "num": "146",
+  "title": "From Steel to Wetlands",
+  "hook": "Endangered birds live HERE?",
+  "facts": [
+   "In 1912, a student found a tiny flower, Thismia americana, near Lake Calumet. No one has seen it alive since 1916.",
+   "For years, steel slag was dumped at Big Marsh on the Southeast Side.",
+   "In 2016, a 40-acre bike park opened on Big Marsh’s old industrial land.",
+   "Black-crowned night herons, endangered in Illinois, have nested in the marshes around Lake Calumet.",
+   "Rare yellow-headed blackbirds nest at Hegewisch Marsh and have returned to Big Marsh."
+  ],
+  "extra": [],
+  "images": "Images: David Wilson (CC BY 2.0), Chicago Aerial Survey (public domain), David B. Gleason (CC BY-SA 2.0), Fondycardinals (CC BY-SA 4.0);",
+  "sources_line": "Chicago Reader, WBEZ, Field Museum, Chicago Park District, Great Lakes Phragmites Collaborative, WTTW, Chicago State University, City of Chicago, Chicago Tribune",
+  "sources": [
+   "Thismia americana found 1912 near Lake Calumet, last seen alive 1916 — Chicago Reader \"Searching for Thismia\" (src/reader.txt); WBEZ Curious City, 2 Sep 2026 (src/wbez.txt); Field Museum guide (src/fieldmuseum.txt)",
+   "Steel slag dumped at Big Marsh — Chicago Park District Big Marsh Framework Plan 2014 (src/cpd_plan.txt: \"steel slag was routinely deposited ... by Acme Steel\"); Great Lakes Phragmites Collaborative case study (src/glpc.txt: wetland \"filled with the steel industry's slag\")",
+   "40-acre bike park opened 2016 on former industrial land — WTTW 13 Jun 2016 (src/wttw.txt); City of Chicago press release, Nov 2016 (src/city_open.txt); Chicago Tribune Nov 2016 (src/tribune_bigmarsh.txt, snippet)",
+   "Black-crowned night herons, state-endangered, nest at Lake Calumet marshes — Chicago State University CERC research report 2005 (src/csu.txt); Great Lakes Phragmites Collaborative (heron rookeries at Big Marsh); City of Chicago Nature & Wildlife Plan, Big Marsh (src/city_bigmarsh.txt, snippet)",
+   "Yellow-headed blackbirds nest at Hegewisch Marsh, returned to Big Marsh — City of Chicago Nature & Wildlife Plan, Hegewisch Marsh (src/city_hegewisch.txt, snippet); Chicago Tribune Nov 2016 (src/tribune_bigmarsh.txt, snippet)"
+  ],
+  "topic": "NATURE",
+  "place": "Lake Calumet wetlands, Southeast Side",
+  "lat": 41.683,
+  "lng": -87.58,
+  "year": 1912,
+  "slug": "146-from-steel-to-wetlands"
+ },
+ {
+  "num": "147",
+  "title": "The Tree Museum",
+  "hook": "The Arbor Day family built THIS?",
+  "facts": [
+   "The Morton Arboretum in Lisle was founded in 1922 by Joy Morton, head of Morton Salt.",
+   "His father, J. Sterling Morton, created Arbor Day in Nebraska in 1872.",
+   "It began as a 175-acre estate and has grown to about 1,700 acres.",
+   "Its herbarium holds about 165,000 preserved plant specimens.",
+   "In 1962, it started one of the Chicago region’s first prairie restorations, the Schulenberg Prairie."
+  ],
+  "extra": [],
+  "images": "Images: David Jakes (CC BY 2.0), SimLibrarian (CC0), Jay Sturner (CC BY 2.0), Dustin M. Ramsey (attribution);",
+  "sources_line": "Encyclopedia of Chicago, Daily Herald, WTTW, Library of Congress, History Nebraska, Journal of American History, Diversity (Chicago Wilderness study)",
+  "sources": [
+   "Founded 1922 in Lisle by Joy Morton, head of Morton Salt — Encyclopedia of Chicago (src/eoc.txt); Daily Herald 14 Dec 2021 (src/dh.txt); WTTW 16 Aug 2022 (src/wttw.txt)",
+   "J. Sterling Morton created Arbor Day in Nebraska, 1872 — Library of Congress \"Today in History: April 10\" (src/loc.txt); History Nebraska (src/nshs.txt); WTTW (founder's father started Arbor Day)",
+   "175-acre start, about 1,700 acres today — Daily Herald 2021; WTTW 2022 (\"originally started ... on 175 acres ... 1,700-acre\")",
+   "Herbarium ~165,000 specimens — Encyclopedia of Chicago; Journal of American History review (2010) of Ballowe's Joy Morton biography (src/jah.txt)",
+   "1962 Schulenberg Prairie, among region's first prairie restorations — WTTW 2022 (restored beginning in 1962, a model for others); Heneghan et al., Diversity 2012 (region's first prairie restorations at Morton Arboretum, 1960s–70s; src/mdpi.txt)"
+  ],
+  "topic": "NATURE",
+  "place": "Morton Arboretum, Lisle",
+  "lat": 41.8164,
+  "lng": -88.069,
+  "year": 1922,
+  "slug": "147-the-tree-museum"
+ },
+ {
+  "num": "148",
+  "title": "Illinois Has Canyons?",
+  "hook": "Illinois has 18 CANYONS?",
+  "facts": [
+   "Starved Rock State Park, on the Illinois River, has 18 canyons cut into St. Peter Sandstone.",
+   "Geologists say glacial meltwater floods helped carve them about 15,000 to 19,000 years ago.",
+   "Illinois bought the land in 1911, making it the state’s second state park.",
+   "Its log-and-stone lodge was built in the 1930s by the Civilian Conservation Corps.",
+   "In 2024 it drew about 2.4 million visitors, the most of any Illinois state park."
+  ],
+  "extra": [],
+  "images": "Images: Adam Shaw (CC BY-SA 3.0), B3thedw (CC BY-SA 4.0), Starved Rock Hotel c.1905 (public domain);",
+  "sources_line": "Illinois DNR, Illinois State Geological Survey, Illinois State Archives, Shaw Local/NewsTribune, Illinois Office of Tourism, Capitol News Illinois/NPR Illinois",
+  "sources": [
+   "18 canyons, St. Peter Sandstone, Illinois River: IDNR park page (src/idnr.txt); Illinois State Archives (src/ilsos.txt, snippet); ISGS sp-08 (St. Peter Sandstone).",
+   "Meltwater floods 18,800–15,100 yrs ago: ISGS sp-08 (src/isgs_sp08.txt, snippet); IDNR (\"shaped by glacial meltwater over 14,000 years ago\").",
+   "1911, second state park: IDNR; Illinois State Archives (snippet).",
+   "CCC lodge 1930s (1933–39): Shaw Local/NewsTribune 2020 (src/shaw.txt); Illinois State Archives (snippet).",
+   "2.4M visitors 2024, most visited: Illinois Office of Tourism (src/tourism.txt); Capitol News Illinois / NPR Illinois 2025-05-09 (src/capnews.txt); Shaw Local 2025-01-31."
+  ],
+  "topic": "NATURE",
+  "place": "Starved Rock State Park, Utica",
+  "lat": 41.3195,
+  "lng": -88.9937,
+  "year": 1911,
+  "slug": "148-illinois-has-canyons"
+ },
+ {
+  "num": "149",
+  "title": "The Czar’s Church",
+  "hook": "A Russian CZAR helped pay for this Chicago church?",
+  "facts": [
+   "Holy Trinity Cathedral in Ukrainian Village was designed by Louis Sullivan and finished in 1903.",
+   "Russia’s Czar Nicholas II gave about $4,000 toward building it.",
+   "Sullivan shaped it after the small Russian provincial churches its first members knew.",
+   "Nearby, St. Nicholas Ukrainian Catholic Cathedral, completed in 1915, was modeled on St. Sophia in Kyiv.",
+   "Its 13 domes stand for Christ and the 12 apostles."
+  ],
+  "extra": [],
+  "images": "Images: fusion-of-horizons (CC BY 2.0), Percy H. Sloan (public domain), Paul R. Burley (CC BY-SA 4.0), Dima Sergiyenko (CC BY-SA 4.0), hakkun (CC BY-SA 3.0);",
+  "sources_line": "City of Chicago Landmarks, Encyclopedia of Chicago, The Daily Northwestern, Sacred and Religious Sites of Chicago tour guide, DePaul Art & Heritage (Catholic Churches of Chicago)",
+  "sources": [
+   "Sullivan, 1903: City of Chicago Landmarks (src/landmarks.txt); Encyclopedia of Chicago \"Eastern Orthodox\" (src/eoc.txt, snippet); Daily Northwestern 2001 (src/dnw.txt).",
+   "Czar Nicholas II ~$4,000: Encyclopedia of Chicago; Daily Northwestern (\"almost $4,000\"); chasingchurches tour guide (src/chasing.txt).",
+   "Russian provincial model: City Landmarks (\"designed to resemble the Russian provincial churches known to its first parishioners\"); tour guide (src/chasing.txt / chasing_snip.txt).",
+   "St. Nicholas 1915, modeled on St. Sophia Kyiv: tour guide; DAHVC Catholic Churches of Chicago (src/dahvc.txt); cathedral site (weak).",
+   "13 domes = Christ + 12 apostles: tour guide (\"thirteen domes, symbolizing Christ and his disciples\"); cathedral/eparchy sites (weak, src/stnich_site.txt); DAHVC confirms 13 domes (planned 32)."
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Holy Trinity Cathedral, Ukrainian Village",
+  "lat": 41.9019,
+  "lng": -87.6819,
+  "year": 1903,
+  "slug": "149-the-czar-s-church"
+ },
+ {
+  "num": "150",
+  "title": "The Castle Cemetery",
+  "hook": "Why does this Chicago cemetery have a CASTLE gate?",
+  "facts": [
+   "Rosehill Cemetery opened in 1859 on Chicago’s North Side.",
+   "Landscape gardener William Saunders laid it out with winding roads, ponds and groves.",
+   "Its castle-like gate of 1864 was designed by W. W. Boyington, who later designed the Water Tower.",
+   "Legend says the name comes from “Roe’s Hill,” after local tavern keeper Hiram Roe, but it’s unproven.",
+   "Mail-order rivals Richard Sears and Aaron Montgomery Ward are both buried there."
+  ],
+  "extra": [],
+  "images": "Images: MauraWen (CC0), James Conkis (CC BY-SA 4.0), Richie Diesterheft (CC BY 2.0), w_lemay (CC BY-SA 2.0), Rosehill station 1885 (public domain), Goldnpuppy (CC BY-SA 4.0);",
+  "sources_line": "Chicago Public Library, The Cultural Landscape Foundation, Chicagology, “The Civil War and Chicago” Rosehill exhibit, Graveyards of Chicago (Matt Hucke)",
+  "sources": [
+   "Opened 1859: Chicago Public Library blog (src/cpl.txt); TCLF (src/tclf.txt); Chicagology (chartered Feb 11 1859, src/chicagology.txt).",
+   "William Saunders design: TCLF; CPL. Detail \"winding roads, ponds, groves\" from TCLF only (curvilinear roads, four water features, tree plantations).",
+   "1864 gate by Boyington, Water Tower architect: CPL; Civil War and Chicago Rosehill exhibit (src/cwr.txt, 1864); Chicagology; TCLF (Boyington).",
+   "\"Roe's Hill\" legend, unproven: CPL (\"believed to originate\", Hiram Roe); Chicagology (\"unproven ... urban myth\", tavern keeper Roe).",
+   "Sears and Montgomery Ward buried there: Chicagology (both listed); Graveyards of Chicago/Matt Hucke (src/hucke.txt, both in Rosehill Mausoleum); CPL (Sears)."
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Rosehill Cemetery, Lincoln Square",
+  "lat": 41.9867,
+  "lng": -87.6806,
+  "year": 1859,
+  "slug": "150-the-castle-cemetery"
+ },
+ {
+  "num": "151",
+  "title": "The Suburban Elk",
+  "hook": "Cook County has had ELK for 100 years?",
+  "facts": [
+   "Busse Woods, a Cook County forest preserve, has kept a small elk herd since 1925.",
+   "The first herd, nine cows and one bull, came from Yellowstone National Park.",
+   "The elk were shipped to the Chicago suburbs by train.",
+   "Today they live in a fenced 17-acre pasture near Elk Grove Village.",
+   "Every three to four years, new bulls are brought in to keep the herd’s genes diverse."
+  ],
+  "extra": [],
+  "images": "Images: National Park Service/Yellowstone (public domain), Alanscottwalker (CC BY-SA 3.0), CheepShot (CC BY 2.0), Larry Lamsa (CC BY 2.0);",
+  "sources_line": "Forest Preserves of Cook County, Journal & Topics, Village of Elk Grove Village",
+  "sources": [
+   "Elk herd since 1925: FPDCC Busse Woods page (src/fpdcc.txt); Journal & Topics 2017/2018 (src/jt1.txt, jt2.txt); Elk Grove Village 2016 (src/egv.txt, snippet).",
+   "Nine cows + one bull from Yellowstone: FPDCC; Journal & Topics (both articles). (Elk Grove Village says \"from Wyoming and Montana\", consistent.)",
+   "Shipped by train: FPDCC (\"delivered by train\"); Elk Grove Village (\"express train\") — municipal source, saved from snippet. WEAKER: no news source.",
+   "17-acre fenced pasture: FPDCC; Journal & Topics.",
+   "New bulls every 3-4 years: FPDCC; Elk Grove Village (snippet). WEAKER: no news source."
+  ],
+  "topic": "NATURE",
+  "place": "Busse Woods elk pasture, Elk Grove Village",
+  "lat": 42.0233,
+  "lng": -88.004,
+  "year": 1925,
+  "slug": "151-the-suburban-elk"
+ },
+ {
+  "num": "152",
+  "title": "The Skyscraper Church",
+  "hook": "The world’s tallest CHURCH is in the Loop?",
+  "facts": [
+   "The Chicago Temple, finished in 1924, is a 568-foot skyscraper with a church inside.",
+   "It is often called the tallest church building in the world.",
+   "Its congregation began meeting in 1831, before Chicago became a city in 1837.",
+   "The Sky Chapel, about 400 feet up under the spire, opened in 1952, a gift of the Walgreen family.",
+   "Holabird & Roche designed it with a sanctuary at street level and offices on the floors above."
+  ],
+  "extra": [],
+  "images": "Images: Marit & Toomas Hinnosaar (CC BY 2.0), Tichnor Brothers postcard (public domain), Cameron Murray (CC BY-SA 4.0), pre-1923 photo (public domain), Mack Male (CC BY-SA 2.0);",
+  "sources_line": "Chicago History Museum, Open House Chicago (Chicago Architecture Center), PBS \"God in America\" Chicago sacred-spaces guide, DPLA church postcard collection, 77 West Washington building site",
+  "sources": [
+   "1924, 568-ft skyscraper church: Open House Chicago (src/ohc.txt); PBS sacred-spaces guide (src/pbs.txt, 568 ft, 1924); Chicago History Museum (1924, src/chm.txt).",
+   "\"Often called tallest church building in the world\": Open House Chicago (\"tallest church building in the world\"); 77 West Washington (Guinness claim; building's own manager, WEAK). Wording hedged; by other definitions the Sagrada Familia is taller.",
+   "Congregation 1831, city 1837: Chicago History Museum (\"said to be\" oldest; 1831); PBS guide (1831, city incorporated 1837).",
+   "Sky Chapel ~400 ft, 1952, Walgreen family: Chicago History Museum; PBS guide; DPLA postcard (400 ft).",
+   "Holabird & Roche; sanctuary at street level, offices above: PBS guide; Open House Chicago; CHM (architect)."
+  ],
+  "topic": "ARCHITECTURE",
+  "place": "Chicago Temple, 77 W. Washington St.",
+  "lat": 41.8831,
+  "lng": -87.6306,
+  "year": 1924,
+  "slug": "152-the-skyscraper-church"
+ },
+ {
+  "num": "153",
+  "title": "The Physics Bison",
+  "hook": "Why do BISON live at a physics lab?",
+  "facts": [
+   "Fermilab, the physics lab in Batavia about 35 miles from Chicago, has kept bison since 1969.",
+   "First director Robert Wilson brought them in as a symbol of the frontier.",
+   "Wilson grew up in Wyoming, on his family’s cattle ranch.",
+   "The lab’s 6,800-acre site mixes giant particle accelerators with prairie, woods and wetlands.",
+   "Genetic tests found the herd has little or no cattle DNA, rare among American bison today."
+  ],
+  "extra": [],
+  "images": "Images: U.S. Department of Energy (public domain), formulanone (CC BY-SA 2.0);",
+  "sources_line": "WTTW News, Rootstalk (Grinnell College), Fermilab history archives, Daily Herald",
+  "sources": [
+   "Batavia, ~35 mi from Chicago, bison since 1969: WTTW 2016 (src/wttw.txt); Rootstalk/Grinnell 2024 (src/rootstalk.txt); Fermilab history (src/fnal.txt, fnalhist.txt; subject's own); Daily Herald 2022 (lab-submitted, weak; src/dh.txt).",
+   "Wilson brought them as frontier symbol: WTTW (quote from Fermilab spokesman); Rootstalk; Fermilab news.",
+   "Wilson grew up in Wyoming (ranch): Rootstalk (\"born on his family's cattle ranch in Frontier, Wyoming\"); WTTW (\"He was from Wyoming\"). Ranch detail: Rootstalk only.",
+   "6,800 acres; prairie, woods, wetlands: WTTW (6,800 acres, tallgrass prairie, wetlands); Rootstalk (6,800-acre campus, prairie); Fermilab history (Big Woods).",
+   "Little/no cattle DNA: WTTW (genetic testing, \"100-percent purebred\"); Rootstalk (2015 test, \"little to no introgression\")."
+  ],
+  "topic": "NATURE",
+  "place": "Fermilab bison pasture, Batavia",
+  "lat": 41.8406,
+  "lng": -88.2361,
+  "year": 1969,
+  "slug": "153-the-physics-bison"
+ },
+ {
+  "num": "154",
+  "title": "The Floating Forest",
+  "hook": "These trees near Chicago are FLOATING?",
+  "facts": [
+   "Volo Bog in Lake County is Illinois’ only open-water quaking bog.",
+   "It is the southernmost open-water quaking bog in North America to show every stage of bog succession.",
+   "It began as a kettle lake, left by a melting chunk of glacier ice.",
+   "Its tamarack trees grow on a floating mat of peat and moss.",
+   "Carnivorous pitcher plants grow there too, trapping insects for food."
+  ],
+  "extra": [],
+  "images": "Images: Paul R. Burley (CC0), McGhiever (CC BY-SA 3.0), M. Readey (CC BY-SA 3.0), Jason Sturner (CC BY 2.0), Saltwaterphish (CC BY-SA 4.0);",
+  "sources_line": "Illinois Department of Natural Resources, Wetlands of Distinction (Society of Wetland Scientists), National Park Service, Illinois State Geological Survey",
+  "sources": [
+   "Only open-water quaking bog in Illinois: IDNR park pages (src/idnr.txt); Wetlands of Distinction (src/wod.txt, snippet).",
+   "Southernmost in N. America with all succession stages: IDNR; Wetlands of Distinction. (NPS lists it as a National Natural Landmark, 1972, src/nps.txt.)",
+   "Kettle lake from glacial ice: Wetlands of Distinction (\"kettlehole bog ... glacial till\"); IDNR Outdoor Illinois 2008 (src/idnr_oi2008.txt) and Outdoor Illinois Journal quoting the 1972 Illinois State Geological Survey report (src/idnr_oij.txt).",
+   "Tamaracks on floating mat: Wetlands of Distinction (\"tamaracks ... floating up and down\"); IDNR (\"floating peat mat supports ... tamaracks\").",
+   "Carnivorous pitcher plants: Wetlands of Distinction (Northern Pitcher Plant); IDNR Outdoor Illinois (carnivorous pitcher plants). \"Trapping insects\" = general definition of carnivorous plant, not from these sources."
+  ],
+  "topic": "NATURE",
+  "place": "Volo Bog State Natural Area, Ingleside",
+  "lat": 42.3517,
+  "lng": -88.1853,
+  "year": 1970,
+  "slug": "154-the-floating-forest"
+ },
+ {
+  "num": "155",
+  "title": "The Hidden Garden",
+  "hook": "Chicago has a SECRET garden next to the zoo?",
+  "facts": [
+   "Lincoln Park’s Lily Pool began in 1889 as a heated pond for tropical water lilies.",
+   "In 1936–38, Alfred Caldwell rebuilt it as a Prairie-style garden, a Park District project backed by the WPA.",
+   "He shaped it like a stream through a Midwestern prairie, with layered stone like the region’s limestone.",
+   "After decades of decline, it was restored to Caldwell’s design between 2000 and 2002.",
+   "It is now a Chicago Landmark (2002) and a National Historic Landmark (2006)."
+  ],
+  "extra": [],
+  "images": "Images: Marilyn Engwall (CC BY-SA 4.0), TonyTheTiger (CC BY-SA 3.0), Digitalley (CC BY 2.0), Fred Faulkner (CC BY 2.0), Alanscottwalker (CC BY-SA 3.0), Marlene Calderon (CC BY-SA 3.0);",
+  "sources_line": "National Park Service (National Historic Landmark nomination), Commission on Chicago Landmarks, Lincoln Park Conservancy",
+  "sources": [
+   "1889 heated pond for tropical lilies: Commission on Chicago Landmarks report (src/city.txt, snippet: Victorian garden 1889, heated, tropical water lilies); NPS NHL nomination (src/nps.txt: 1889, Pettigrew installed artificially heated lily pools). Chicago Park District page also says 1889 tropical water lilies (owner).",
+   "1936-38 Caldwell, Prairie style, CPD + WPA: Landmarks report; NPS nomination (CPD 1936-1938; WPA-backed CPD improvements); City landmark page (src/landmarks.txt, 1936-1938, Prairie School).",
+   "Prairie stream / limestone-like stone: Landmarks report (\"resemble a river running through a great Midwestern prairie\"); City landmark page (\"prairie stream\"); NPS (\"ledges of a prairie stream ... evocative of the region's horizontally striated limestone outcroppings\").",
+   "Restored 2000-2002: NPS (\"2000-2002 project\", $2.5M rehab); Landmarks report (renamed 2000, opened May 2002); Lincoln Park Conservancy (partner).",
+   "Chicago Landmark Nov 6 2002: City landmark page; NHL Feb 17 2006: NPS. Both also stated by Lincoln Park Conservancy (partner, weak). Each date rests on its official register."
+  ],
+  "topic": "NATURE",
+  "place": "Alfred Caldwell Lily Pool, Lincoln Park",
+  "lat": 41.9256,
+  "lng": -87.6337,
+  "year": 1938,
+  "slug": "155-the-hidden-garden"
+ },
+ {
+  "num": "156",
+  "title": "An Acre of Seats",
+  "hook": "Chicago has a 4,381-seat movie palace that's been closed since 1981?",
+  "facts": [
+   "The Uptown Theatre opened in 1925, designed by Rapp & Rapp for the Balaban & Katz movie chain.",
+   "With 4,381 seats, it was the largest theatre Balaban & Katz ever built.",
+   "Its opening slogan promised \"an acre of seats in a magic city.\"",
+   "The same architects also designed the famous Chicago Theatre on State Street.",
+   "It has been dark since December 1981, when frozen pipes burst inside."
+  ],
+  "extra": [],
+  "images": "Images: Moonraker0022 (2026, CC0); Warren LeMay (2023, CC BY-SA 4.0); 1927 auditorium photo via CharmaineZoe (CC BY 2.0), all via Wikimedia Commons;",
+  "sources_line": "City of Chicago Landmarks; Chicago Architecture Center; Landmarks Illinois; Commission on Chicago Landmarks report (via chicagolandmarkreports.org)",
+  "sources": [],
+  "topic": "ARCHITECTURE",
+  "place": "Uptown Theatre, 4816 N. Broadway",
+  "lat": 41.9696,
+  "lng": -87.6599,
+  "year": 1925,
+  "slug": "156-an-acre-of-seats"
+ },
+ {
+  "num": "157",
+  "title": "From Pit to Park",
+  "hook": "This Chicago park used to be a 380-foot-deep hole?",
+  "facts": [
+   "Limestone was quarried on this Bridgeport site starting in the 1830s.",
+   "Over about 130 years of mining, the pit reached 380 feet below street level.",
+   "After the quarry closed around 1970, it became a dump for construction debris.",
+   "Capped with clean soil, the landfill became a 33-foot hill with skyline views.",
+   "The park is named for Henry Palmisano, a beloved local bait-shop owner."
+  ],
+  "extra": [],
+  "images": "Images: Warren LeMay (2023–2024, CC BY-SA 4.0, via Wikimedia Commons);",
+  "sources_line": "Chicago Architecture Center; Landscape Architecture Foundation (Landscape Performance Series); City of Chicago; Chicago Park District",
+  "sources": [],
+  "topic": "NATURE",
+  "place": "Palmisano Park (Stearns Quarry), Bridgeport",
+  "lat": 41.8414,
+  "lng": -87.6463,
+  "year": 2009,
+  "slug": "157-from-pit-to-park"
  }
 ]
