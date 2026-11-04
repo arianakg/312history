@@ -1,0 +1,224 @@
+[
+ {
+  "key": "rats",
+  "title": "Chicago's Rat Year",
+  "hook": "Which neighborhood has the most rats? Every rat complaint Chicagoans filed with 311 in 2025, mapped day by day.",
+  "source": "City of Chicago Data Portal, 311 Service Requests (Rodent Baiting/Rat Complaint, 2025, duplicates excluded)"
+ },
+ {
+  "key": "L",
+  "title": "Chicago 'L' in One Day",
+  "hook": "Which 'L' station is Chicago's busiest? Every station's entries on one typical weekday, Wednesday, Aug 12, 2026, added up station by station.",
+  "source": "City of Chicago Data Portal, \"CTA - Ridership - 'L' Station Entries - Daily Totals\" (5neh-572f) and \"CTA - System Information - List of 'L' Stops\" (8pix-ypme)"
+ },
+ {
+  "key": "divvy",
+  "title": "Chicago on Divvy",
+  "hook": "One real day of bike-share rides (Friday, Sep 4, 2026), all 24 hours in about 30 seconds. Watch the city breathe in every morning and out every evening.",
+  "source": "Divvy public trip data, Sep 2026 file (divvybikes.com/system-data, used under the Divvy Data License Agreement)"
+ },
+ {
+  "key": "dognames",
+  "title": "Chicago's Top Dog Names",
+  "hook": "What do Chicagoans name their dogs? We mapped the No. 1 dog name in every Chicago ZIP code.",
+  "source": "Chicago City Clerk dog registration records, via Block Club Chicago, \"These Are The Most Popular Dog Names In Every Chicago Zip Code\" (June 22, 2018)"
+ },
+ {
+  "key": "foodtruck",
+  "title": "Chicago's Food Trucks",
+  "hook": "Where do Chicago's food trucks call home? We mapped every active City mobile food license.",
+  "source": "City of Chicago Data Portal, Business Licenses (r5kz-chrr), pulled Nov 2, 2026"
+ },
+ {
+  "key": "film",
+  "title": "Chicago's Film Shoots",
+  "hook": "Where do the cameras roll in Chicago? Every 2025 street filming permit, day by day, then the top 5 areas.",
+  "source": "City of Chicago Data Portal, Filming Permits - Transportation Department (c2az-nhru)"
+ },
+ {
+  "key": "beach",
+  "title": "Chicago's Beaches",
+  "hook": "Which Chicago beach has the cleanest water?",
+  "source": "City of Chicago Data Portal (Beach Lab Data 2ivx-z93u)"
+ },
+ {
+  "key": "trees",
+  "title": "Chicago's Trees",
+  "hook": "Which part of Chicago has the most trees? Every acre of tree canopy, mapped neighborhood by neighborhood.",
+  "source": "Chicago Health Atlas, \"Tree Canopy\" by community area (The Morton Arboretum, 2017 High-resolution Chicago Region Land Cover)"
+ },
+ {
+  "key": "towed",
+  "title": "Chicago's Oldest Buildings",
+  "hook": "Where are Chicago's oldest buildings? 446,543 buildings light up in the year they were built, from 1852 to 2015, then the 5 oldest areas.",
+  "source": "City of Chicago Data Portal, Building Footprints (syp8-uezg)"
+ },
+ {
+  "key": "traffic",
+  "title": "Chicago's Busiest Streets",
+  "hook": "Which Chicago block carries the most traffic? We mapped 2,145 camera-counted street segments to find out.",
+  "source": "City of Chicago Data Portal, Average Daily Traffic Counts (gc7y-n4xa), 2025"
+ },
+ {
+  "key": "311",
+  "title": "Chicago 311 in One Day",
+  "hook": "What does Chicago complain about in one day? Every 311 service request from Tuesday, Oct 27, 2026, all 24 hours in about 30 seconds.",
+  "source": "City of Chicago Data Portal, 311 Service Requests (data.cityofchicago.org, v6vf-nfxy)"
+ },
+ {
+  "key": "911",
+  "title": "Chicago 911 in One Day",
+  "hook": "What does Chicago call 911 about? Every Chicago police call for service from Wednesday, Sep 16, 2026, all 24 hours in about 30 seconds.",
+  "source": "Chicago Police Department, Individual Calls for Service Events, Sep 2026 (chicagopolice.org, CANA data release)"
+ },
+ {
+  "key": "abandoned",
+  "title": "Chicago's Abandoned Cars",
+  "hook": "Where do cars get abandoned in Chicago? Every 2025 abandoned vehicle report, day by day, then the top 5 areas.",
+  "source": "City of Chicago Data Portal, 311 Service Requests (v6vf-nfxy)"
+ },
+ {
+  "key": "areas",
+  "title": "Chicago's Neighborhoods",
+  "hook": "How many neighborhoods does Chicago have?  It depends on who you ask.",
+  "source": "City of Chicago Data Portal (Community Areas igwz-8jzy"
+ },
+ {
+  "key": "births",
+  "title": "Chicago's Baby Map",
+  "hook": "How many babies were born in your neighborhood? Five years of Chicago births, mapped community area by community area.",
+  "source": "Chicago Health Atlas, \"Births\" by community area (2020–2024 pooled) and by year for Chicago, from Illinois Department of Public Health birth certificate data"
+ },
+ {
+  "key": "biz",
+  "title": "Chicago's New Businesses",
+  "hook": "Where are new businesses opening in Chicago?",
+  "source": "City of Chicago Data Portal (Business Licenses r5kz-chrr)"
+ },
+ {
+  "key": "cafes",
+  "title": "Chicago's Sidewalk Cafes",
+  "hook": "Where does Chicago eat outside? Each dot is one current City sidewalk cafe permit, coloured by how many cafes its community area has (violet fewer, gold more).",
+  "source": "City of Chicago, Sidewalk Cafe Permits – Current (qnjv-hj2q) and all permits (nxj5-ix6z), pulled Nov 3, 2026"
+ },
+ {
+  "key": "cta",
+  "title": "Chicago in 20 Minutes",
+  "hook": "Every scheduled CTA train and bus, moving across the city on a weekday morning, 7:50–8:10 AM.",
+  "source": "CTA GTFS schedule data (transitchicago.com, Wed Oct 28, 2026 timetable)"
+ },
+ {
+  "key": "food",
+  "title": "Chicago's Food Inspections",
+  "hook": "How many restaurants fail inspection?",
+  "source": "City of Chicago Data Portal (Food Inspections 4ijn-s7e5)"
+ },
+ {
+  "key": "graffiti",
+  "title": "Chicago's Graffiti",
+  "hook": "How fast does Chicago erase graffiti? Every 2025 graffiti removal request, day by day, then the top 5 areas.",
+  "source": "City of Chicago Data Portal, 311 Service Requests (v6vf-nfxy)"
+ },
+ {
+  "key": "growth",
+  "title": "Watch Chicago Grow: 1837 → Today",
+  "hook": "In 1837, Chicago was THIS small, about 10 square miles.",
+  "source": "UChicago \"Annexed Settlements\" map layer"
+ },
+ {
+  "key": "homes",
+  "title": "Chicago's Home Prices",
+  "hook": "Where are Chicago's priciest homes?",
+  "source": "Cook County Assessor's Office open data (Parcel Sales wvhk-k5uv"
+ },
+ {
+  "key": "landmarks",
+  "title": "Chicago's Landmarks",
+  "hook": "Where are Chicago's official landmarks? Each dot is one City of Chicago landmark, coloured by when it was built (violet earlier, gold later), appearing in the year…",
+  "source": "City of Chicago, Individual Landmarks (uct4-hrvh, pulled Nov 3, 2026)"
+ },
+ {
+  "key": "library",
+  "title": "Chicago's Libraries",
+  "hook": "Which library does Chicago visit most? All 81 Chicago Public Library locations, a full year of visits, then the top 5 branches.",
+  "source": "City of Chicago Data Portal, Libraries - 2025 Visitors by Location (5bkj-pkcq), 2024 (dx99-mui6) and 2019 (sw6v-npyj)"
+ },
+ {
+  "key": "life",
+  "title": "Chicago's Life Map",
+  "hook": "How long do Chicagoans live? Life expectancy at birth for every community area, mapped.",
+  "source": "Chicago Health Atlas, \"Life expectancy\" by community area and citywide, 2015–2024 (Illinois Department of Public Health death certificate data)"
+ },
+ {
+  "key": "lights",
+  "title": "Chicago's Streetlights Out",
+  "hook": "How many Chicago streetlights went dark in 2025? Every \"street light out\" report of the year, day by day, then the top 5 areas.",
+  "source": "City of Chicago Data Portal, 311 Service Requests (v6vf-nfxy)"
+ },
+ {
+  "key": "murals",
+  "title": "Chicago's Murals",
+  "hook": "Where are Chicago's registered murals? Each dot is one mural on the City's Mural Registry, coloured by the year it was painted (violet older, gold newer).",
+  "source": "City of Chicago, DCASE Mural Registry (we8h-apcf, pulled Nov 2, 2026)"
+ },
+ {
+  "key": "names",
+  "title": "Illinois' Baby Names",
+  "hook": "Illinois' #1 girl name won by how many babies? 115 years of names, racing from 1910 to 2025.",
+  "source": "U.S. Social Security Administration, Popular Baby Names by State (namesbystate.zip, IL file, released 2026) and SSA \"Popular Names by State\" Illinois 2025 table (ssa.gov)."
+ },
+ {
+  "key": "parks",
+  "title": "How green is Chicago? 617 parks, mapped",
+  "hook": "Each dot is one Chicago park — bigger and brighter = more acres.",
+  "source": "Chicago Park District parks dataset (City Data Portal ejsh-fztr, 2022) · Park District About page & 2023 Budget. Images: 312 History."
+ },
+ {
+  "key": "people",
+  "title": "Chicago's World Map",
+  "hook": "Where do Chicagoans come from? Every dot is 20 Chicagoans born outside the U.S., colored by the region they were born in.",
+  "source": "U.S. Census Bureau, American Community Survey 2020–2024 5-year estimates, tables B01003 (total population), B05006 (place of birth for the foreign-born population) and B04006 (people reporting ancestry), census tract and city level"
+ },
+ {
+  "key": "permits",
+  "title": "Chicago's Building Permits",
+  "hook": "Where is Chicago building?",
+  "source": "City of Chicago Data Portal (Building Permits ydr8-5enu)"
+ },
+ {
+  "key": "pothole",
+  "title": "Chicago's Potholes",
+  "hook": "How many potholes did Chicago fill in 2025? Every patch of the year, day by day, then the top 5 areas.",
+  "source": "City of Chicago Data Portal, CDOT Potholes Patched (wqdh-9gek) and 311 Service Requests (v6vf-nfxy)"
+ },
+ {
+  "key": "redlight",
+  "title": "Chicago's Red-Light Cameras",
+  "hook": "Which corner runs the most red lights?",
+  "source": "City of Chicago Data Portal (Red Light Camera Violations spqx-js37"
+ },
+ {
+  "key": "relocated",
+  "title": "Chicago's Relocated Cars",
+  "hook": "Who moved my car? The city did. Every car Chicago relocated over 90 days, Aug 4 to Nov 1, 2026, day by day, then the top 5 areas.",
+  "source": "City of Chicago Data Portal, Relocated Vehicles (5k2z-suxx)"
+ },
+ {
+  "key": "rides",
+  "title": "Chicago's Rides",
+  "hook": "Where does Chicago ride to?",
+  "source": "City of Chicago Data Portal (Transportation Network Providers – Trips 6dvr-xwnh, m6dm-c72p, n26f-ihde"
+ },
+ {
+  "key": "schools",
+  "title": "How big is Chicago Public Schools? Every school, mapped",
+  "hook": "Each dot is one CPS school — bigger and brighter = more students.",
+  "source": "CPS School Profiles SY2024-25 (City Data Portal 3dhs-m3w4) · CPS 20th-day enrollment · Chalkbeat Chicago · NCES. Images: 312 History."
+ },
+ {
+  "key": "speedcam",
+  "title": "Chicago's Speed Cameras",
+  "hook": "Which camera catches the most drivers?",
+  "source": "City of Chicago Data Portal (Speed Camera Violations hhkd-xvj4"
+ }
+]

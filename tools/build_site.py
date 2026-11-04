@@ -286,7 +286,7 @@ def head(title, depth, extra="", desc=None, img=None, path="", otype="website", 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;800;900&display=swap" rel="stylesheet">
 {ld(jsonld) if jsonld else ""}{extra}<link rel="stylesheet" href="{p}assets/style.css"></head><body>
 <header class="nav"><a class="nav-logo" href="{p}index.html"><img src="{p}img/logo_white_transparent.png" alt="312 History"></a>
-<nav><a href="{p}index.html#map" data-i18n="nav.map">Map</a><a href="{p}index.html#topics" data-i18n="nav.stories">Stories</a><a href="{p}routes.html" data-i18n="nav.routes">Walking routes</a><a href="{p}fire-1871.html" data-i18n="nav.fire">Great Fire</a><a href="{p}about.html" data-i18n="nav.about">About</a><a href="{p}press.html" data-i18n="nav.press">Press</a></nav>
+<nav><a href="{p}index.html#map" data-i18n="nav.map">Map</a><a href="{p}index.html#topics" data-i18n="nav.stories">Stories</a><a href="{p}routes.html" data-i18n="nav.routes">Walking routes</a><a href="{p}fire-1871.html" data-i18n="nav.fire">Great Fire</a><a href="{p}chicago-in-data.html">Data</a><a href="{p}about.html" data-i18n="nav.about">About</a><a href="{p}press.html" data-i18n="nav.press">Press</a></nav>
 <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="ru">RU</button></div>
 <a class="btn btn-red nav-ig" href="{IG}" target="_blank" rel="noopener" aria-label="Instagram @312history">★ IG</a></header>"""
 
@@ -313,6 +313,15 @@ def book_page(S):
 <div class="cpages">{pages}</div>
 <div class="cta center"><a class="btn btn-red" href="{BOOK_URL}" target="_blank" rel="noopener">Get Where Chicago Dreams on Amazon ★</a></div></section></main>
 <script>document.querySelectorAll('.cpage').forEach(f=>f.addEventListener('click',()=>f.classList.toggle('on')));</script>""" + foot(0)
+
+def data_page(S):
+    D=json.load(open(os.path.join(ROOT,"data","datamaps.json"),encoding="utf-8"))
+    cards="".join(f'''<article class="dcard"><video class="dvid" controls muted playsinline preload="none" poster="img/data/{d['key']}.jpg" width="432" height="768"><source src="media/data/{d['key']}.mp4" type="video/mp4"></video>
+<div class="dbody"><h3>{esc(d['title'])}</h3><p>{esc(d['hook'])}</p><p class="dsrc">Data: {esc(d['source'])}</p></div></article>''' for d in D)
+    return head("Chicago in Data: animated maps of the city | 312 History",0,desc=f"{len(D)} animated data maps of Chicago, built from open city data: rats, potholes, trees, the L, Divvy and more.",img=f"img/data/{D[0]['key']}.jpg",path="chicago-in-data.html") + f"""
+<main class="page data-page"><section class="sec-head data-head"><span class="kicker red">312 History ★ Data</span><h1 class="mega small"><span class="line">CHICAGO</span><span class="line">IN <span class="red">DATA</span><b>★</b></span></h1>
+<p class="lead dark">{len(D)} animated maps of the city, built from open public data. Tap a map to play it.</p></section>
+<section class="dgrid">{cards}</section></main>""" + foot(0)
 
 def foot(depth):
     p="../"*depth
@@ -464,6 +473,7 @@ def main():
     open(os.path.join(ROOT,"index.html"),"w",encoding="utf-8").write(index_page(S))
     open(os.path.join(ROOT,"fire-1871.html"),"w",encoding="utf-8").write(fire_page(S))
     open(os.path.join(ROOT,"coloring-book.html"),"w",encoding="utf-8").write(book_page(S))
+    open(os.path.join(ROOT,"chicago-in-data.html"),"w",encoding="utf-8").write(data_page(S))
     from pages import about_page, press_page, routes_page
     for fn,f in (("about.html",about_page),("press.html",press_page),("routes.html",routes_page)):
         open(os.path.join(ROOT,fn),"w",encoding="utf-8").write(f(S))
