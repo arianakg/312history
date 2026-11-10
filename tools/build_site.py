@@ -201,6 +201,7 @@ META = {
     "184":("EVENTS","Jackson Park (World's Columbian Exposition grounds)",41.7798,-87.5848,1893),
     "185":("FOOD","Chicago (Curtiss Candy Company)",41.9278,-87.6495,1921),
     "187":("FOOD","17 W. Adams St. (The Berghoff)",41.8793,-87.6284,1898),
+    "188":("FOOD","6701 W. Forest Preserve Dr. (Eli's Cheesecake)",41.9592,-87.7945,1980),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
@@ -256,6 +257,11 @@ def parse(d):
         extra.append(cleaned)
     if not facts:  # older paragraph-style captions: paragraphs are the facts
         facts, extra = extra, []
+    if hook.startswith(("Photos", "Images", "Music")):
+        extra.insert(0, hook)
+        hook = ""
+    if not hook and facts:
+        hook = facts[0]
     allt = " ".join([title, hook] + facts)
     topic, place, lat, lng, yo = META[num]
     if yo is None:

@@ -5703,5 +5703,42 @@
   "lng": -87.6284,
   "year": 1898,
   "slug": "187-license-no-1"
+ },
+ {
+  "num": "188",
+  "title": "Eli's Cheesecake",
+  "hook": "This Chicago cheesecake started at a steak restaurant",
+  "facts": [
+   "This Chicago cheesecake started at a steak restaurant",
+   "Eli Schulman opened a steak restaurant in 1966",
+   "It became famous at the first Taste of Chicago in 1980",
+   "They made a 2,000-pound cake for a president's inauguration",
+   "The bakery is still open at 6701 West Forest Preserve Drive"
+  ],
+  "extra": [
+   "Photos: ZhengZhou (CC BY-SA 4.0); U.S. Department of State / Freddie Everett (public domain). Music: original bass."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [
+   "Eli's Cheesecake, official About page (retrieved 10 November 2026): https://www.elischeesecake.com/pages/about",
+   "Eli's Cheesecake, official Taste of Chicago history post: https://www.elischeesecake.com/blogs/news/taste-of-chicago",
+   "Eli's Cheesecake, official Chicago store / bakery page (retrieved 10 November 2026): https://www.elischeesecake.com/pages/chicago-store",
+   "Forbes, Elizabeth Karmel, \"Eli's Chicago Cheesecake Is A Living Legacy\" (14 April 2022): https://www.forbes.com/sites/elizabethkarmel/2022/04/14/elis-chicago-cheesecake-is-a-living-legacy/",
+   "DNAinfo Chicago, \"The First Taste Of Chicago Was On The Magnificent Mile … And Packed\" (24 June 2016): https://www.dnainfo.com/chicago/20160624/downtown/elis-cheesecake-remains-only-taste-of-chicago-original-after-36-years/",
+   "City of Chicago, \"History of the Taste of Chicago\" (archived 28 November 2015): https://web.archive.org/web/20151128100230/www.cityofchicago.org/city/en/depts/dca/supp_info/taste_of_chicagohistory.html",
+   "Chicago Public Library, \"The Taste of Chicago\": https://www.chipublib.org/blogs/post/the-taste-of-chicago/",
+   "UPI, Don Jacobson, \"Bakers ready big inaugural cheesecake\" (14 January 1997): https://www.upi.com/Archives/1997/01/14/Bakers-ready-big-inaugural-cheesecake/6146853218000/",
+   "Snack Food & Wholesale Bakery, \"Chicago's cheesecake at its finest\" (13 May 2013): https://www.snackandbakery.com/articles/86469-chicagos-cheesecake-at-its-finest",
+   "DNAinfo Chicago, \"Obama to Celebrate with 500-pound Eli's Cheesecake\" (21 January 2013): https://www.dnainfo.com/chicago/20130121/dunning/obama-celebrate-with-500-pound-elis-cheesecake/",
+   "Choose Chicago, \"Eli's Cheesecake Bakery and Café\": https://www.choosechicago.com/listing/elis-cheesecake-bakery-and-cafe/",
+   "Enjoy Illinois, \"Eli's Cheesecake World\": https://www.enjoyillinois.com/explore/listing/elis-cheesecake-world/"
+  ],
+  "topic": "FOOD",
+  "place": "6701 W. Forest Preserve Dr. (Eli's Cheesecake)",
+  "lat": 41.9592,
+  "lng": -87.7945,
+  "year": 1980,
+  "slug": "188-eli-s-cheesecake"
  }
 ]
