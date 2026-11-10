@@ -182,10 +182,26 @@ META = {
     "164":("NATURE","Nature Boardwalk, Lincoln Park Zoo",41.9188,-87.6337,2010),
     "165":("LOST CHICAGO","Couch Tomb, Lincoln Park",41.9133,-87.6309,1858),
     "166":("CULTURE","Fountain of the Great Lakes, Art Institute",41.8789,-87.6236,1913),
+    "167":("LOST CHICAGO","Statue of the Republic, Jackson Park",41.7775,-87.5806,1918),
+    "168":("ARCHITECTURE","Chess Pavilion, Lincoln Park",41.9106,-87.6255,1957),
+    "169":("CULTURE","International Museum of Surgical Science, Gold Coast",41.9101,-87.6261,1917),
+    "170":("LAKEFRONT","South Shore Cultural Center (old South Shore Country Club)",41.7686,-87.5636,1916),
+    "171":("ARCHITECTURE","Fine Arts Building, Michigan Ave",41.8765,-87.6246,1885),
+    "172":("ARCHITECTURE","Bach House, Sheridan Road, Rogers Park",42.0168,-87.6648,1915),
+    "173":("ORIGINS","Chicago Portage National Historic Site, Lyons",41.8053,-87.8013,1673),
+    "174":("NATURE","Ping Tom Memorial Park, Chinatown",41.8572,-87.6343,1999),
+    "175":("ARCHITECTURE","Old Chicago Main Post Office, 433 W. Van Buren St.",41.8767,-87.6394,""),
+    "176":("GUIDES","Chicago Riverwalk, Michigan Ave & Wacker Dr",41.8885,-87.6245,""),
+    "177":("GUIDES","Loop indoor stops (Cultural Center, library, Fed, Newberry)",None,None,""),
+    "178":("GUIDES","State Street & Madison Street (the Zero Corner)",41.8820,-87.6278,1909),
+    "179":("GUIDES","The Pedway, the Loop",41.8838,-87.6250,1951),
+    "180":("EVENTS","Comiskey Park / Rate Field, 333 W. 35th St.",41.8299,-87.6338,1979),
+    "181":("EVENTS","Clark Street docks / Lake Michigan",41.8876,-87.6313,1912),
+    "182":("EVENTS","Illinois Trust and Savings Bank, LaSalle St. & Jackson Blvd.",41.8781,-87.6324,1919),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
- "SPORTS":"Sports","TRAVEL":"Getting Around","LOST CHICAGO":"Lost Chicago"}
+ "SPORTS":"Sports","TRAVEL":"Getting Around","LOST CHICAGO":"Lost Chicago","GUIDES":"Guides"}
 
 WALKS = [
  ("The Loop Skyscraper Walk","About 2 hours. Iron, brick and Art Deco, block by block.",["56","59","63","71","70","45","46"]),
@@ -204,25 +220,37 @@ def linkify(s):
 
 def parse(d):
     num = d[4:]
-    txt = open(os.path.join(POSTS,d,"caption.txt"),encoding="utf-8").read().strip()
+    cap = os.path.join(POSTS,d,"caption.txt")
+    if not os.path.exists(cap):
+        cap = os.path.join(POSTS,d,"reel","caption_reel.txt")
+    txt = open(cap,encoding="utf-8").read().strip()
     paras = [p.strip() for p in re.split(r"\n\s*\n", txt) if p.strip()]
-    title = clean(paras[0].splitlines()[0]).rstrip(".")
+    first = paras[0].splitlines()[0]
+    parts = [x.strip() for x in first.split("★") if clean(x)]
+    title = clean(parts[0]).rstrip(".") if parts else clean(first).rstrip(".")
+    if title.isupper():
+        title = title.title().replace("'S","'s").replace("’S","’s")
+    line_hook = clean(parts[1]).rstrip(".") if len(parts)>1 else ""
+    para_rest = "\n".join(paras[0].splitlines()[1:]).strip()
+    hook = line_hook or (clean(para_rest) if para_rest and not para_rest.startswith("★") else "")
+    hook = re.sub(r"\s*(Save it|Swipe(?: to compare)?)\s*$", "", hook, flags=re.I).strip()
     lines = [l.strip() for l in txt.splitlines()]
-    facts = [clean(l) for l in lines if l.startswith("★") or re.match(r"^[\U0001F300-\U0001FAFF]", l)]
+    facts = [clean(l) for l in lines[1:] if l.startswith("★") or re.match(r"^[\U0001F300-\U0001FAFF]", l)]
+    facts = [f for f in facts if f and f.rstrip(".").casefold() != title.casefold()]
     extra, images, sources_line = [], "", ""
     body = paras[1:]
-    hook = ""
-    for p in body:
-        if p.startswith("#") or p.startswith("Follow 312"): continue
-        for l in p.splitlines():
+    for p_ in body:
+        if p_.startswith("#") or p_.startswith("Follow 312"): continue
+        for l in p_.splitlines():
             if l.startswith("Images"):
                 m = re.split(r"\s*Sources:\s*", l, maxsplit=1); images = m[0]; sources_line = m[1] if len(m)>1 else sources_line
             elif l.startswith("Sources:"): sources_line = l[8:].strip()
-        if p.startswith(("Images","Sources","Script")): continue
-        if p.startswith("★") or re.match(r"^[\U0001F300-\U0001FAFF]", p): continue
-        if "👇" in p or p.startswith("Follow"): continue
-        if not hook: hook = clean(p); continue
-        extra.append(clean(p))
+        if p_.startswith(("Images","Sources","Script")): continue
+        if p_.startswith("★") or re.match(r"^[\U0001F300-\U0001FAFF]", p_): continue
+        cleaned = re.sub(r"\s*(Save it|Swipe(?: to compare)?)\s*$", "", clean(p_), flags=re.I).strip()
+        if not cleaned or cleaned.startswith("Follow"): continue
+        if not hook: hook = cleaned; continue
+        extra.append(cleaned)
     if not facts:  # older paragraph-style captions: paragraphs are the facts
         facts, extra = extra, []
     allt = " ".join([title, hook] + facts)
@@ -236,18 +264,35 @@ def parse(d):
         for l in open(sp,encoding="utf-8"):
             l=l.strip()
             if re.match(r"^(-|\d+\.)\s", l): src.append(re.sub(r"^(-|\d+\.)\s+","",l))
+            elif re.match(r"^[A-Z]\s+\S", l): src.append(re.sub(r"^[A-Z]\s+","",l))
     return dict(num=num, title=title, hook=hook, facts=facts, extra=extra, images=images,
                 sources_line=sources_line, sources=src[:14], topic=topic, place=place,
                 lat=lat, lng=lng, year=year, slug=f"{num}-{slug(title)}")
 
+def _first_existing(paths):
+    for p in paths:
+        if p and os.path.exists(p): return p
+    return None
+
 def ensure_media(d):
-    num=d[4:]; jpg=os.path.join(ROOT,"media",f"{d}.jpg"); mp4=os.path.join(ROOT,"media",f"{d}.mp4")
+    num=d[4:]; base=os.path.join(POSTS,d)
+    jpg=os.path.join(ROOT,"media",f"{d}.jpg"); mp4=os.path.join(ROOT,"media",f"{d}.mp4")
     if not os.path.exists(jpg):
-        c=(glob.glob(os.path.join(POSTS,d,f"{d}_cover.jpg"))+glob.glob(os.path.join(POSTS,d,f"{d}_cover_v5.jpg")))[0]
+        c=_first_existing([
+            os.path.join(base,f"{d}_cover_v5.jpg"), os.path.join(base,"cover_v5.jpg"),
+            os.path.join(base,f"{d}_cover.jpg"), os.path.join(base,"cover.jpg"),
+            os.path.join(base,"reel","reel_cover.jpg"), os.path.join(base,"reel_cover.jpg"),
+            os.path.join(base,"slide_01.jpg"),
+        ])
+        if not c: raise FileNotFoundError(f"no cover for {d}")
         subprocess.run(["ffmpeg","-v","error","-y","-i",c,"-vf","scale=720:-2","-q:v","5",jpg],check=True)
     if not os.path.exists(mp4):
-        r=(glob.glob(os.path.join(POSTS,d,f"{d}_reel.mp4"))+glob.glob(os.path.join(POSTS,d,f"{d}_reel_30.mp4")))[0]
-        subprocess.run(["ffmpeg","-v","error","-y","-i",r,"-vf","scale=360:-2","-c:v","libx264","-preset","veryfast","-crf","31","-c:a","aac","-b:a","64k","-movflags","+faststart",mp4],check=True)
+        r=_first_existing([
+            os.path.join(base,f"{d}_reel.mp4"), os.path.join(base,f"{d}_reel_30.mp4"),
+            os.path.join(base,"reel","reel.mp4"), os.path.join(base,"reel.mp4"),
+        ])
+        if r:
+            subprocess.run(["ffmpeg","-v","error","-y","-i",r,"-vf","scale=360:-2","-c:v","libx264","-preset","veryfast","-crf","31","-c:a","aac","-b:a","64k","-movflags","+faststart",mp4],check=True)
 
 SITE = "https://312history.com/"
 DEFAULT_DESC = "Chicago history, one story at a time: fact-checked stories on a map, a timeline and walking routes. By 312 History."
@@ -374,13 +419,16 @@ def story_page(s, all_s):
     same = [x for x in all_s if x["topic"]==s["topic"] and x["num"]!=s["num"]][:3]
     i = [x["num"] for x in all_s].index(s["num"])
     prv, nxt = all_s[i-1], all_s[(i+1)%len(all_s)]
+    has_reel = os.path.exists(os.path.join(ROOT,"media",f"post{s['num']}.mp4"))
+    reel = (f'<div class="reel"><video controls playsinline preload="none" poster="../media/post{s["num"]}.jpg" src="../media/post{s["num"]}.mp4"></video><span>Watch the reel</span></div>'
+            if has_reel else f'<div class="reel"><img src="../media/post{s["num"]}.jpg" alt="{esc(s["title"])} cover"></div>')
     return head(f"{s['title']} | 312 History", 1, desc=s['hook'] or (s['facts'][0] if s['facts'] else None), img=f"media/post{s['num']}.jpg", path=f"stories/{s['slug']}.html", otype="article", jsonld=story_ld(s)) + f"""
 <main class="story">
 <section class="story-hero"><div class="story-text"><span class="kicker red">{esc(TOPICS[s['topic']])} · Post #{s['num']}</span>
 <div class="big-year">{s['year'] or ''}</div><h1>{esc(s['title']).upper()}</h1><p class="lead">{esc(s['hook'])}</p>
 <p class="place">◉ {esc(s['place'])} <span>(map pin approximate)</span></p>
 <a class="btn btn-red" href="{IG}" target="_blank" rel="noopener">Follow on Instagram ★</a></div>
-<div class="reel"><video controls playsinline preload="none" poster="../media/post{s['num']}.jpg" src="../media/post{s['num']}.mp4"></video><span>Watch the reel</span></div></section>
+{reel}</section>
 <section class="facts"><h2 class="sec-title"><span>★</span> {len(s['facts'])} FACTS</h2><ol>{facts}</ol>{extra}</section>
 <section class="sources"><h2 class="sec-title small">PRIMARY SOURCES & CREDITS</h2>
 {f'<p><b>Sources:</b> {esc(s["sources_line"])}</p>' if s['sources_line'] else ''}{f'<p><b>Images:</b> {esc(s["images"])}</p>' if s['images'] else ''}
@@ -460,9 +508,11 @@ document.querySelectorAll('.step').forEach(s=>io.observe(s));
 </script>""" + foot(0)
 
 def main():
+    def has_caption(d):
+        return os.path.exists(os.path.join(POSTS,d,"caption.txt")) or os.path.exists(os.path.join(POSTS,d,"reel","caption_reel.txt"))
     dirs = sorted((d for d in os.listdir(POSTS) if re.fullmatch(r"post\d{2,3}", d) and d not in EXCLUDE
-                  and os.path.exists(os.path.join(POSTS,d,"caption.txt")) and d[4:] in META), key=lambda d:int(d[4:]))
-    missing = [d for d in os.listdir(POSTS) if re.fullmatch(r"post\d{2,3}",d) and d not in EXCLUDE and os.path.exists(os.path.join(POSTS,d,"caption.txt")) and d[4:] not in META]
+                  and has_caption(d) and d[4:] in META), key=lambda d:int(d[4:]))
+    missing = [d for d in os.listdir(POSTS) if re.fullmatch(r"post\d{2,3}",d) and d not in EXCLUDE and has_caption(d) and d[4:] not in META]
     if missing: print("WARNING: add META for", missing)
     os.makedirs(os.path.join(ROOT,"stories"),exist_ok=True); os.makedirs(os.path.join(ROOT,"media"),exist_ok=True)
     S=[]

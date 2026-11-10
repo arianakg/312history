@@ -1,5 +1,11 @@
 [
  {
+  "key": "crashes",
+  "title": "Chicago's Crash Year",
+  "hook": "109,117 crashes were reported in 2025 — about 299 a day.",
+  "source": "City of Chicago Data Portal, \"Traffic Crashes - Crashes\" (85ca-t3if). 2025 records pulled Nov. 10, 2026."
+ },
+ {
   "key": "rats",
   "title": "Chicago's Rat Year",
   "hook": "Which neighborhood has the most rats? Every rat complaint Chicagoans filed with 311 in 2025, mapped day by day.",
