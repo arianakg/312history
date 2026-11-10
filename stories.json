@@ -5603,5 +5603,38 @@
   "lng": -87.6324,
   "year": 1919,
   "slug": "182-a-blimp-fell-on-a-chicago-bank"
+ },
+ {
+  "num": "184",
+  "title": "A tower fell at the World's Fair",
+  "hook": "On July 10, 1893, a building at Chicago's World's Fair caught fire. Firefighters climbed a tall wooden tower. The fire cut off their way down, and the tower fell.",
+  "facts": [
+   "On July 10, 1893, the Cold Storage Building at the World's Columbian Exposition caught fire",
+   "The building kept the fair's food cold and also had an ice rink",
+   "A tall wooden tower hid a smokestack; firefighters climbed the tower",
+   "The fire cut off their way down, and the tower fell",
+   "Seventeen people died; thousands at the fair saw it"
+  ],
+  "extra": [
+   "Photos: B.W. Kilburn, 1893 (PD); Stone, Kastler & Painter, 1893 (PD); J.W. Buel, The Magic City, 1894 (PD). Music: original piano."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [
+   "National Fallen Firefighters Foundation, \"Chicago World's Fair: Cold Storage Fire\" (July 25, 2022): https://www.firehero.org/2022/07/25/chicago-worlds-fair-cold-storage-fire/",
+   "Forest Park Review, \"Gruesome fire at World's Fair took 17 lives in 1893\" (Oct. 13, 2026): https://www.forestparkreview.com/2026/10/13/gruesome-fire-at-worlds-fair-1893/",
+   "Sangamon County History, \"Former fire chief killed in World's Fair blaze, 1893\": https://sangamoncountyhistory.org/former-fire-chief-killed-in-worlds-fair-blaze-1893/",
+   "University of Chicago Library, C.D. Arnold photograph \"Cold-Storage Warehouse 16,\" July 10, 1893 (caption): https://photoarchive.lib.uchicago.edu/db.xqy?one=apf3-00016.xml",
+   "Chicago Daily Tribune, July 11, 1893, as cited by the National Fallen Firefighters Foundation and later Tribune / Forest Park Review accounts",
+   "B.W. Kilburn stereograph no. 8232, 1893, \"Burning of the Cold Storage Building… July 10th, Columbian Exposition\" (Wikimedia Commons / NYPL)",
+   "J.W. Buel, The Magic City (Historical Publishing Company, St. Louis, 1894), period photograph and caption of the fire",
+   "Stone, Kastler & Painter photograph of the Cold Storage Building, 1893, in Dedicatory and Opening Ceremonies of the World's Columbian Exposition (1893)"
+  ],
+  "topic": "EVENTS",
+  "place": "Jackson Park (World's Columbian Exposition grounds)",
+  "lat": 41.7798,
+  "lng": -87.5848,
+  "year": 1893,
+  "slug": "184-a-tower-fell-at-the-world-s-fair"
  }
 ]

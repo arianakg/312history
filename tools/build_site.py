@@ -198,6 +198,7 @@ META = {
     "180":("EVENTS","Comiskey Park / Rate Field, 333 W. 35th St.",41.8299,-87.6338,1979),
     "181":("EVENTS","Clark Street docks / Lake Michigan",41.8876,-87.6313,1912),
     "182":("EVENTS","Illinois Trust and Savings Bank, LaSalle St. & Jackson Blvd.",41.8781,-87.6324,1919),
+    "184":("EVENTS","Jackson Park (World's Columbian Exposition grounds)",41.7798,-87.5848,1893),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
