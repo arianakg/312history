@@ -5740,5 +5740,29 @@
   "lng": -87.7945,
   "year": 1980,
   "slug": "188-eli-s-cheesecake"
+ },
+ {
+  "num": "189",
+  "title": "Meigs Field",
+  "hook": "Chicago once had an airport on the lakefront",
+  "facts": [
+   "Chicago once had an airport on the lakefront",
+   "Meigs Field opened on Northerly Island in 1948",
+   "On the night of March 30, 2003, crews cut giant X's into the runway",
+   "Mayor Richard M. Daley ordered it, and the FAA fined the city $33,000",
+   "The land is a park on the lakefront today"
+  ],
+  "extra": [
+   "Photos: Eckhard Henkel (CC BY-SA 3.0 DE); David Wilson (CC BY 2.0); Zargnut (CC0); U.S. Geological Survey (public domain); Sea Cow (CC BY-SA 4.0). Music: soft piano."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [],
+  "topic": "LOST CHICAGO",
+  "place": "Northerly Island (Meigs Field)",
+  "lat": 41.86,
+  "lng": -87.6086,
+  "year": 2003,
+  "slug": "189-meigs-field"
  }
 ]

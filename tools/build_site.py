@@ -202,6 +202,7 @@ META = {
     "185":("FOOD","Chicago (Curtiss Candy Company)",41.9278,-87.6495,1921),
     "187":("FOOD","17 W. Adams St. (The Berghoff)",41.8793,-87.6284,1898),
     "188":("FOOD","6701 W. Forest Preserve Dr. (Eli's Cheesecake)",41.9592,-87.7945,1980),
+    "189":("LOST CHICAGO","Northerly Island (Meigs Field)",41.8600,-87.6086,2003),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
