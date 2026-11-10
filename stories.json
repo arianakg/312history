@@ -5666,5 +5666,42 @@
   "lng": -87.6495,
   "year": 1921,
   "slug": "185-baby-ruth-started-here"
+ },
+ {
+  "num": "187",
+  "title": "License No. 1",
+  "hook": "One of Chicago's oldest restaurants opened in 1898",
+  "facts": [
+   "One of Chicago's oldest restaurants opened in 1898",
+   "Herman Berghoff sold beer at the 1893 World's Fair",
+   "They stayed open with near beer and root beer",
+   "After Prohibition, they got Chicago's liquor license No. 1",
+   "It is still open at 17 West Adams Street"
+  ],
+  "extra": [
+   "Photos: Carol M. Highsmith (public domain); C. D. Arnold, 1893 World's Fair (public domain); get directly down (CC BY 2.0); Stephen Hogan (CC BY 2.0); Another Believer (CC BY-SA 4.0). Music: soft piano."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [
+   "The Berghoff, official history page: https://www.theberghoff.com/history/",
+   "The Berghoff, official contact / hours page (retrieved 10 November 2026): https://www.theberghoff.com/contact-us/",
+   "The Berghoff, official homepage (retrieved 10 November 2026): https://www.theberghoff.com/",
+   "Time Out Chicago, Jonathan Samples, \"Celebrate Repeal Day at one of Chicago's Prohibition-era bars\" (30 November 2016): https://www.timeout.com/chicago/blog/celebrate-repeal-day-at-one-of-chicagos-prohibition-era-bars-113016",
+   "Chicago Literary Hall of Fame, \"The Berghoff Restaurant\": https://chicagoliteraryhof.org/literary_chicago_map/landmark/the-berghoff-restaurant",
+   "Choose Chicago, \"Berghoff Restaurant\": https://www.choosechicago.com/listing/berghoff-restaurant/",
+   "Preservation Chicago, \"THREATENED: Berghoff Interior 'Improvements'…\" : https://www.preservationchicago.org/threatened-berghoff-interior-improvements-to-carve-out-historic-dining-room/",
+   "Gapers Block, Harvey Morris, \"Home of Chicago's #1 Liquor License Celebrates End of Prohibition\" (7 April 2014): http://gapersblock.com/drivethru/2014/04/07/home_of_chicagos_1_liquor_license_celebrates_end_of_prohibition/",
+   "Chicagoist, Rob Christopher, \"Happy Repeal Day!\" (5 December 2010): https://www.chicagoist.com/2010/12/05/happy_repeal_day.php",
+   "Allen County / Fort Wayne INGenWeb, \"Berghoff Brewery Fort Wayne, Indiana\" (quotes Fort Wayne History Center and related local history): https://www.acgsi.org/genweb/fort-wayne/berghoff-brewery-fort-wayne-indiana.html",
+   "Adams Street Brewery FAQ (Berghoff family brewery page): https://www.adamsstreetbrewery.com/faq/",
+   "Photograph of historic City of Chicago licenses on display at The Berghoff, Stephen Hogan, 25 May 2016, Wikimedia Commons, CC BY 2.0: https://commons.wikimedia.org/wiki/File:First_Liquor_License_Issued_After_Prohibition_(27232812156).jpg"
+  ],
+  "topic": "FOOD",
+  "place": "17 W. Adams St. (The Berghoff)",
+  "lat": 41.8793,
+  "lng": -87.6284,
+  "year": 1898,
+  "slug": "187-license-no-1"
  }
 ]
