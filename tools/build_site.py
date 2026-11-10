@@ -199,7 +199,7 @@ META = {
     "181":("EVENTS","Clark Street docks / Lake Michigan",41.8876,-87.6313,1912),
     "182":("EVENTS","Illinois Trust and Savings Bank, LaSalle St. & Jackson Blvd.",41.8781,-87.6324,1919),
     "184":("EVENTS","Jackson Park (World's Columbian Exposition grounds)",41.7798,-87.5848,1893),
-    "185":("FOOD","Chicago area",41.8870,-87.7100,1930),
+    "185":("FOOD","Chicago (Curtiss Candy Company)",41.9278,-87.6495,1921),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",

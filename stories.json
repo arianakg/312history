@@ -5639,32 +5639,32 @@
  },
  {
   "num": "185",
-  "title": "The Twinkie started here",
-  "hook": "A baker near Chicago made this snack in 1930. James Dewar used shortcake pans that sat idle after strawberry season. He filled a small cake with cream. He said a shoe sign gave him the name. They sold two for a nickel.",
+  "title": "Baby Ruth started here",
+  "hook": "A Chicago company made this candy bar in 1921. Otto Schnering's Curtiss Candy Company sold it for a nickel. They dropped candy from planes on little parachutes. The company said it was named for a president's daughter. Many people thought of the baseball star Babe Ruth.",
   "facts": [
-   "A baker near Chicago made this snack in 1930",
-   "Shortcake pans sat idle after strawberry season",
-   "He filled a small cake with cream",
-   "He said a shoe sign gave him the name",
-   "They sold two for a nickel"
+   "A Chicago company made this candy bar in 1921",
+   "It sold for a nickel",
+   "They dropped candy from planes on little parachutes",
+   "The company said it was named for a president's daughter",
+   "Many people thought of the baseball star Babe Ruth"
   ],
   "extra": [
-   "Photos: Evan-Amos (CC0); Christian Cable (CC BY 2.0); Jeran Renz (CC BY-SA 4.0); Willis Lam (CC BY-SA 2.0). Music: original bass."
+   "Photos: Evan-Amos (public domain); Famartin (CC BY-SA 4.0); 1926 Army-Navy Game program advertisement (public domain); Scott Ehardt (public domain). Music: original bass."
   ],
   "images": "",
   "sources_line": "",
   "sources": [
-   "UPI Archives, \"Twinkies were his sweetest idea\" (Nov. 17, 1980), interview with James Dewar on the 50th anniversary: https://www.upi.com/Archives/1980/11/17/Twinkies-were-his-sweetest-idea/6973343285200/",
-   "UPI Archives, \"Twinkie inventor dies\" (July 3, 1985): https://www.upi.com/Archives/1985/07/03/Twinkie-inventor-dies/4622489211200/",
-   "Los Angeles Times, Jerry Belcher, \"Man Who Concocted the Twinkie Dies\" (July 3, 1985): https://www.latimes.com/archives/la-xpm-1985-07-03-me-10272-story.html",
-   "Alice Maggio, \"Twinkies: Another Fine Chicago Invention,\" Gapers Block (April 1, 2004): http://gapersblock.com/airbags/archives/twinkies_another_fine_chicago_invention/",
-   "Oak Park River Forest Museum, \"James Dewar\": https://oprfmuseum.org/people/james-dewar"
+   "Encyclopedia of Chicago, \"Curtiss Candy Co.\": http://encyclopedia.chicagohistory.org/pages/2638.html",
+   "HISTORY.com, Christopher Klein, \"Babe Ruth or Baby Ruth: Who Was the Candy Bar Named After?\": https://www.history.com/articles/babe-ruth-v-baby-ruth",
+   "Snopes, \"Was the Baby Ruth Candy Bar Named After Ruth Cleveland?\": https://www.snopes.com/fact-check/baby-ruth/",
+   "Made-in-Chicago Museum, \"Curtiss Candy Co., est. 1916\": https://www.madeinchicagomuseum.com/single-post/curtiss-candy-co/",
+   "National Confectioners Association Candy Hall of Fame, \"Otto Young Schnering\": https://candyhalloffame.org/inductee/otto-young-schnering/"
   ],
   "topic": "FOOD",
-  "place": "Chicago area",
-  "lat": 41.887,
-  "lng": -87.71,
-  "year": 1930,
-  "slug": "185-the-twinkie-started-here"
+  "place": "Chicago (Curtiss Candy Company)",
+  "lat": 41.9278,
+  "lng": -87.6495,
+  "year": 1921,
+  "slug": "185-baby-ruth-started-here"
  }
 ]
