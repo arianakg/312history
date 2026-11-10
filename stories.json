@@ -5636,5 +5636,35 @@
   "lng": -87.5848,
   "year": 1893,
   "slug": "184-a-tower-fell-at-the-world-s-fair"
+ },
+ {
+  "num": "185",
+  "title": "The Twinkie started here",
+  "hook": "A baker near Chicago made this snack in 1930. James Dewar used shortcake pans that sat idle after strawberry season. He filled a small cake with cream. He said a shoe sign gave him the name. They sold two for a nickel.",
+  "facts": [
+   "A baker near Chicago made this snack in 1930",
+   "Shortcake pans sat idle after strawberry season",
+   "He filled a small cake with cream",
+   "He said a shoe sign gave him the name",
+   "They sold two for a nickel"
+  ],
+  "extra": [
+   "Photos: Evan-Amos (CC0); Christian Cable (CC BY 2.0); Jeran Renz (CC BY-SA 4.0); Willis Lam (CC BY-SA 2.0). Music: original bass."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [
+   "UPI Archives, \"Twinkies were his sweetest idea\" (Nov. 17, 1980), interview with James Dewar on the 50th anniversary: https://www.upi.com/Archives/1980/11/17/Twinkies-were-his-sweetest-idea/6973343285200/",
+   "UPI Archives, \"Twinkie inventor dies\" (July 3, 1985): https://www.upi.com/Archives/1985/07/03/Twinkie-inventor-dies/4622489211200/",
+   "Los Angeles Times, Jerry Belcher, \"Man Who Concocted the Twinkie Dies\" (July 3, 1985): https://www.latimes.com/archives/la-xpm-1985-07-03-me-10272-story.html",
+   "Alice Maggio, \"Twinkies: Another Fine Chicago Invention,\" Gapers Block (April 1, 2004): http://gapersblock.com/airbags/archives/twinkies_another_fine_chicago_invention/",
+   "Oak Park River Forest Museum, \"James Dewar\": https://oprfmuseum.org/people/james-dewar"
+  ],
+  "topic": "FOOD",
+  "place": "Chicago area",
+  "lat": 41.887,
+  "lng": -87.71,
+  "year": 1930,
+  "slug": "185-the-twinkie-started-here"
  }
 ]
