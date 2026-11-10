@@ -1,5 +1,11 @@
 [
  {
+  "key": "restaurants",
+  "title": "Chicago's Restaurants",
+  "hook": "6,292 restaurants, cafes, and take-out shops have a current City license to prepare food.",
+  "source": "City of Chicago Data Portal, \"Business Licenses\" (r5kz-chrr). Active Retail Food Establishment licenses pulled Nov. 10, 2026."
+ },
+ {
   "key": "crashes",
   "title": "Chicago's Crash Year",
   "hook": "109,117 crashes were reported in 2025 — about 299 a day.",
