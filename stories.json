@@ -5842,5 +5842,45 @@
   "lng": -87.7951,
   "year": 1930,
   "slug": "191-snickers-started-here"
+ },
+ {
+  "num": "192",
+  "title": "The Balloon Frame",
+  "hook": "In the 1830s, Chicago builders used a new light wooden frame",
+  "facts": [
+   "In the 1830s, Chicago builders used a new light wooden frame",
+   "St. Mary's Church, built in 1833, is often called the first balloon-frame building",
+   "Augustine Taylor and George Snow are often credited. Historians still disagree",
+   "Builders used thin boards and machine-made nails, not heavy timbers and joints",
+   "People said the light frame would blow away like a balloon",
+   "Today's wood-frame houses still come from this idea"
+  ],
+  "extra": [
+   "Photos: Victor Grigas (CC BY-SA 2.0); Historic American Buildings Survey (public domain); Famartin (CC BY-SA 4.0). Music: original bass."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [
+   "Joseph C. Bigott, “Balloon Frame Construction,” *Encyclopedia of Chicago* (Chicago Historical Society / Newberry Library, 2005). https://www.encyclopedia.chicagohistory.org/pages/105.html (archived: https://web.archive.org/web/20210415020815/http://www.encyclopedia.chicagohistory.org/pages/105.html)",
+   "Calls the story that George W. Snow invented the balloon frame in 1832 a “popular myth,” tracing it to John M. Van Osdel (1883). Argues the idea was not invented by Snow or any other Chicagoan, and that similar simplified frames existed earlier. Describes how a balloon frame replaces heavy girts with a nailed ledger or ribband on continuous studs. Warns that on-site handwork was not substantially reduced until the 1880s.",
+   "“Church Architecture,” *Encyclopedia of Chicago*. https://www.encyclopedia.chicagohistory.org/pages/1058.html",
+   "“A Roman Catholic church showcased balloon frame architecture—a simple, inexpensive, and efficient wooden building technique—in 1833, when Augustine Deodat Taylor designed and built St. Mary's Church on Lake Street just west of State.”",
+   "Lyle, “Balloon Framing: Technology That Changed Chicago,” Chicago Public Library, 21 April 2014. https://www.chipublib.org/blogs/post/technology-that-changed-chicago-balloon-framing/",
+   "Chicago is credited with the method in the 1830s; at a minimum it was an early adopter. Machine-made nails and machine-cut lumber; contrast with heavy notched-and-pegged timbers. “It was said to have been called balloon construction because the buildings were so light they looked like they would float away.” Many credit Snow’s 1832 warehouse as the first. Platform construction is the modern variant and “the most common way to build residential buildings in the U.S.”",
+   "Paul E. Sprague, “The Origin of Balloon Framing,” *Journal of the Society of Architectural Historians* 40, no. 4 (December 1981): 311–319. https://online.ucpress.edu/jsah/article-abstract/40/4/311/56327/The-Origin-of-Balloon-Framing",
+   "Corrects Giedion’s claim that Snow first used the method on St. Mary’s in 1833. Credits Snow with an 1832 warehouse; notes Field’s earlier argument that Taylor, not Snow, built St. Mary’s. Ties the method to rapid growth, a lack of large timbers and skilled carpenters, and the availability of scantling and nails. The system “still serves in modified form as the basic ingredient of contemporary wooden frame construction.”",
+   "Walker Field, “A Reexamination into the Invention of the Balloon Frame,” *Journal of the American Society of Architectural Historians* 2 (October 1942).",
+   "If St. Mary’s had the first balloon frame, the inventor had to be its builder, Augustine Taylor.",
+   "“3.6. The Balloon Frame” and “3.7. The First Churches,” Chicago Architecture History, March 2022. https://chicagoarchitecturehistory.com/2022/03/12/3-6-the-balloon-frame/ and https://chicagoarchitecturehistory.com/2022/03/18/3-7-the-first-churches/",
+   "Summarizes Sprague on Snow’s 1832 warehouse; describes St. Mary’s (August–September 1833, Augustine D. Taylor) as the most famous early example, long believed to be the first until Sprague’s research; notes speed and the reduced need for mortise-and-tenon skill.",
+   "“Light fantastic,” Fire Protection Association. https://www.thefpa.co.uk/fire-and-risk-management-journal/feature-articles/light-fantastic",
+   "On the derisory name “balloon frame,” from the fear that the light frames would “blow away in the slightest breeze”; contrasts the method with heavy mortise, tenon, and scarf joints."
+  ],
+  "topic": "FIRSTS",
+  "place": "St. Mary's Church site, Lake St. just west of State (balloon frame)",
+  "lat": 41.8856,
+  "lng": -87.6282,
+  "year": 1833,
+  "slug": "192-the-balloon-frame"
  }
 ]

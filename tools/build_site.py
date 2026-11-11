@@ -205,6 +205,7 @@ META = {
     "189":("LOST CHICAGO","Northerly Island (Meigs Field)",41.8600,-87.6086,2003),
     "190":("LOST CHICAGO","Art Institute of Chicago (Stock Exchange Arch, Columbus Dr. & Monroe St.)",41.8807,-87.6211,1972),
     "191":("FOOD","2019 N. Oak Park Ave. (former Mars Candy Factory, Galewood)",41.9180,-87.7951,1930),
+    "192":("FIRSTS","St. Mary's Church site, Lake St. just west of State (balloon frame)",41.8856,-87.6282,1833),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
