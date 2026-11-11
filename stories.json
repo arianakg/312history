@@ -5764,5 +5764,44 @@
   "lng": -87.6086,
   "year": 2003,
   "slug": "189-meigs-field"
+ },
+ {
+  "num": "190",
+  "title": "The Saved Arch",
+  "hook": "A Chicago skyscraper was torn down. Its entrance still stands",
+  "facts": [
+   "A Chicago skyscraper was torn down. Its entrance still stands",
+   "Adler and Sullivan designed the 13-story Chicago Stock Exchange",
+   "The building at 30 North LaSalle Street was demolished in 1972",
+   "In 1977, its terra-cotta arch was installed at the Art Institute",
+   "You can still walk through the rebuilt trading room today"
+  ],
+  "extra": [
+   "Photos: Cervin Robinson / HABS (public domain); Paul R. Burley (CC BY-SA 4.0); Christian Collins (CC BY-SA 2.0). Music: original bass."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [
+   "Historic American Buildings Survey, *Chicago Stock Exchange Building, 30 North LaSalle Street, Chicago, Cook County, IL* (HABS IL-1034 / survey il0099). Library of Congress: https://www.loc.gov/item/il0099/",
+   "Catalog: “Building/structure dates: 1894 Initial Construction”; “Building/structure dates: 1972 Demolished”; other title “30 North LaSalle Building”; significance: “Designed by Adler and Sullivan.”",
+   "Written data (il0099data.pdf): “Date of erection: 1894”; “Architects: Adler and Sullivan”; “The building has 13 stories”; “Number of stories: Thirteen plus one basement.”",
+   "Photographs: Cervin Robinson, July and August 1963 (public domain).",
+   "National Building Arts Center, “Chicago Stock Exchange Building.” https://web.nationalbuildingarts.org/collections/recovery-projects/office-buildings/chicago-stock-exchange/",
+   "“Location: 30 North LaSalle Street, Chicago, Illinois”; “Date of Construction: 1894”; “Date of Demolition: 1972”; “Architects: Adler & Sullivan.”",
+   "Chicago Park District, “Chicago Stock Exchange Arch.” https://www.chicagoparkdistrict.com/parks-facilities/chicago-stock-exchange-arch",
+   "Adler & Sullivan; “Constructed in 1893”; “thirteen-story building”; “the building was razed in 1972”; terra-cotta arch acquired by the Art Institute and “installed … in 1977” with a Heller Foundation gift; location “southwest corner of S. Columbus Drive and E. Monroe Street”; reconstructed trading room opened around the same time.",
+   "Preservation Chicago, “The Chicago Stock Exchange Trading Room and McKinlock Court at The Art Institute of Chicago,” 4 March 2026. https://www.preservationchicago.org/the-chicago-stock-exchange-trading-room-and-mckinlock-court-at-the-art-institute-of-chicago/",
+   "Designed 1893–1894; opened 1894 at 30 N. LaSalle; 13-story building; demolished 1971–1972 / dismantled 1972; arch salvaged and installed on the museum grounds near Monroe and Columbus; trading room reconstructed 1977 by Vinci-Kenney; still experienceable at the Art Institute.",
+   "Elizabeth Blasius, “The Chicago Stock Exchange Trading Room and the Economies of Ornament,” *MAS Context*, 23 March 2026. https://mascontext.com/observations/the-chicago-stock-exchange-trading-room-and-the-economies-of-ornament",
+   "Demolition after the failed 1971 landmark fight; 13-story building; Art Institute acquired the trading room and the exterior arch; reconstruction began March 1976 and opened 6 April 1977; 2026 photographs of the room still on view; notes an unconfirmed future risk, which is not used as a fact on screen.",
+   "Cervin Robinson, Historic American Buildings Survey, July 1963, Chicago Stock Exchange Building from the northeast (LOC / HABS IL-1034, public domain). Wikimedia File:Chicago Stock Exchange Building (cropped).jpg.",
+   "Cervin Robinson, HABS, August 1963, entranceway detail (public domain; used only as an engraving reference, not as a reel still, because the scan includes a HABS border caption)."
+  ],
+  "topic": "LOST CHICAGO",
+  "place": "Art Institute of Chicago (Stock Exchange Arch, Columbus Dr. & Monroe St.)",
+  "lat": 41.8807,
+  "lng": -87.6211,
+  "year": 1972,
+  "slug": "190-the-saved-arch"
  }
 ]
