@@ -5803,5 +5803,44 @@
   "lng": -87.6211,
   "year": 1972,
   "slug": "190-the-saved-arch"
+ },
+ {
+  "num": "191",
+  "title": "Snickers Started Here",
+  "hook": "This famous candy bar was first made in Chicago",
+  "facts": [
+   "This famous candy bar was first made in Chicago",
+   "Mars moved its candy company from Minneapolis to Chicago in 1929",
+   "They built a factory in Galewood, at 2019 North Oak Park Avenue",
+   "Snickers came out in 1930. It was named after a Mars family horse",
+   "The Milky Way bar came first, in 1923"
+  ],
+  "extra": [
+   "Photos: Evan-Amos (public domain); Payton Chung (CC BY 2.0); Scott Ehardt (public domain). Music: soft piano."
+  ],
+  "images": "",
+  "sources_line": "",
+  "sources": [
+   "Mars, Incorporated, “Our History.” https://www.mars.com/about/history",
+   "1923: Frank introduces the MILKY WAY bar after a “malted milk in a candy bar” idea from a discussion with his son Forrest Sr.",
+   "1929: “Mars, Incorporated relocates and opens a full-production plant in Chicago. Close to 200 Associates move with Mars.”",
+   "1930: “The SNICKERS brand is launched.”",
+   "The official timeline does not mention the horse name.",
+   "SNICKERS, “Our Story.” https://www.snickers.com/our-story",
+   "1930: “The very first SNICKERS Bar, allegedly named after a horse, was manufactured in Chicago and sold for five cents.”",
+   "Commission on Chicago Landmarks, *Mars Candy Factory, 2019 North Oak Park Avenue*, Final Designation Report, 11 July 2024. PDF: https://reports.chicagolandmarkreports.org/mars-candy-factory-l392.pdf (same report also at https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/Mars_Candy_Factory_Final_Report.pdf)",
+   "Address 2019 North Oak Park Avenue; construction 1928–1929; opened 1929; first Mars plant built outside Minneapolis.",
+   "Quotes the Chicago Tribune of 12 August 1928 announcing the move from Minneapolis to a plant “now under construction at 2019-59 North Oak Park Avenue.”",
+   "Milky Way invented in 1923, before the move; Snickers developed in 1930 and “invented and first produced at the Chicago factory.”",
+   "“Named after one of Frank’s favorite horses at his Milky Way Farm in Tennessee.”",
+   "As of the July 2024 report: the factory “is still in use but will permanently close in 2024.”",
+   "City of Chicago, “Austin’s Mars Candy Factory Designated as Landmark,” 9 October 2024. https://www.chicago.gov/city/en/depts/dcd/provdrs/hist/news/2024/october/austin-s-mars-candy-factory-designated-as-landmark.html"
+  ],
+  "topic": "FOOD",
+  "place": "2019 N. Oak Park Ave. (former Mars Candy Factory, Galewood)",
+  "lat": 41.918,
+  "lng": -87.7951,
+  "year": 1930,
+  "slug": "191-snickers-started-here"
  }
 ]

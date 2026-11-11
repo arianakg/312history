@@ -204,6 +204,7 @@ META = {
     "188":("FOOD","6701 W. Forest Preserve Dr. (Eli's Cheesecake)",41.9592,-87.7945,1980),
     "189":("LOST CHICAGO","Northerly Island (Meigs Field)",41.8600,-87.6086,2003),
     "190":("LOST CHICAGO","Art Institute of Chicago (Stock Exchange Arch, Columbus Dr. & Monroe St.)",41.8807,-87.6211,1972),
+    "191":("FOOD","2019 N. Oak Park Ave. (former Mars Candy Factory, Galewood)",41.9180,-87.7951,1930),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
