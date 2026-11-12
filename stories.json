@@ -5957,5 +5957,39 @@
   "lng": -87.6239,
   "year": "1780s",
   "slug": "194-point-du-sable"
+ },
+ {
+  "num": "196",
+  "title": "Shrimp De Jonghe",
+  "hook": "This classic Chicago dish is shrimp baked with garlic, butter, and breadcrumbs",
+  "facts": [
+   "This classic Chicago dish is shrimp baked with garlic, butter, and breadcrumbs",
+   "It was first served at De Jonghe's Hotel and Restaurant, in the Loop",
+   "Belgian brothers opened a restaurant in Chicago around the 1893 World's Fair",
+   "In 1923 the hotel was shut for breaking Prohibition laws, and it did not reopen",
+   "Chicago restaurants still serve Shrimp De Jonghe today"
+  ],
+  "extra": [],
+  "images": "Images: early 1900s hotel postcards (public domain); C. D. Arnold, World's Columbian Exposition, 1893 (public domain); original 312 History illustration. Music: original bass.",
+  "sources_line": "",
+  "sources": [
+   "Encyclopedia of Chicago, Robert Morrissey and Christina A. Reynen, \"Belgians.\" https://www.encyclopedia.chicagohistory.org/pages/126.html (archived copy consulted 12 November 2026: https://web.archive.org/web/20210129090023/http://www.encyclopedia.chicagohistory.org/pages/126.html)",
+   "Paul A. Camp and JeanMarie Brownson, \"The Heavenly Recipe That Helped Make Henri De Jonghe Immortal,\" Chicago Tribune, 27 January 1985. https://www.chicagotribune.com/1985/01/27/the-heavenly-recipe-that-helped-make-henri-de-jonghe-immortal/",
+   "John F. Mariani, *The Encyclopedia of American Food and Drink* (Bloomsbury / first published in earlier editions), entry \"Shrimps De Jonghe.\" Abstract consulted 12 November 2026: https://doi.org/10.5040/9781635577068-1647",
+   "Jane and Michael Stern, \"The Past on a Plate,\" Roadfood. https://roadfood.com/the-past-on-a-plate/",
+   "\"The Originals,\" *Saveur*. https://www.saveur.com/article/Travels/The-Originals/",
+   "Maureen Schulman et al., *The Eli's Cheesecake Cookbook* (Agate Midway, 2015), \"Shrimp De Jonghe\" headnote (extract consulted 12 November 2026). https://www.cutoutandkeep.net/projects/shrimp-de-jonghe",
+   "Lisa Shames, \"10 Iconic Foods Invented In Chicago And Loved By Locals,\" Block Club Chicago, 2 March 2026. https://blockclubchicago.org/2026/03/02/10-iconic-foods-invented-in-chicago-and-loved-by-locals/",
+   "ABC7 Chicago, \"Shrimp de Jonghe a Chicago culinary icon,\" 13 July 2013. https://abc7chicago.com/archive/9171633/",
+   "James Beard Foundation, \"Shrimp de Jonghe\" recipe headnote. https://www.jamesbeard.org/recipes/shrimp-de-jonghe",
+   "C. D. Arnold and H. D. Higinbotham, \"Looking West From Peristyle, Court of Honor and Grand Basin, 1893,\" in *Official Views Of The World's Columbian Exposition*. Public domain. Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Looking_West_From_Peristyle,_Court_of_Honor_and_Grand_Basin,_1893.jpg",
+   "Historic postcards of De Jonghe's Hotel and Restaurant, early 1900s, digitized by ChicagoPC.info. https://chicagopc.info/hotels/hotels-c-f/ and https://chicagopc.info/restaurants/restaurants-older-d-j/"
+  ],
+  "topic": "FOOD",
+  "place": "Monroe Street, the Loop (former De Jonghe's Hotel and Restaurant)",
+  "lat": 41.8805,
+  "lng": -87.6268,
+  "year": "c. 1900",
+  "slug": "196-shrimp-de-jonghe"
  }
 ]
