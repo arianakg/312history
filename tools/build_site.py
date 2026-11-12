@@ -207,6 +207,7 @@ META = {
     "191":("FOOD","2019 N. Oak Park Ave. (former Mars Candy Factory, Galewood)",41.9180,-87.7951,1930),
     "192":("FIRSTS","St. Mary's Church site, Lake St. just west of State (balloon frame)",41.8856,-87.6282,1833),
     "193":("FOOD","9233 S. Western Ave. (Original Rainbow Cone, Beverly)",41.7264,-87.6823,1926),
+    "194":("PEOPLE","Pioneer Court, near Michigan Ave. and the Chicago River (Point du Sable homesite)",41.8895,-87.6239,"1780s"),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
