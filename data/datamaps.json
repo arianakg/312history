@@ -1,5 +1,11 @@
 [
  {
+  "key": "snowroutes",
+  "title": "Chicago's Snow Routes",
+  "hook": "144 official snow routes — the streets where you may not park once there are 2 inches of snow on the street.",
+  "source": "City of Chicago Data Portal, \"Snow Route Parking Restrictions\" (i6k4-giaj) and \"Winter Overnight Parking Restrictions\" (mcad-r2g5), last updated Dec. 2021; Chicago Department of Streets and Sanitation. Pulled Nov. 12, 2026."
+ },
+ {
   "key": "restaurants",
   "title": "Chicago's Restaurants",
   "hook": "6,292 restaurants, cafes, and take-out shops have a current City license to prepare food.",
