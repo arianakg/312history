@@ -1,5 +1,11 @@
 [
  {
+  "key": "playgrounds",
+  "title": "Chicago's Playgrounds",
+  "hook": "516 playgrounds listed by the Chicago Park District, from Rogers Park to the far South Side.",
+  "source": "Chicago Park District official playgrounds directory (chicagoparkdistrict.com/facilities/playgrounds), pulled Nov. 12, 2026 (516 listed). The District’s 2026 Budget in Brief counts 518."
+ },
+ {
   "key": "snowroutes",
   "title": "Chicago's Snow Routes",
   "hook": "144 official snow routes — the streets where you may not park once there are 2 inches of snow on the street.",
