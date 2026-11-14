@@ -5991,5 +5991,36 @@
   "lng": -87.6268,
   "year": "c. 1900",
   "slug": "196-shrimp-de-jonghe"
+ },
+ {
+  "num": "198",
+  "title": "Radio Flyer",
+  "hook": "The original little red wagon was first made in Chicago",
+  "facts": [
+   "The original little red wagon was first made in Chicago",
+   "In 1917, Antonio Pasin began building wooden wagons in Chicago. He called them Liberty Coasters",
+   "He later made steel wagons and named one the Radio Flyer, after radios and airplanes",
+   "At the 1933 World's Fair, a 45-foot boy in a wagon helped make the name famous",
+   "The company is still based in Chicago today"
+  ],
+  "extra": [],
+  "images": "Images: Carol M. Highsmith, Statue of Liberty (Library of Congress, public domain); Crystal, wagon photo, 2005 (CC BY 2.0); Chicago Aerial Survey, Century of Progress, 1933 (public domain); Ken Gibson, Radio Flyer headquarters, 2007 (CC BY 2.0); original 312 History illustration. Music: original bass.",
+  "sources_line": "",
+  "sources": [
+   "Radio Flyer, \"Our History\" / \"The Radio Flyer Story.\" https://www.radioflyer.com/pages/radio-flyer-history (consulted 13 November 2026)",
+   "Maya Wei-Haas, \"How an Italian Immigrant Rolled Out the Radio Flyer Wagon Across America,\" Smithsonian Magazine, 3 June 2016. https://www.smithsonianmag.com/innovation/how-italian-immigrant-rolled-radio-flyer-wagon-out-across-america-180959298/",
+   "\"Radio Flyer Inc.,\" *International Directory of Company Histories*, via Encyclopedia.com. https://www.encyclopedia.com/books/politics-and-business-magazines/radio-flyer-inc (consulted 13 November 2026)",
+   "Andrew Clayman, \"Radio Flyer, est. 1917,\" Made-in-Chicago Museum. https://www.madeinchicagomuseum.com/single-post/radio-flyer/ (consulted 13 November 2026)",
+   "Carol M. Highsmith, Statue of Liberty photograph, Library of Congress, public domain. Wikimedia Commons: https://commons.wikimedia.org/wiki/File:No_Known_Restrictions_Statue_of_Liberty_(Highsmith_LOC)_(6718404145).jpg",
+   "Crystal, \"Flyer,\" 2 October 2005, CC BY 2.0. Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Flyer_(48840696).jpg",
+   "Chicago Aerial Survey, \"Aerial View of the Century of Progress International Exposition, Chicago,\" 1933/1934, public domain, Newberry Library (nby_chicago, id 2791). Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Aerial_View_of_the_Century_of_Progress_International_Exposition,_Chicago_(NBY_2791).jpg",
+   "Ken Gibson, \"Giant Radio Flyer,\" 7 January 2007, CC BY 2.0. Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Giant_Radio_Flyer_(23208497239).jpg"
+  ],
+  "topic": "FIRSTS",
+  "place": "West Grand Avenue, Belmont-Cragin, Chicago",
+  "lat": 41.9225,
+  "lng": -87.7889,
+  "year": 1917,
+  "slug": "198-radio-flyer"
  }
 ]
