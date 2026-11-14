@@ -1,5 +1,11 @@
 [
  {
+  "key": "farmersmarkets",
+  "title": "Chicago's Farmers Markets",
+  "hook": "39 farmers markets on the city's 2026 schedule, from Jarvis Square to Hegewisch.",
+  "source": "City of Chicago official 2026 Farmers Markets schedule (chicago.gov, DCASE), pulled Nov. 13, 2026 (40 listed; 39 with a street address, mapped). Farm on Ogden's Summer Market is also listed but has no address, so it is not on the map."
+ },
+ {
   "key": "playgrounds",
   "title": "Chicago's Playgrounds",
   "hook": "516 playgrounds listed by the Chicago Park District, from Rogers Park to the far South Side.",
