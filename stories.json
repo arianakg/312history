@@ -6051,5 +6051,33 @@
   "lng": -87.6473,
   "year": 1968,
   "slug": "200-flaming-saganaki"
- }
+ },
+ {
+ "num": "202",
+ "title": "Paseo Boricua",
+ "hook": "Two giant steel flags stand over a Chicago street",
+ "facts": [
+  "Two giant steel flags stand over a Chicago street",
+  "They mark Paseo Boricua, on Division Street in Humboldt Park",
+  "The flags were dedicated on January 6, 1995",
+  "In 2022, Chicago made the flags a city landmark",
+  "You can see them on Division Street, between Western and California"
+ ],
+ "extra": [],
+ "images": "Images: original 312 History illustration; erikccooper, steel flag at dusk, 2015 (CC BY 2.0); Richie Diesterheft, steel flag close-up, 2012 (CC BY-SA 2.0). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Commission on Chicago Landmarks, \"Paseo Boricua Gateway Flags,\" Final Designation Report, May 5, 2022, as quoted by Chicago Landmark Reports, landmark L-377 (final designation September 21, 2022). https://www.chicagolandmarkreports.org/landmark/paseo-boricua-gateway-flags-l377/",
+  "Official report PDF (chicago.gov blocked an automated fetch on November 14, 2026): https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/Paseo_Boricua_Gateway_Flags_Final_Report.pdf",
+  "Mina Bloom, \"Humboldt Park's Puerto Rican Flags Are Officially Chicago Landmarks,\" Block Club Chicago, 21 July 2022. https://blockclubchicago.org/2022/07/21/humboldt-parks-puerto-rican-flags-are-officially-chicago-landmarks/",
+  "Puerto Rican Cultural Center, \"Paseo Boricua,\" archived 10 May 2008. https://web.archive.org/web/20080510145802/http://www.prcc-chgo.org/paseo_boricua.htm",
+  "U.S. Census Bureau geocoder, 2400 / 2600 / 2800 W Division Street, Chicago, IL, 14 November 2026."
+ ],
+ "topic": "CULTURE",
+ "place": "Division Street between Western Avenue and California Avenue, Humboldt Park, Chicago (Paseo Boricua)",
+ "lat": 41.903,
+ "lng": -87.692,
+ "year": 1995,
+ "slug": "202-paseo-boricua"
+}
 ]
