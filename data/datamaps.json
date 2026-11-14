@@ -1,5 +1,11 @@
 [
  {
+  "key": "hospitals",
+  "title": "Chicago's Hospitals",
+  "hook": "37 Illinois-licensed hospitals in Chicago, from Resurrection on the Northwest Side to Roseland on the far South Side.",
+  "source": "Illinois Department of Public Health Hospital Directory (data.illinois.gov, 53nt-jwqq), pulled Nov. 13, 2026. 2025 Inventory of Health Care Facilities, Illinois Health Facilities and Services Review Board / IDPH, published April 2026."
+ },
+ {
   "key": "farmersmarkets",
   "title": "Chicago's Farmers Markets",
   "hook": "39 farmers markets on the city's 2026 schedule, from Jarvis Square to Hegewisch.",
