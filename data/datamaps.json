@@ -1,5 +1,11 @@
 [
  {
+  "key": "warmingcenters",
+  "title": "Chicago's Warming Centers",
+  "hook": "291 official warming centers on the city's March 17, 2026 list, from White Park on Howard Street to Carver Park on the far South Side.",
+  "source": "City of Chicago Data Portal, Warming Centers (h243-v2q5), last updated March 17, 2026, pulled Nov. 14, 2026. Chicago OEMC cold-weather update, Jan. 26, 2026. DFSS Extreme Weather Resources."
+ },
+ {
   "key": "hospitals",
   "title": "Chicago's Hospitals",
   "hook": "37 Illinois-licensed hospitals in Chicago, from Resurrection on the Northwest Side to Roseland on the far South Side.",
