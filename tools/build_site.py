@@ -210,6 +210,7 @@ META = {
     "194":("PEOPLE","Pioneer Court, near Michigan Ave. and the Chicago River (Point du Sable homesite)",41.8895,-87.6239,"1780s"),
     "196":("FOOD","Monroe Street, the Loop (former De Jonghe's Hotel and Restaurant)",41.8805,-87.6268,"c. 1900"),
     "198":("FIRSTS","West Grand Avenue, Belmont-Cragin, Chicago",41.9225,-87.7889,1917),
+    "200":("FOOD","314 S. Halsted St., Greektown, Chicago (former site of The Parthenon)",41.8776,-87.6473,1968),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",

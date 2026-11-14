@@ -6022,5 +6022,34 @@
   "lng": -87.7889,
   "year": 1917,
   "slug": "198-radio-flyer"
+ },
+ {
+  "num": "200",
+  "title": "Flaming Saganaki",
+  "hook": "This flaming cheese started in Chicago, not in Greece",
+  "facts": [
+   "This flaming cheese started in Chicago, not in Greece",
+   "In Greece, saganaki is fried cheese, usually served without a flame",
+   "In Chicago, a waiter pours brandy on the hot cheese, lights it, and shouts Opa!",
+   "The tradition took off in Greektown in 1968. The Parthenon restaurant is widely credited",
+   "The Parthenon later closed, but Chicago restaurants still serve it"
+  ],
+  "extra": [],
+  "images": "Images: original 312 History illustration; Scouten, fried saganaki, 2010 (CC BY-SA 3.0); Victorgrigas, still from a video of flaming saganaki at The Parthenon, 2014, and the closed restaurant, 2017 (CC BY-SA 3.0); Tammy Green, saganaki at Greek Islands, 2007 (CC BY-SA 2.0). Music: original bass.",
+  "sources_line": "",
+  "sources": [
+   "Chicago Sun-Times Editorial Board, \"Editorial: A cheer of 'Opa!' for the creators of flaming saganaki,\" 8 September 2016. https://chicago.suntimes.com/2016/9/8/18365120/editorial-a-cheer-of-opa-for-the-creators-of-flaming-saganaki",
+   "Nick Blumberg and Erica Gunderson, \"Deep Frydays: Saganaki Saga,\" WTTW News, 25 July 2019. https://news.wttw.com/2019/07/25/deep-frydays-saganaki-saga",
+   "The Parthenon Restaurant, History page, archived 8 June 2002. https://web.archive.org/web/20020608155056/http://theparthenon.com/history.htm",
+   "Better.net, \"Flaming Saganaki, Big in Greektown, Not So Much in Greece.\" https://better.net/food-drink/flaming-saganaki-big-in-greektown-not-so-much-in-greece-a-history-plus-chicago-greek-restaurants-serving-it/",
+   "Eater Chicago, \"The Parthenon, Chicago's Greektown Landmark & Flaming Cheese Creator, Has Closed,\" 7 September 2016. https://chicago.eater.com/2016/9/7/12835928/parthenon-chicago-greek-closed-flaming-cheese-opa",
+   "Chicago Sun-Times, \"Parthenon 'Opa!' no more — famed Greektown eatery closes doors,\" 7 September 2016. https://chicago.suntimes.com/2016/9/7/18345124/parthenon-opa-no-more-famed-greektown-eatery-closes-doors"
+  ],
+  "topic": "FOOD",
+  "place": "314 S. Halsted St., Greektown, Chicago (former site of The Parthenon)",
+  "lat": 41.8776,
+  "lng": -87.6473,
+  "year": 1968,
+  "slug": "200-flaming-saganaki"
  }
 ]
