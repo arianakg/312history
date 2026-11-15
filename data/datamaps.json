@@ -1,11 +1,5 @@
 [
  {
-  "key": "evchargers",
-  "title": "Chicago's EV Chargers",
-  "hook": "400 official alternative-fuel sites on the city's November 14, 2026 list, 368 of them electric, from Rogers Park to Marshfield Plaza on the far South Side.",
-  "source": "City of Chicago Data Portal, Alternative Fuel Locations — Chicago (fi3z-jc3f), last updated Nov. 14, 2026, pulled Nov. 14, 2026. U.S. DOE Alternative Fuel Data Center, via the city's Drive Electric Chicago page."
- },
- {
   "key": "warmingcenters",
   "title": "Chicago's Warming Centers",
   "hook": "291 official warming centers on the city's March 17, 2026 list, from White Park on Howard Street to Carver Park on the far South Side.",
