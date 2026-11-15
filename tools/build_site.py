@@ -213,6 +213,7 @@ META = {
     "200":("FOOD","314 S. Halsted St., Greektown, Chicago (former site of The Parthenon)",41.8776,-87.6473,1968),
     "202":("CULTURE","Division Street between Western Avenue and California Avenue, Humboldt Park, Chicago (Paseo Boricua)",41.9030,-87.6920,1995),
     "204":("FOOD","1068 W. Taylor St., Little Italy, Chicago (Mario's Italian Lemonade)",41.8695,-87.6536,1954),
+    "206":("FOOD","7301 W. Harrison St., Forest Park, Illinois (Ferrara candy factory)",41.8723,-87.8070,1908),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",
