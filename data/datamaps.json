@@ -1,5 +1,11 @@
 [
  {
+  "key": "ezpay",
+  "title": "Chicago's EZ Pay Kiosks",
+  "hook": "98 official EZ Pay kiosks on the city's March 20, 2026 list, from Northtown Library to Altgeld Library on the far South Side.",
+  "source": "City of Chicago Data Portal, EZ Pay Kiosks (fuzc-c76k), last updated March 20, 2026, pulled Nov. 14, 2026. City of Chicago Department of Finance, Payment Options. Chicago Public Library location pages for Northtown, Altgeld, and Mayfair."
+ },
+ {
   "key": "warmingcenters",
   "title": "Chicago's Warming Centers",
   "hook": "291 official warming centers on the city's March 17, 2026 list, from White Park on Howard Street to Carver Park on the far South Side.",
