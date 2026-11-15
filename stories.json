@@ -6079,5 +6079,35 @@
  "lng": -87.692,
  "year": 1995,
  "slug": "202-paseo-boricua"
+},
+{
+ "num": "204",
+ "title": "Mario's Italian Lemonade",
+ "hook": "This Chicago stand has sold Italian lemonade since 1954",
+ "facts": [
+  "This Chicago stand has sold Italian lemonade since 1954",
+  "It sits on Taylor Street, in Little Italy",
+  "In 1954, six-year-old Skip DiPaolo sold cups here for two cents",
+  "The same family still runs the stand today",
+  "Find it at 1068 West Taylor Street, in the warm months. It usually opens in May"
+ ],
+ "extra": [],
+ "images": "Images: original 312 History illustration; Chris Rycroft, the stand on Taylor Street, 2022 (CC BY 2.0); Bcente2, the stand at night, 2018 (CC BY-SA 4.0). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Mario's Italian Lemonade, official site. https://www.marioslemonade.com/",
+  "Kathleen Hinkel, \"Mario’s Italian Lemonade Has Been Helping Chicagoans Enjoy Summer for Almost 70 Years,\" WTTW, May 17, 2023. https://www.wttw.com/playlist/2023/05/17/mario-s-italian-lemonade-photo-essay",
+  "Shane Mitchell, \"In Chicago, This 1950s Italian Lemonade Stand Is Still the City Favorite,\" Saveur, July 14, 2022. https://www.saveur.com/food/marios-italian-lemonade-chicago/",
+  "Madison Savedra, \"Mario’s Italian Lemonade Reopens Wednesday For Summer Season,\" Block Club Chicago, April 30, 2024. https://blockclubchicago.org/2024/04/30/marios-italian-lemonade-reopens-wednesday-for-summer-season/",
+  "U.S. Census Bureau geocoder, 1068 W. Taylor St., Chicago, IL 60607, November 14, 2026: 41.86953, -87.65358.",
+  "Chris Rycroft, \"Mario's Italian Lemonade,\" 24 March 2022, CC BY 2.0, via Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Chicago_in_2022_Mario%27s_Italian_Lemonade_(52060872052).jpg",
+  "Bcente2, \"Mario's Lemonade Stand,\" 2018, CC BY-SA 4.0, Wikimedia Commons. https://commons.wikimedia.org/wiki/File:Mario%27s_Lemonade_Stand.jpg"
+ ],
+ "topic": "FOOD",
+ "place": "1068 W. Taylor St., Little Italy, Chicago (Mario's Italian Lemonade)",
+ "lat": 41.8695,
+ "lng": -87.6536,
+ "year": 1954,
+ "slug": "204-marios-italian-lemonade"
 }
 ]
