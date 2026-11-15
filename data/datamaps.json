@@ -1,11 +1,5 @@
 [
  {
-  "key": "bikeracks",
-  "title": "Chicago's Bike Racks",
-  "hook": "9,449 official bike racks installed since 2015, from Rogers Park to Hegewisch. West Town has 739, more than any other neighborhood.",
-  "source": "City of Chicago Data Portal, Bike Racks (hgdw-64h3), last updated June 3, 2026, pulled Nov. 14, 2026. Community area counts use Boundaries — Community Areas (igwz-8jzy). CDOT Bike Parking program."
- },
- {
   "key": "warmingcenters",
   "title": "Chicago's Warming Centers",
   "hook": "291 official warming centers on the city's March 17, 2026 list, from White Park on Howard Street to Carver Park on the far South Side.",
