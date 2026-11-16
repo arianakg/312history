@@ -6208,5 +6208,39 @@
  "lng": -87.6598,
  "year": 1914,
  "slug": "210-the-green-mill"
+},
+{
+ "num": "212",
+ "title": "The TV Remote",
+ "hook": "Did you know the TV remote was invented in Chicago?",
+ "facts": [
+  "Did you know the TV remote was invented in Chicago?",
+  "In 1950, Zenith Radio Corporation made a wired remote called Lazy Bones.",
+  "In 1955, Eugene Polley's Flash-Matic used a light beam. It was the first wireless TV remote.",
+  "In 1956, Robert Adler's Space Command used ultrasound.",
+  "Zenith built it in Chicago, at its plant on West Dickens Avenue."
+ ],
+ "extra": [
+  "People called remotes \"clickers\" because this one made a click."
+ ],
+ "images": "Images: original 312 History illustration; Marcin Wichary, Zenith Space Command, CC BY 2.0; MusikAnimal, Zenith H-24-37-E television, around 1950, 2014 (CC BY-SA 4.0); Edd Thomas, Zenith Flash-Matic, 2017 (CC BY 2.0); Todd Ehlers, Zenith Space Command, 2005 (CC BY-SA 2.0); Ethan Long, Zenith K1812 television, 1953, 2024 (CC BY-SA 2.0). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Zenith Electronics, \"Remote Background.\" https://zenith.com/heritage/remote-background/",
+  "IEEE Consumer Electronics Society newsletter on remote controls, posted by Zenith. https://zenith.com/wp-content/uploads/2013/05/IEEE-Newsletter-on-Remote-Controls.pdf",
+  "Rebecca Greenfield, \"Tech Etymology: TV Clicker,\" The Atlantic, April 8, 2011. https://www.theatlantic.com/technology/archive/2011/04/tech-etymology-tv-clicker/236965/",
+  "TIME, \"Zenith Space Command,\" All-TIME 100 Gadgets. https://content.time.com/time/specials/packages/article/0,28804,2023689_2023681_2023586,00.html",
+  "Guinness World Records, \"First ultrasound remote control for TV sets.\" https://www.guinnessworldrecords.com/world-records/385428-first-ultrasound-remote-control-for-tv-sets",
+  "The New Yorker, \"Object of Interest: Remote Control.\" https://www.newyorker.com/tech/annals-of-technology/object-of-interest-remote-control",
+  "Made-in-Chicago Museum, \"Zenith Radio Corporation, est. 1918.\" https://www.madeinchicagomuseum.com/single-post/zenith-radio-corp/",
+  "Zenith Radio Corporation, 1950 television brochure, Early Television Foundation. https://www.earlytelevision.org/pdf/zenith_1950_brochure.pdf",
+  "U.S. Census Bureau geocoder, 6001 W. Dickens Ave., Chicago, IL 60639, November 16, 2026: 41.91784, -87.77620."
+ ],
+ "topic": "FIRSTS",
+ "place": "6001 W. Dickens Ave., Chicago (former Zenith Radio Corporation plant)",
+ "lat": 41.9178,
+ "lng": -87.7762,
+ "year": 1950,
+ "slug": "212-the-tv-remote"
 }
 ]
