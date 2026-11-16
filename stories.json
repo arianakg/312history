@@ -6174,5 +6174,39 @@
  "lng": -87.6278,
  "year": 1907,
  "slug": "208-marshall-fields"
+},
+{
+ "num": "210",
+ "title": "The Green Mill",
+ "hook": "This Uptown jazz club still lights Broadway with a green neon sign.",
+ "facts": [
+  "This Uptown jazz club still lights Broadway with a green neon sign.",
+  "In 1914, Green Mill Gardens opened on this Uptown corner.",
+  "In 1927, after singer Joe E. Lewis left the club, three men attacked him in his hotel.",
+  "In 1986, Marc Smith started the Uptown Poetry Slam on this stage.",
+  "The club is still open at 4802 North Broadway. Live jazz plays there every night."
+ ],
+ "extra": [],
+ "images": "Images: original 312 History illustration; Kenneth C. Zirkel, Green Mill exterior, interior, and Thaddeus Tukes on stage, 2019 (CC BY-SA 4.0); Marc Heiden, Green Mill sign, 2007 (CC BY-SA 3.0); dronepicr, live jazz at the Green Mill, 2013 (CC BY 2.0). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Robert Loerzel, \"Pop Morse's Roadhouse and the Myth of 1907,\" March 23, 2023. https://www.robertloerzel.com/2023/03/23/pop-morses-roadhouse-and-the-myth-of-1907/",
+  "Robert Loerzel, \"Grand Opening,\" June 29, 2023. https://www.robertloerzel.com/2023/06/29/grand-opening/",
+  "Commission on Chicago Landmarks, Uptown Square District Landmark Designation Report, final recommendation adopted October 6, 2016. https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/Uptown_Square_District.pdf",
+  "Chicago Architecture Center, \"Green Mill Jazz Club.\" https://www.architecture.org/online-resources/buildings-of-chicago/green-mill-jazz-club",
+  "Chicago Daily Tribune, \"Cabaret Man's Fears Told as Stabbing Crew,\" November 9, 1927, p. 3.",
+  "Robert Loerzel, \"Joe and Jack, Part 1\" and \"Part 3: The Attack,\" July 10, 2024. https://www.robertloerzel.com/2024/07/10/joe-and-jack-part-1-showman-and-hit-man/ and https://www.robertloerzel.com/2024/07/10/joe-and-jack-part-3-the-attack/",
+  "Encyclopedia of Chicago, \"Poetry Slam.\" https://www.encyclopedia.chicagohistory.org/pages/981.html",
+  "Poetry Foundation, \"Marc Kelly Smith.\" https://www.poetryfoundation.org/poets/marc-kelly-smith",
+  "Green Mill, official site and FAQ, checked November 16, 2026. https://greenmilljazz.com/ and https://greenmilljazz.com/faqs/",
+  "Choose Chicago, \"Chicago Winter Guide for Music Fans: Venues and Events.\" https://www.choosechicago.com/blog/music/winter-guide-music-fans-venues-events/",
+  "U.S. Census Bureau geocoder, 4802 N. Broadway, Chicago, IL 60640, November 16, 2026: 41.96914, -87.65975."
+ ],
+ "topic": "CULTURE",
+ "place": "4802 N. Broadway, Uptown, Chicago (Green Mill Cocktail Lounge)",
+ "lat": 41.9691,
+ "lng": -87.6598,
+ "year": 1914,
+ "slug": "210-the-green-mill"
 }
 ]
