@@ -6140,5 +6140,39 @@
  "lng": -87.8070,
  "year": 1908,
  "slug": "206-ferrara-pan"
+},
+{
+ "num": "208",
+ "title": "Marshall Field's",
+ "hook": "A Great Clock has stood at State and Washington since 1907",
+ "facts": [
+  "A Great Clock has stood at State and Washington since 1907",
+  "In 1907, a Tiffany mosaic ceiling was set inside the store",
+  "The Walnut Room opened that same year. A Great Tree still stands there at Christmas",
+  "The store's famous line was, \"Give the lady what she wants.\"",
+  "In 2006, the store became Macy's. The clock and the ceiling are still there"
+ ],
+ "extra": [],
+ "images": "Images: original 312 History illustration; Reading Tom, Marshall Field's clock at State and Washington, 2006 (CC BY 2.0); Victor Grigas, Tiffany mosaic ceiling, 2016 (CC BY-SA 4.0); Richie Diesterheft, Great Tree in the Walnut Room, 2006 (CC BY 2.0); Pokemonprime, Walnut Room, 2024 (CC BY 4.0); Teemu008, Marshall Field's building, 2012 (CC BY-SA 2.0). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Commission on Chicago Landmarks, Marshall Field and Company Building designation report (landmark L141). https://www.chicagolandmarkreports.org/landmark/marshall-field-and-company-building-l141/ and https://reports.chicagolandmarkreports.org/marshall-field-and-company-building-l141.pdf",
+  "Macy's, \"The Fascinating History of Macy\u2019s on State Street in Chicago.\" https://www.visitmacysusa.com/article/fascinating-history-macys-state-street-chicago/",
+  "Chicago Architecture Center, \"Macy\u2019s On State Street (formerly Marshall Field\u2019s).\" https://www.architecture.org/online-resources/buildings-of-chicago/macys-on-state-street-formerly-marshall-fields",
+  "Macy's Restaurants, \"The Marshall Field\u2019s Walnut Room.\" https://macysrestaurants.com/walnut-room/",
+  "Chicago History Museum, \"Christmas at Marshall Field's Walnut Room.\" https://www.chicagohistory.org/christmas-marshall-fields-walnut-room/",
+  "The Saturday Evening Post, \"Christmas at Marshall Field's,\" December 2017. https://www.saturdayeveningpost.com/2017/12/christmas-marshall-fields/",
+  "WBEZ Curious City, \"The History Of The Walnut Room,\" December 10, 2020. https://www.wbez.org/curious-city/2020/12/10/how-a-department-store-became-part-of-chicagos-christmas-traditions",
+  "WTTW / Chicago Stories, \"\u2018Give the Lady What She Wants\u2019: How Marshall Field\u2019s Transformed Shopping from Errand to Experience.\" https://www.wttw.com/chicago-stories/marshall-fields/how-marshall-fields-transformed-shopping-from-errand-to-experience",
+  "Lloyd Wendt and Herman Kogan, Give the Lady What She Wants! (Chicago: Rand McNally, 1952).",
+  "NPR Weekend Edition, \"The Store Formerly Known as Marshall Fields,\" September 9, 2006. https://www.npr.org/2006/09/09/6043685/the-store-formerly-known-as-marshall-fields",
+  "U.S. Census Bureau geocoder, 111 N. State St., Chicago, IL 60602, November 15, 2026: 41.88369, -87.62781."
+ ],
+ "topic": "LOST CHICAGO",
+ "place": "111 N. State St., Chicago (former Marshall Field's)",
+ "lat": 41.8837,
+ "lng": -87.6278,
+ "year": 1907,
+ "slug": "208-marshall-fields"
 }
 ]
