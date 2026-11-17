@@ -356,7 +356,7 @@ def head(title, depth, extra="", desc=None, img=None, path="", otype="website", 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;800;900&display=swap" rel="stylesheet">
 {ld(jsonld) if jsonld else ""}{extra}<link rel="stylesheet" href="{p}assets/style.css"></head><body>
 <header class="nav"><a class="nav-logo" href="{p}index.html"><img src="{p}img/logo_white_transparent.png" alt="312 History"></a>
-<nav><a href="{p}index.html#map" data-i18n="nav.map">Map</a><a href="{p}index.html#topics" data-i18n="nav.stories">Stories</a><a href="{p}routes.html" data-i18n="nav.routes">Walking routes</a><a href="{p}fire-1871.html" data-i18n="nav.fire">Great Fire</a><a href="{p}chicago-in-data.html">Data</a><a href="{p}about.html" data-i18n="nav.about">About</a><a href="{p}press.html" data-i18n="nav.press">Press</a></nav>
+<nav><a href="{p}index.html#map" data-i18n="nav.map">Map</a><a href="{p}index.html#topics" data-i18n="nav.stories">Stories</a><a href="{p}routes.html" data-i18n="nav.routes">Walking routes</a><a href="{p}fire-1871.html" data-i18n="nav.fire">Great Fire</a><a href="{p}chicago-in-data.html">Data</a><a href="{p}checklists.html">Checklists</a><a href="{p}about.html" data-i18n="nav.about">About</a><a href="{p}press.html" data-i18n="nav.press">Press</a></nav>
 <div class="lang" role="group" aria-label="Language"><button data-lang="en">EN</button><button data-lang="ru">RU</button></div>
 <a class="btn btn-red nav-ig" href="{IG}" target="_blank" rel="noopener" aria-label="Instagram @312history">★ IG</a></header>"""
 
