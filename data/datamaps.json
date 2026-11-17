@@ -274,5 +274,11 @@
     "title": "Chicago's Churches",
     "hook": "Where are Chicago's churches?",
     "source": "City of Chicago GIS, Churches layer (ExternalApps/operational_1/MapServer/15), pulled Nov. 16, 2026; HIFLD/IRS 2024 Places of Worship for order-of-magnitude context"
+  },
+  {
+    "key": "barspart2",
+    "title": "Chicago's Bars, Part 2",
+    "hook": "What if we add restaurants with bars?",
+    "source": "City of Chicago Data Portal, Business Licenses - Current Active (uupf-x98q) and Current Liquor (nrmj-3kcf), Tavern plus Consumption on Premises - Incidental Activity, pulled Nov. 17, 2026"
   }
 ]
