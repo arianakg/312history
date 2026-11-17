@@ -218,6 +218,7 @@ META = {
     "210":("CULTURE","4802 N. Broadway, Uptown, Chicago (Green Mill Cocktail Lounge)",41.9691,-87.6598,1914),
     "212":("FIRSTS","6001 W. Dickens Ave., Chicago (former Zenith Radio Corporation plant)",41.9178,-87.7762,1950),
     "214":("FIRSTS","847 W. Harrison St., Chicago (original Galvin Manufacturing Corporation, later Motorola)",41.8743,-87.6481,1930),
+    "217":("FIRSTS","1140 N. Kostner Ave., Chicago (former D. Gottlieb & Co. plant)",41.9018,-87.7362,1947),
 }
 TOPICS = {"ORIGINS":"Origins","ARCHITECTURE":"Architecture","LAKEFRONT":"Lake & River","NATURE":"Parks & Gardens",
  "EVENTS":"Big Events","PEOPLE":"People & Neighborhoods","CULTURE":"Culture","FOOD":"Food","FIRSTS":"Firsts",

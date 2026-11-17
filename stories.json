@@ -6275,5 +6275,38 @@
  "lng": -87.6481,
  "year": 1930,
  "slug": "214-the-car-radio"
-}
+},
+ {
+  "num": "217",
+  "title": "The Pinball Flipper",
+  "hook": "Did you know the pinball flipper was invented in Chicago?",
+  "facts": [
+   "Did you know the pinball flipper was invented in Chicago?",
+   "In the 1930s, Chicago companies like Gottlieb and Bally made pinball a hit across the country",
+   "In 1947, a Chicago company called Gottlieb made a game named Humpty Dumpty",
+   "Designer Harry Mabs added electric flippers, so players could hit the ball back",
+   "Other Chicago companies soon added flippers too. For years, Chicago was the pinball capital of the world"
+  ],
+  "extra": [],
+  "images": "Images: original 312 History illustration; el-toro, classic Gottlieb pinball machines at the Museum of Pinball, Banning, CA, 2016 (CC BY 2.0); A7N8X, Gottlieb Baffle Ball, 2025 (CC0); Tydence Davis, Gottlieb Ship Ahoy, 2022 (CC BY 2.0); Frédéric BISSON, pinball machines at Flip Expo, Le Tréport, 2014 (CC BY 2.0). Music: original bass.",
+  "sources_line": "",
+  "sources": [
+   "Wikipedia, \"Humpty Dumpty (pinball).\" D. Gottlieb & Co., released October 25, 1947; first pinball machine with electromechanical flippers, invented by Harry Mabs; artwork by Roy Parker; production 6,500 units. https://en.wikipedia.org/wiki/Humpty_Dumpty_(pinball)",
+   "Internet Pinball Machine Database, Gottlieb 'Humpty Dumpty,' IPD No. 1254. Date of manufacture October 25, 1947; design by Harry Mabs; first pinball machine manufactured with electromechanical flippers; teaser ads in The Billboard starting October 11, 1947; Gottlieb announced the game in the November 1, 1947 issue. Harry Mabs, a Gottlieb employee, is credited with inventing the EM flipper; notes that earlier flippers existed but were non-electrical and mechanical. https://www.ipdb.org/machine.cgi?id=1254",
+   "Wikipedia, \"Gottlieb.\" D. Gottlieb & Co. founded in Chicago in 1927 by David Gottlieb; first successful coin-operated pinball machine Baffle Ball in 1931; 1947 development of player-actuated, solenoid-driven flippers on Humpty Dumpty, designed by Harry Mabs; main office and plant at 1140-50 N. Kostner Avenue until the early 1970s, then Northlake, Illinois. https://en.wikipedia.org/wiki/Gottlieb",
+   "The Strong National Museum of Play / Google Arts & Culture, \"Pinball machine: Humpty Dumpty Pinball Machine — D. Gottlieb & Co.\" Date created 1947; location Chicago, IL; designer Harry Mabs; notes that 1947 saw the invention of the flipper. https://artsandculture.google.com/asset/pinball-machine-humpty-dumpty-pinball-machine-d-gottlieb-co/cAGErsben16YLw",
+   "The Pinball Archive, \"Pinball History Timeline.\" In the Depression, \"Chicago becomes pinball's capital\"; 1931, David Gottlieb's Baffle Ball is pinball's first commercial smash; January 10, 1932, Raymond Moloney founds Bally Manufacturing to build Ballyhoo. https://pinballarchive.com/history",
+   "Pinball History, \"First Pinball Machines.\" 1931 Gottlieb Baffle Ball as the machine that launched the coin-operated pinball industry; 1932 Bally Ballyhoo, the game that started Bally; 1947 Gottlieb Humpty Dumpty, Harry Mabs, six \"Flipper Bumpers.\" https://www.pinballhistory.com/pinfirsts.html",
+   "Pinball Adventures, \"Chicago: Pinball’s capital and last best hope.\" For most of the 20th century, North Side factories turned out the majority of the world's machines; in 1947 Harry Mabs, Gottlieb's chief engineer, added the first flippers. The article places Gottlieb \"on Addison Street near Ashland Avenue,\" which this post does not use (see factcheck). https://www.pinballadventures.com/chicago-pinballs-capital-and-last-best-hope-2/",
+   "USPTO trademark registration 0786358, D. GOTTLIEB & CO., registration date March 9, 1965. Owner listed at 1140 N. Kostner Avenue, Chicago, Illinois. Used to confirm the Kostner plant address, not a 1947 city-directory listing. http://www.geocities.ws/system80pins/gtb-marks.html",
+   "U.S. Census Bureau geocoder, 1140 N. Kostner Ave., Chicago, IL 60651, November 17, 2026: 41.90179, -87.73620.",
+   "Wikimedia Commons image pages for the photographs used in the reel, as listed in licences.md."
+  ],
+  "topic": "FIRSTS",
+  "place": "1140 N. Kostner Ave., Chicago (former D. Gottlieb & Co. plant)",
+  "lat": 41.9018,
+  "lng": -87.7362,
+  "year": 1947,
+  "slug": "217-the-pinball-flipper"
+ }
 ]
