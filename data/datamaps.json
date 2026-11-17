@@ -280,5 +280,11 @@
     "title": "Chicago's Bars, Part 2",
     "hook": "What if we add restaurants with bars?",
     "source": "City of Chicago Data Portal, Business Licenses - Current Active (uupf-x98q) and Current Liquor (nrmj-3kcf), Tavern plus Consumption on Premises - Incidental Activity, pulled Nov. 17, 2026"
+  },
+  {
+    "key": "gasstations",
+    "title": "Chicago's Gas Stations",
+    "hook": "Chicago has 417 gas stations",
+    "source": "City of Chicago Data Portal, Business Licenses - Current Active (uupf-x98q), Filling Station licenses, pulled Nov. 17, 2026; BACP Nov. 16, 2025 memorandum (443) for prior official context"
   }
 ]
