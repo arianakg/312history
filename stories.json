@@ -6242,5 +6242,38 @@
  "lng": -87.7762,
  "year": 1950,
  "slug": "212-the-tv-remote"
+},
+{
+ "num": "214",
+ "title": "The Car Radio",
+ "hook": "Did you know the first popular car radio was made in Chicago?",
+ "facts": [
+  "Did you know the first popular car radio was made in Chicago?",
+  "In 1928, Paul and Joseph Galvin started Galvin Manufacturing Corporation in Chicago.",
+  "In 1930, they sold a car radio called Motorola. It was one of the first popular car radios.",
+  "The name comes from \"motor\" and \"ola,\" like Victrola. The company later took the name Motorola.",
+  "Years later, Motorola made the first handheld cell phone. The first call was in New York, in 1973."
+ ],
+ "extra": [],
+ "images": "Images: original 312 History illustration; Sicnag, 1930 Studebaker Dictator 6 Sedan, 2014 (CC BY 2.0); Pacific and Atlantic / Agence Rol, Chicago, 1928, Bibliothèque nationale de France (public domain); RL GNZLZ, 1930 Studebaker President Brougham, 2011 (CC BY-SA 2.0); Daderot, Motorola Series S-Grill radio, Chicago, 1939, 2015 (CC0); Rico Shen, Martin Cooper with a 1973 DynaTAC prototype, 2007 (CC BY-SA 3.0). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Motorola Solutions, official timeline. https://www.motorolasolutions.com/en_us/about/history/timeline.html",
+  "Motorola Solutions, \"Sound in Motion.\" https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/sound-motion.html",
+  "History.com, \"First company to mass-produce car radios is incorporated.\" https://www.history.com/this-day-in-history/september-25/first-day-of-work-at-the-galvin-manufacturing-corporation",
+  "Encyclopedia of Chicago, \"Motorola, Inc.\" https://www.encyclopedia.chicagohistory.org/pages/847.html",
+  "Illinois History & Lincoln Collections, \"Motorola: An Illinois Company,\" May 19, 2018. https://publish.illinois.edu/ihlc-blog/2018/05/19/motorola/",
+  "Illinois Institute of Technology, \"A History of Innovation and Philanthropy.\" https://www.iit.edu/galvin-interactive/ahistory",
+  "NPR, \"50 years ago, Martin Cooper made the first cellphone call,\" April 3, 2023. https://www.npr.org/2023/04/03/1167815751/50-years-ago-martin-cooper-made-the-first-cell-phone-call",
+  "Mobile Phone Museum, \"First Mobile Phone Call Made 50 Years Ago Today.\" https://www.mobilephonemuseum.com/blog-detail/first-mobile-phone-call",
+  "Motorola Solutions, First Sales Account Ledger. https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/first-sales-account-ledger.html",
+  "U.S. Census Bureau geocoder, 847 W. Harrison St., Chicago, IL 60607, November 16, 2026: 41.87429, -87.64810."
+ ],
+ "topic": "FIRSTS",
+ "place": "847 W. Harrison St., Chicago (original Galvin Manufacturing Corporation, later Motorola)",
+ "lat": 41.8743,
+ "lng": -87.6481,
+ "year": 1930,
+ "slug": "214-the-car-radio"
 }
 ]
