@@ -6350,5 +6350,37 @@
   "lng": -87.6324,
   "year": 1833,
   "slug": "219-invented-in-chicago"
+ },
+ {
+  "num": "220",
+  "title": "The Weber Kettle",
+  "hook": "Did you know the Weber kettle was invented in Chicago?",
+  "facts": [
+   "Did you know the Weber kettle was invented in Chicago?",
+   "In 1952, George Stephen worked at a metal shop on Jefferson Street in Chicago",
+   "The shop made metal buoys. He used two halves to build a grill with a lid",
+   "He called it George's Barbecue Kettle. The lid helped him control the heat",
+   "The kettle became a classic in American backyards"
+  ],
+  "extra": [],
+  "images": "original 312 History illustration; Sander van der Wel, backyard Weber kettle, 2009 (CC BY-SA 2.0); Jauerback, early-style kettle replica, 2008 (CC BY-SA 4.0); Joe Ravi, riveted bell buoy, Eagle Harbor, Michigan (CC BY-SA 3.0); Owen Kelly, charcoal kettle grills, 2007 (CC BY 3.0). Music: original bass.",
+  "sources_line": "",
+  "sources": [
+   "Weber, \"Weber Kettle - Born from a Buoy,\" official history. George Stephen, 1952, two half-spheres from a sheet metal buoy, \"George's Barbecue Kettle,\" Weber Brothers Metal Works. https://amer.weber.com/en-us/blogs/behind-the-grill/weber-kettle-born-from-a-buoy",
+   "Weber, \"Our History,\" official timeline, 1952 Original Kettle. https://amer.weber.com/en-us/pages/our-history",
+   "Archived Weber newsroom, \"Company History\" / George Stephen, inventor of the Weber Kettle Grill (Wayback, 2007). Official quote on dome shapes, drilled holes, and wire grates; began selling in 1952; later bought the company. https://web.archive.org/web/20070623131242/weber.mediaroom.com/index.php?item=1&s=pageA",
+   "Smithsonian Magazine, Lina Zeldovich, \"The Story of the Weber Grill Begins With a Buoy,\" 2016. Shop making buoys; two half spheres; marketed as George's Barbecue Kettle; lid and heat control. https://www.smithsonianmag.com/innovation/story-weber-grill-begins-buoy-180960335/",
+   "National Museum of American History, \"Weber Kettle Charcoal Grill,\" object nmah_1417971. Used for context; its text dates the invention to 1951, which this post does not follow. We use the official 1952 year. https://americanhistory.si.edu/collections/object/nmah_1417971",
+   "Made-in-Chicago Museum, \"Weber-Stephen Products Co., est. 1893.\" Previously Weber Brothers Metal Works, 108 N. Jefferson St., Chicago (West Loop). https://www.madeinchicagomuseum.com/single-post/weber-stephen-products/",
+   "1959 Weber Bros. Portable Bar-B-Q Kettle instruction sheet, address \"108 N. Jefferson Street, Chicago 6, Illinois,\" as documented on The Virtual Weber Bulletin Board. https://tvwbb.com/threads/1959-weber-bros-portable-bar-b-q-kettle-instruction-sheet-electric-spit-assembly.63241/",
+   "1945 Weber Brothers Metal Works catalog listing, 106 North Jefferson Street, Chicago (adjacent number, used only as context).",
+   "U.S. Census Bureau geocoder, 108 N. Jefferson St., Chicago, IL 60661, November 18, 2026: 41.88379, -87.64279. The original shop building is gone; the map pin is approximate."
+  ],
+  "topic": "FIRSTS",
+  "place": "108 N. Jefferson St., Chicago (former Weber Brothers Metal Works)",
+  "lat": 41.8838,
+  "lng": -87.6428,
+  "year": 1952,
+  "slug": "220-the-weber-kettle"
  }
 ]
