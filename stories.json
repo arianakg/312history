@@ -6308,5 +6308,47 @@
   "lng": -87.7362,
   "year": 1947,
   "slug": "217-the-pinball-flipper"
+ },
+ {
+  "num": 219,
+  "title": "Invented in Chicago",
+  "hook": "Did you know these 12 things were invented in Chicago?",
+  "facts": [
+   "Balloon-frame house, 1833. Chicago builders made a light wood frame still used today.",
+   "The skyscraper, 1885. William Le Baron Jenney's Home Insurance Building is often called the first.",
+   "Softball, 1887. George Hancock started the game at the Farragut Boat Club.",
+   "The Ferris wheel, 1893. George Ferris built it for Chicago's World's Fair.",
+   "An early zipper, 1893. Whitcomb Judson showed his \"clasp locker\" at the fair.",
+   "The Radio Flyer, 1917. Antonio Pasin made the little red wagon in Chicago.",
+   "The car radio, 1930. Galvin Manufacturing, later Motorola, made one of the first popular car radios.",
+   "The blood bank, 1937. Dr. Bernard Fantus opened the first U.S. hospital blood bank at Cook County Hospital.",
+   "Deep-dish pizza, 1943. It first appeared at the restaurant that became Pizzeria Uno.",
+   "The pinball flipper, 1947. Harry Mabs at Gottlieb added electric flippers.",
+   "The TV remote, 1950. Zenith made the first TV remotes in Chicago.",
+   "The Weber kettle, 1952. George Stephen built it at a metal shop on Jefferson Street."
+  ],
+  "extra": [],
+  "images": "original 312 History illustrations. Cover engraving based on a public-domain 1893 photograph of the Ferris Wheel. Music: original bass.",
+  "sources_line": "",
+  "sources": [
+   "Encyclopedia of Chicago, \"Balloon Frame Construction,\" \"Home Insurance Building,\" \"Softball,\" and \"Ferris Wheel.\"",
+   "Chicago Architecture Center; Encyclopaedia Britannica, \"Home Insurance Building\" and \"Ferris wheel.\" The Home Insurance Building (William Le Baron Jenney, 1884–85) is often called the first skyscraper; some historians debate the label.",
+   "USA Softball official history; Chicago History Museum. George Hancock started indoor baseball at the Farragut Boat Club, Thanksgiving 1887, later called softball.",
+   "Chicago History Museum / World's Columbian Exposition accounts. George W. G. Ferris Jr. designed the wheel for Chicago's 1893 World's Fair; Ferris was an engineer from Pittsburgh.",
+   "Smithsonian National Museum of American History, zipper history; USPTO. Whitcomb L. Judson of Chicago patented a clasp locker and showed it at the 1893 fair. The modern zipper was redesigned by Gideon Sundback in 1913, not in Chicago.",
+   "Radio Flyer official company history; Made-in-Chicago Museum. Antonio Pasin began making wagons in Chicago in 1917 (Liberty Coasters, later Radio Flyer).",
+   "Motorola / Galvin Manufacturing official history; 312 History story 214. The 1930 Motorola was one of the first popular car radios, not the first car radio.",
+   "Cook County Health / UI Health; JAMA historical accounts; 312 History story 32. Dr. Bernard Fantus opened the first U.S. hospital blood bank at Cook County Hospital on March 15, 1937, and coined the term. Earlier stored-blood work existed (for example in World War I).",
+   "Chicago Tribune historical reporting; 312 History story 43. Deep-dish pizza first appeared in 1943 at the restaurant that became Pizzeria Uno. No single inventor is proven.",
+   "Internet Pinball Machine Database, Gottlieb Humpty Dumpty, IPD No. 1254; The Strong National Museum of Play; 312 History story 217. Harry Mabs at D. Gottlieb & Co. added electric flippers in 1947. Not a claim that pinball itself was invented in Chicago.",
+   "Zenith official history; Smithsonian; 312 History story 212. Lazy Bones wired remote, 1950; Eugene Polley's Flash-Matic, 1955, the first wireless TV remote.",
+   "Weber official company history; Made-in-Chicago Museum, Weber Grill, 108 N. Jefferson Street, West Loop. George Stephen built the kettle grill there in 1952."
+  ],
+  "topic": "FIRSTS",
+  "place": "Chicago",
+  "lat": 41.8837,
+  "lng": -87.6324,
+  "year": 1833,
+  "slug": "219-invented-in-chicago"
  }
 ]
