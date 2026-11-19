@@ -6446,5 +6446,32 @@
  "lng": -87.6309,
  "year": "",
  "slug": "223-how-to-get-around-chicago"
+},
+{
+ "num": "224",
+ "title": "The First Auto Race",
+ "hook": "Did you know America's first auto race was in Chicago?",
+ "facts": [
+  "Did you know America's first auto race was in Chicago?",
+  "It was run on Thanksgiving Day in 1895, in snow and slush",
+  "The cars started at the Midway, by Jackson Park, and drove to Evanston and back",
+  "Only six cars started. Only two finished",
+  "J. Frank Duryea won. The trip took more than 10 hours"
+ ],
+ "extra": [],
+ "images": "original 312 History engraving of an 1890s motor wagon in slush; original 312 History route sketch (Midway to Evanston and back); Scientific American, 1895, Duryea first-prize motor wagon (public domain; plate caption cropped out). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Encyclopedia of Chicago, \"Chicago Times-Herald Race of 1895.\" America's first automobile race; Thanksgiving Day, November 28, 1895; Midway / Jackson Park to Evanston and back; snow the night before; 6 starters, 2 finishers; J. Frank Duryea the winner. https://www.encyclopedia.chicagohistory.org/pages/2380.html",
+  "Jojo Galvan, \"H. H. Kohlsaat and the First Automotive Race in the US,\" Chicago History Museum, June 21, 2023. Snowy Thanksgiving course; just over 50 miles; more than 10 hours on the road. https://www.chicagohistory.org/kohlsaat-and-the-first-automotive-race/",
+  "Scientific American, 1895, plate of the Duryea first-prize motor wagon (public domain), via Wikimedia Commons.",
+  "U.S. Census Bureau Geocoder, 6000 S Stony Island Ave., Chicago, IL 60637, November 18, 2026: 41.78550, -87.58666. Approximate pin for the Midway Plaisance at Jackson Park start/finish area, near today's Museum of Science and Industry."
+ ],
+ "topic": "EVENTS",
+ "place": "Midway Plaisance at Jackson Park, Chicago (start and finish; near today's Museum of Science and Industry)",
+ "lat": 41.7855,
+ "lng": -87.5867,
+ "year": 1895,
+ "slug": "224-the-first-auto-race"
 }
 ]
