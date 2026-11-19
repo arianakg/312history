@@ -6411,5 +6411,40 @@
   "lng": -87.612,
   "year": 1887,
   "slug": "222-softball"
- }
+ },
+{
+ "num": "223",
+ "title": "How to Get Around Chicago",
+ "hook": "How do you get around Chicago?",
+ "facts": [
+  "The L is Chicago's train. It has 8 color lines.",
+  "Blue goes to O'Hare. Orange goes to Midway. Red and Blue run 24 hours.",
+  "CTA buses cover the city. The L fare is $2.50. The bus fare is $2.25 with Ventra or a tap.",
+  "Up to 2 more rides in 2 hours are free. A 1-Day CTA/Pace pass is $5. From O'Hare, the L is $5.",
+  "Metra trains go to the suburbs. Fares depend on how far you ride. Buy a ticket in the Ventra app.",
+  "Pay with a Ventra card, the Ventra app, or a tap of a contactless card or phone. The Loop L opened in 1897."
+ ],
+ "extra": [
+  "Fares checked Nov. 18, 2026, on transitchicago.com. Confirm in the Ventra app before you ride, because fares can change.",
+  "Save this guide  Follow @312History"
+ ],
+ "images": "",
+ "sources_line": "CTA Fare Information (transitchicago.com/fares, checked Nov. 18, 2026, evening CST; chart effective Feb. 20, 2023); CTA welcome, visitors, and How to plan your trip pages; Ventra; City of Chicago Data Portal L lines and stations. Metra.com was under maintenance that evening, so Metra dollar fares are not listed. Cover: original 312 History engraving. Map: original 312 History drawing. Music: original piano.",
+ "sources": [
+  "CTA, Fares, https://www.transitchicago.com/fares/, checked November 18, 2026, evening CST. Chart marked effective February 20, 2023.",
+  "CTA, How to pay for your fare, https://www.transitchicago.com/howto/pay-for-your-fare/",
+  "CTA, How to plan your trip, https://www.transitchicago.com/howto/finding-your-way/. Official planning apps named: Ventra app, Google Maps, Apple Maps.",
+  "CTA welcome, visitors, about, Red Line, and Blue Line pages, checked November 18, 2026. Red and Blue operate 24 hours, every day. Blue to O'Hare; Orange to Midway.",
+  "Ventra, https://www.ventrachicago.com/, checked November 18, 2026.",
+  "Metra, https://www.metra.com/fare-table, opened November 18, 2026: official site under scheduled maintenance. Destinations from the live maintenance page. Fare amounts omitted because the live fare table was not available.",
+  "Encyclopedia of Chicago, The Loop, completed 1897. Formal opening of the Union Loop: October 3, 1897.",
+  "City of Chicago Data Portal, CTA - 'L' (Rail) Lines (xbyr-jnvx) and CTA - 'L' (Rail) Stations (3tzw-cg4m), pulled November 18, 2026."
+ ],
+ "topic": "GUIDES",
+ "place": "The Loop, Chicago (Clark/Lake station)",
+ "lat": 41.8857,
+ "lng": -87.6309,
+ "year": "",
+ "slug": "223-how-to-get-around-chicago"
+}
 ]
