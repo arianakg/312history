@@ -286,5 +286,11 @@
     "title": "Chicago's Gas Stations",
     "hook": "Chicago has 417 gas stations",
     "source": "City of Chicago Data Portal, Business Licenses - Current Active (uupf-x98q), Filling Station licenses, pulled Nov. 17, 2026; BACP Nov. 16, 2025 memorandum (443) for prior official context"
+  },
+  {
+    "key": "hairshops",
+    "title": "Chicago's Hair Shops",
+    "hook": "Chicago has 1,830 licensed hair shops",
+    "source": "City of Chicago Data Portal, Business Licenses - Current Active (uupf-x98q), licenses whose official business activity includes Hair Services, Hair, Nail, and Skin Care Services, or Hair Salon, last updated Nov. 18, 2026, 5:18 a.m. CST, pulled Nov. 18, 2026. 1,839 unique licenses at 1,830 addresses. Eight addresses use a U.S. Census geocode. Community areas are official city polygons. The O'Hare west extreme is not used on screen."
   }
 ]
