@@ -6382,5 +6382,34 @@
   "lng": -87.6428,
   "year": 1952,
   "slug": "220-the-weber-kettle"
+ },
+ {
+  "num": "222",
+  "title": "Softball",
+  "hook": "Did you know softball was invented in Chicago?",
+  "facts": [
+   "Did you know softball was invented in Chicago?",
+   "On Thanksgiving Day in 1887, friends were at the Farragut Boat Club",
+   "Someone tossed a boxing glove. Another person hit it with a broom",
+   "George Hancock wrote a set of rules and called the new game indoor baseball",
+   "The game later moved outside and became softball. Chicago still loves its 16-inch game"
+  ],
+  "extra": [],
+  "images": "The Chicago Clubs Illustrated, 1888, Farragut Boat Club plate (public domain); George W. Hancock, Hancock's Indoor Base Ball Guide, 1891, cover (public domain; modern Library of Congress sticker cropped out); original 312 History illustrations of a boxing glove and broom, and of a stitched ball and bat.",
+  "sources_line": "",
+  "sources": [
+   "George W. Hancock, Hancock's Indoor Base Ball Guide (Chicago: G. W. Hancock, 1891). Invented in Chicago in 1887; Farragut Club, Thanksgiving Day; boxing glove and broom; Hancock's rules; 17-inch ball. https://archive.org/details/hancocksindoorba00hanc",
+   "Library of Congress, \"Indoor Baseball: The Birth of Softball,\" Baseball Americana exhibition. https://www.loc.gov/exhibitions/baseball-americana/about-this-exhibition/whos-playing/a-game-divided/indoor-baseball-the-birth-of-softball/",
+   "Heidi Samuelson, \"Indoor Baseball in Chicago,\" Chicago History Museum, March 26, 2024. https://www.chicagohistory.org/indoor-baseball-in-chicago/",
+   "Jacob Austen, \"Softball, 16-Inch,\" Encyclopedia of Chicago. https://www.encyclopedia.chicagohistory.org/pages/1163.html",
+   "Lanward Publishing Company, The Chicago Clubs Illustrated, 1888. Clubhouse at 3016 Lake Park Avenue, completed spring 1886. https://archive.org/details/chicagoclubsillu00lanw",
+   "U.S. Census Bureau Geocoder, 3016 S. Lake Park Avenue, Chicago, IL 60616, November 18, 2026: 41.84001, -87.61203. The original clubhouse is gone; the map pin is approximate."
+  ],
+  "topic": "FIRSTS",
+  "place": "3016–3018 S. Lake Park Ave., Chicago (former Farragut Boat Club)",
+  "lat": 41.84,
+  "lng": -87.612,
+  "year": 1887,
+  "slug": "222-softball"
  }
 ]
