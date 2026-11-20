@@ -6473,5 +6473,33 @@
  "lng": -87.5867,
  "year": 1895,
  "slug": "224-the-first-auto-race"
+},
+{
+ "num": "226",
+ "title": "Public Enemy Number 1",
+ "hook": "Did you know Public Enemy Number 1 died outside a Chicago movie theater?",
+ "facts": [
+  "Did you know Public Enemy Number 1 died outside a Chicago movie theater?",
+  "On July 22, 1934, John Dillinger went to a movie in Chicago",
+  "The theater was the Biograph, on Lincoln Avenue",
+  "Federal agents were waiting outside",
+  "He was shot as he left, and he died that night",
+  "The Biograph Theater is still on Lincoln Avenue"
+ ],
+ "extra": [],
+ "images": "original 312 History engraving of a 1910s Chicago neighborhood movie theater; FBI photograph of John Dillinger, taken January 25, 1934 (public domain; wanted-poster typography cropped out); FBI photograph of the Biograph Theater, 1934 (public domain). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "FBI, \"John Dillinger.\" Sunday night, July 22, 1934, at the Biograph Theater in Chicago; Dillinger went in to see Manhattan Melodrama; agents waited outside on J. Edgar Hoover's instruction; he was shot as he left and was pronounced dead at 10:50 p.m. at Alexian Brothers Hospital. https://www.fbi.gov/history/famous-cases/john-dillinger",
+  "FBI, \"FBI 100: Dillinger's Last Steps,\" July 22, 2008. Public Enemy Number 1; a tip led Melvin Purvis of the Chicago office to the Biograph on a hot Sunday night; Dillinger was killed moments after leaving the theater. https://www.fbi.gov/news/stories/2008/july/dillinger_072208",
+  "City of Chicago, Department of Planning and Development, Landmark Designation Report, Biograph Theater, 2433–43 N. Lincoln Avenue. Built 1914, architect Samuel N. Crowen; Dillinger was shot outside the theater on July 22, 1934, after watching Manhattan Melodrama; designated a Chicago Landmark on March 28, 2001. https://www.chicago.gov/content/dam/city/depts/zlup/Historic_Preservation/Publications/Biograph_Theater.pdf",
+  "U.S. Census Bureau Geocoder, 2433 N. Lincoln Ave., Chicago, IL 60614, November 19, 2026: 41.92622, -87.64974."
+ ],
+ "topic": "EVENTS",
+ "place": "The Biograph Theater, 2433 N. Lincoln Avenue, Chicago (Lincoln Park)",
+ "lat": 41.92622,
+ "lng": -87.64974,
+ "year": 1934,
+ "slug": "226-public-enemy-number-1"
 }
 ]
