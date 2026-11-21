@@ -6501,5 +6501,36 @@
  "lng": -87.64974,
  "year": 1934,
  "slug": "226-public-enemy-number-1"
+},
+{
+ "num": "228",
+ "title": "The Merchandise Mart",
+ "hook": "Did you know a Chicago building was once the largest in the world?",
+ "facts": [
+  "Did you know a Chicago building was once the largest in the world?",
+  "In 1930, the Merchandise Mart opened on the Chicago River",
+  "Marshall Field & Co. built it so retailers could buy goods under one roof",
+  "It was the largest building in the world, by floor space, not by height",
+  "The Merchandise Mart still stands on the Chicago River today",
+  "You can see it at 222 Merchandise Mart Plaza"
+ ],
+ "extra": [],
+ "images": "original 312 History engraving of the Merchandise Mart on the Chicago River (lettering on signs removed). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Chicago Architecture Center, \"Merchandise Mart.\" Original completion 1930; upon completion in 1930 it was the largest building in the world and served as Marshall Field's wholesale warehouse, where retailers could buy stock; address 222 W. Merchandise Mart Plaza; architects Graham, Anderson, Probst & White, with Alfred P. Shaw as project architect. https://www.architecture.org/online-resources/buildings-of-chicago/merchandise-mart",
+  "City of Chicago, Burnham Plan Centennial brochure, printed May 2009. \"Merchandise Mart, 222 Merchandise Mart Plaza | 1930, Graham, Anderson, Probst & White. Originally built for the wholesale showrooms of Marshall Field & Co., the building was the world's largest, containing over 4 million square feet of floor space.\" Exact square footage is not used on the reel. https://www.chicago.gov/content/dam/city/depts/zlup/Zoning_Main_Page/Publications/Burnham_Brochure.pdf",
+  "Encyclopædia Britannica, \"Merchandise Mart.\" The building was the largest in the world when it opened in 1930; built by Marshall Field & Co.; it spans two city blocks along the Chicago River. Britannica's floor-area figure of about 4,200,000 square feet is not used on the reel, because published totals differ (more than 4 million historically; about 3.7 million on the official site today). https://kids.britannica.com/scholars/article/Merchandise-Mart/488063",
+  "Encyclopedia of Chicago, Michael Paul Wakeford, \"Merchandise Mart.\" Dates the building to 1931 and calls it the world's largest, with over four million square feet; originally Marshall Field's wholesale showrooms; it still stands downtown along the Chicago River. The 1931 year is not used on screen; 1930 is used, matching the Chicago Architecture Center, the City of Chicago brochure, and Britannica. https://www.encyclopedia.chicagohistory.org/pages/812.html",
+  "Architectural Digest, Rebecca Holland, \"The Mart Celebrates 90 Years,\" May 11, 2020. \"On May 5, 1930, the Merchandise Mart opened on the Chicago River.\" The exact calendar day is kept in these notes and is not shown on the reel. https://www.architecturaldigest.com/story/the-mart-celebrates-90-years-chicago-athenaeum-honors-karim-rashid-and-more-news-in-chicago",
+  "The Mart, official \"About\" page. Current advertised floor area is 3.7 million square feet, 25 stories, two city blocks. This is a current figure, not the 1930 total, and is not used on the reel. https://www.themart.com/about/",
+  "U.S. Census Bureau Geocoder, 222 W. Merchandise Mart Plaza, Chicago, IL 60654, November 20, 2026: 41.88805, -87.63434."
+ ],
+ "topic": "ARCHITECTURE",
+ "place": "The Merchandise Mart, 222 W. Merchandise Mart Plaza, Chicago (Near North Side)",
+ "lat": 41.88805,
+ "lng": -87.63434,
+ "year": 1930,
+ "slug": "228-the-merchandise-mart"
 }
 ]
