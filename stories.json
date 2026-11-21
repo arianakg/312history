@@ -6531,5 +6531,32 @@
  "lng": -87.63434,
  "year": 1930,
  "slug": "228-the-merchandise-mart"
+},
+{
+ "num": "230",
+ "title": "The Adler Planetarium",
+ "hook": "Did you know Chicago opened the first modern planetarium in the Western Hemisphere?",
+ "facts": [
+  "Did you know Chicago opened the first modern planetarium in the Western Hemisphere?",
+  "In 1930, the Adler Planetarium opened on the lakefront",
+  "Chicago businessman Max Adler paid for the building",
+  "A Zeiss projector showed the stars on a dome",
+  "It is still on the lakefront today, at 1300 S. Lake Shore Drive"
+ ],
+ "extra": [],
+ "images": "original 312 History engravings of the 1930 Adler Planetarium and of a Zeiss projector under a dome (no lettering). Music: original bass.",
+ "sources_line": "",
+ "sources": [
+  "Adler Planetarium, official \"History\" page. \"May 12, 1930. The Adler Planetarium, the first planetarium in the western hemisphere, opened to the public. Chicago business leader Max Adler contributed funds for the museum's construction, a Zeiss projector, and the Mensing Collection of astronomical instruments.\" The exact calendar day, May 12, is kept in these notes and is not shown on the reel; the reel uses 1930. https://www.adlerplanetarium.org/about-us/our-history/",
+  "Encyclopedia of Chicago, Bruce Stephenson, \"Adler Planetarium.\" Conceived in 1928 after Max Adler, a retired Sears, Roebuck & Co. executive, saw a Zeiss planetarium projector in Europe; he donated a Zeiss projector and money to build a home for it; the 12-sided building, designed by Ernst Grunsfeld, opened in 1930; \"It was the first modern planetarium in the Western Hemisphere.\" The word \"modern\" is used on screen so this is not confused with the Atwood Sphere (1913), a different kind of star ball that later moved to the Adler. https://www.encyclopedia.chicagohistory.org/pages/23.html",
+  "National Park Service, National Historic Landmarks Program, Adler Planetarium (designated February 27, 1987). \"The Adler, which opened in 1930, was the first planetarium in the Western Hemisphere. It was given to the people of Chicago by Max Adler.\" Address given as 1300 S. Lake Shore Drive. https://web.archive.org/web/20080103060434/tps.cr.nps.gov/nhl/detail.cfm?ResourceId=1983&ResourceType=Building",
+  "OpenStreetMap, amenity=planetarium \"Adler Planetarium,\" 1300 South Lake Shore Drive: 41.8663656, -87.6066259. Wikipedia, \"Adler Planetarium,\" coordinates 41.86638889, -87.60666667. The pin on this page uses 41.86639, -87.60667. A U.S. Census Bureau street geocode for 1300 S. Lake Shore Drive (November 21, 2026) returned 41.86645, -87.61393, which falls on the drive west of the peninsula, not on the building, so it is not used."
+ ],
+ "topic": "FIRSTS",
+ "place": "The Adler Planetarium, 1300 S. Lake Shore Drive, Chicago (Museum Campus)",
+ "lat": 41.86639,
+ "lng": -87.60667,
+ "year": 1930,
+ "slug": "230-the-adler-planetarium"
 }
 ]
