@@ -6558,5 +6558,36 @@
  "lng": -87.60667,
  "year": 1930,
  "slug": "230-the-adler-planetarium"
+},
+{
+ "num": "232",
+ "title": "The Palmolive Building",
+ "hook": "Did you know a Chicago skyscraper once flashed a giant light to guide airplanes?",
+ "facts": [
+  "Did you know a Chicago skyscraper once flashed a giant light to guide airplanes?",
+  "In 1929, the Palmolive Building opened on Michigan Avenue",
+  "Holabird & Root designed the 37-story Art Deco tower",
+  "A year later, a rotating beacon on the roof was built to guide pilots at night",
+  "It still stands today at 919 N. Michigan Avenue"
+ ],
+ "extra": [
+  "A second beam from the beacon pointed toward Chicago Municipal Airport, now Midway. This detail is in the caption and the designation report; it is not shown on the reel."
+ ],
+ "images": "Photographs of the Palmolive Building from The Architectural Forum, May 1930 (public domain as of 2026). Cover and beacon frames: original 312 History engravings (no lettering). Music: original.",
+ "sources_line": "",
+ "sources": [
+  "City of Chicago Landmarks, Palmolive Building (landmark lanId 1395; designated February 16, 2000). Built 1927–29. \"The Palmolive Building was the first commercial skyscraper built far from the Loop – at the northern end of Michigan Avenue.\" Architects: Holabird & Root. The official page also notes \"the navigational beacon which operated atop the building from 1930-1981.\" Address: 919 N. Michigan Avenue. https://webapps1.chicago.gov/landmarksweb/web/landmarkdetails.htm?lanId=1395",
+  "City of Chicago Landmarks designation report, Palmolive Building. The tower was built to 37 stories (not the 42 stories once announced). A revolving carbon-arc navigational aid was later placed on the roof; a second fixed beam pointed southwest toward Chicago Municipal Airport, now Midway. https://reports.chicagolandmarkreports.org/palmolive-building-l161.pdf",
+  "Henry J. B. Hoskins, \"The Palmolive Building, Chicago,\" The Architectural Forum 52, no. 5 (May 1930). The article says the building \"rises for 37 stories to a height of 468 feet, 6 inches.\" In the same issue the rooftop \"Lindbergh Light\" is still described as a beacon that \"will be constructed,\" so the May 1930 photographs show the finished tower and its night floodlighting, not the operating aviation beacon (officially lit later in 1930). The photos used in the reel (Michigan Avenue street view; the tower behind Fourth Presbyterian Church) come from this issue, which is a 1930 U.S. publication and is in the public domain as of January 1, 2026. https://www.usmodernist.org/AF/AF-1930-05.pdf",
+  "Encyclopedia of Chicago, \"Skyscrapers.\" Lists the Palmolive Building under 1929. https://www.encyclopedia.chicagohistory.org/pages/1149.html",
+  "National Register of Historic Places, Palmolive Building, NRIS 03000784, significant year 1929.",
+  "Coordinates on this page: 41.89983, -87.62343, from OpenStreetMap (way 143756601) and Wikidata / Wikipedia (41°53′59.39″N 87°37′24.34″W). A U.S. Census Bureau street geocode for 919 N. Michigan Avenue lands about 50 meters west, on the roadway, so it is not used for the pin."
+ ],
+ "topic": "ARCHITECTURE",
+ "place": "The Palmolive Building, 919 N. Michigan Avenue, Chicago (Near North Side)",
+ "lat": 41.89983,
+ "lng": -87.62343,
+ "year": 1929,
+ "slug": "232-the-palmolive-building"
 }
 ]
