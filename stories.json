@@ -6625,5 +6625,42 @@
  "lng": -87.62528,
  "year": 1889,
  "slug": "234-the-auditorium-building"
+},
+{
+ "num": "236",
+ "title": "The Medinah Temple",
+ "hook": "Did you know downtown Chicago has a temple with giant domes?",
+ "facts": [
+  "Did you know downtown Chicago has a temple with giant domes?",
+  "The cornerstone was laid at midnight on Halloween, 1911",
+  "The Medinah Temple was built in 1912 at 600 N. Wabash Avenue for Chicago's Shriners",
+  "Architects Huehl & Schmid designed it",
+  "The auditorium had 4,200 seats",
+  "The Chicago Symphony later recorded more than 100 performances here",
+  "The building still stands today"
+ ],
+ "extra": [
+  "The official City of Chicago Landmarks page and the May 2001 designation report both give the architects as Huehl & Schmid (not Schmidt), the year as 1912, the address as 600 N. Wabash Avenue, and the auditorium as 4,200 seats.",
+  "The designation report says a building permit was issued on October 7, 1911, and that the cornerstone was laid three weeks later at midnight on Halloween, before about 5,000 members. The temple was dedicated a year later, in 1912. A contemporary newspaper report (Decatur Herald, October 31, 1912) dated the dedication to the evening of October 30, 1912; the reel uses the year only.",
+  "The original terra-cotta corner domes, based on Persian and Ottoman precedents, were removed around 1939 and later replaced. The distinctive copper onion domes seen on the building today are a later restoration, so the reel and cover show the 1912 patterned domes from the contemporary photographs.",
+  "The landmark report says that from a 1967 session onward the Chicago Symphony Orchestra recorded more than 100 performances at Medinah Temple. The orchestra's own published recording lists confirm many sessions there. The reel and caption follow the official report's wording.",
+  "The building was placed on Landmarks Illinois's most-endangered list in 1996, put up for sale in 1998, and designated a Chicago Landmark on June 27, 2001, after a demolition threat. Later uses (a Bloomingdale's Home store, and later a temporary casino) are not part of this reel."
+ ],
+ "images": "Photograph of Medinah Temple by Percy H. Sloan, c. 1912, Newberry Library (public domain). Auditorium interior and other views: Architectural Record, April 1913 (public domain). Cover and today frames: original 312 History engraving (no lettering). Music: original.",
+ "sources_line": "",
+ "sources": [
+  "City of Chicago Landmarks, Medinah Temple (landmark lanId 1367; designated June 27, 2001). Architects: Huehl & Schmid. Year built: 1912. Address: 600 N. Wabash Avenue. https://webapps1.chicago.gov/landmarksweb/web/landmarkdetails.htm?lanId=1367",
+  "Commission on Chicago Landmarks, Medinah Temple designation report, May 2001 (landmark L-145). https://www.chicagolandmarkreports.org/landmark/medinah-temple-l145/ and https://reports.chicagolandmarkreports.org/medinah-temple-l145.pdf",
+  "Chicago Symphony Orchestra, \"Herseth @ 100: For the Record,\" July 20, 2021. https://chicagosymphony.org/inside-the-music/article/4283/herseth-100-for-the-record",
+  "The Architectural Record 33, no. 4 (April 1913).",
+  "Percy H. Sloan photographs of Medinah Hall / Medinah Temple, early 20th century, Newberry Library (Midwest MS Sloan). Public domain. https://commons.wikimedia.org/wiki/File:Medinah_Temple,_Chicago,_early_20th_century_(NBY_561).jpg",
+  "Coordinates on this page: 41.89280, -87.62720, from Wikidata (41°53′34.08″N 87°37′37.92″W)."
+ ],
+ "topic": "ARCHITECTURE",
+ "place": "The Medinah Temple, 600 N. Wabash Avenue, Chicago (Near North Side)",
+ "lat": 41.89280,
+ "lng": -87.62720,
+ "year": 1912,
+ "slug": "236-the-medinah-temple"
 }
 ]
