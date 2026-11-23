@@ -6589,5 +6589,41 @@
  "lng": -87.62343,
  "year": 1929,
  "slug": "232-the-palmolive-building"
+},
+{
+ "num": "234",
+ "title": "The Auditorium Building",
+ "hook": "Did you know a huge theatre, a hotel, and offices shared one building?",
+ "facts": [
+  "Did you know a huge theatre, a hotel, and offices shared one building?",
+  "In 1889, the Auditorium Building opened on Michigan Avenue",
+  "Adler and Sullivan designed it",
+  "The theatre had more than 4,000 seats",
+  "It still stands today at 430 S. Michigan Avenue"
+ ],
+ "extra": [
+  "The hotel and office block of the building was added in 1890, so the reel's \"opened in 1889\" refers to the theatre and the main opening, not a claim that every hotel room was finished in 1889.",
+  "A hotel and offices in the same building helped pay for the theatre. That point is in the hook and the caption; it is not a separate on-screen fact.",
+  "The original theatre had more than 4,000 seats (city and federal sources give about 4,200 or 4,237). Today's house is smaller, so the reel uses the past tense.",
+  "The exact opening-day calendar date is omitted on the reel because sources disagree: the official Auditorium Theatre history and a National Trust article say December 9, 1889, while a City of Chicago designation-report synopsis dates the Harrison dedication to December 10, 1889.",
+  "Roosevelt University bought the building in 1946–47. The theatre was later restored by Harry Weese and reopened in 1967. Those later chapters are not on the reel.",
+  "The building is a Chicago Landmark (designated September 15, 1976, lanId 1246), a National Historic Landmark (May 15, 1975), and was listed on the National Register of Historic Places on April 17, 1970 (NRIS 70000230)."
+ ],
+ "images": "Photographs of the Auditorium Building by J. W. Taylor, 1890 (public domain). Cover and today frames: original 312 History engraving (no lettering). Music: original.",
+ "sources_line": "",
+ "sources": [
+  "City of Chicago Landmarks, Auditorium Building (landmark lanId 1246; designated September 15, 1976). Architects: Adler & Sullivan. The official page lists the building as 1886–1890 at 430 S. Michigan Avenue, and as a National Historic Landmark. https://webapps1.chicago.gov/landmarksweb/web/landmarkdetails.htm?lanId=1246",
+  "National Park Service, Auditorium Building, Roosevelt University. The place page says the building was completed in 1889 and that the theatre originally seated 4,200 people. National Historic Landmark, May 15, 1975; National Register of Historic Places, April 17, 1970. https://www.nps.gov/places/auditorium-roosevelt-u-il.htm",
+  "Chicago Architecture Center, Auditorium Building. Gives an original completion date of 1889 and names Adler & Sullivan as the architects. https://www.architecture.org/online-resources/buildings-of-chicago/auditorium-building",
+  "Encyclopedia of Chicago, \"Auditorium Building.\" Discusses the mixed-use plan of a huge theatre with a hotel and offices, and notes that the hotel and office block were added in 1890. https://www.encyclopedia.chicagohistory.org/pages/89.html",
+  "National Register of Historic Places, Auditorium Building, NRIS 70000230.",
+  "Coordinates on this page: 41.87611, -87.62528, from Wikidata / Wikipedia (41°52′34″N 87°37′31″W). A street geocode is not used for the pin."
+ ],
+ "topic": "ARCHITECTURE",
+ "place": "The Auditorium Building, 430 S. Michigan Avenue, Chicago (The Loop)",
+ "lat": 41.87611,
+ "lng": -87.62528,
+ "year": 1889,
+ "slug": "234-the-auditorium-building"
 }
 ]
