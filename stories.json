@@ -6662,5 +6662,42 @@
  "lng": -87.62720,
  "year": 1912,
  "slug": "236-the-medinah-temple"
+},
+{
+ "num": "238",
+ "title": "The Pioneer Zephyr",
+ "hook": "Did you know a silver train raced from Denver to Chicago in one day?",
+ "facts": [
+  "Did you know a silver train raced from Denver to Chicago in one day?",
+  "On May 26, 1934, the Zephyr ran nonstop from Denver to Chicago",
+  "The trip was 1,015 miles and took 13 hours and 5 minutes",
+  "The Burlington, a Chicago railroad, had it built of stainless steel",
+  "It ran on diesel power, not steam",
+  "After the run, it was shown at Chicago's World's Fair",
+  "The train still stands today at the Museum of Science and Industry"
+ ],
+ "extra": [
+  "The train was built in 1934 by the Budd Company in Philadelphia for the Chicago, Burlington & Quincy, a Chicago railroad. It was first named the Burlington Zephyr and was renamed Pioneer Zephyr in 1936, the name used at the Museum of Science and Industry and in this story.",
+  "The Museum of Science and Industry and the Burlington railroad's own 1934 'Dawn-to-Dusk' card both give the same official figures used here: a nonstop run from Denver to Chicago on May 26, 1934, 1,015 miles, in 13 hours and 5 minutes (785 minutes). The card also lists an average of 77.6 miles an hour and a top speed of 112.5 miles an hour; those numbers are not used on the reel. Clock times on period sources disagree only by time-zone labeling, so the reel uses the duration only.",
+  "The Burlington card says the record was clocked when the train reached Halsted Street, Chicago. Regular service began November 11, 1934, on a Lincoln–Omaha–Kansas City route.",
+  "After the record run, the train was shown at Chicago's Century of Progress in 1934. It later appeared at the Chicago Railroad Fair in 1948–49. It was given to the Museum of Science and Industry (accession 60.14) and is still on display, and can be toured, at 5700 S. Lake Shore Drive, Chicago (Hyde Park)."
+ ],
+ "images": "Hook and close-up: Edward Budd Company photograph of the train, 1934 (public domain). The 1,015-mile fact uses a May 26, 1934 press photograph of the train passing through Aurora, Illinois, on the record run (public domain). Stainless-steel detail: Wendell MacRae photograph in Railway Age, April 1934 (public domain). Cover and today frames: original 312 History engraving (no lettering). Music: original.",
+ "sources_line": "",
+ "sources": [
+  "Museum of Science and Industry, Pioneer Zephyr collection. Official figures: May 26, 1934, 1,015 miles, 13 hours 5 minutes; built by the Budd Company of stainless steel; later gift to the museum (accession 60.14). https://collections.griffinmsi.org/collections/2777",
+  "Museum of Science and Industry, Pioneer Zephyr exhibit. The train is still on display and can be toured at 5700 S. Lake Shore Drive, Chicago. https://www.griffinmsi.org/exhibits/pioneer-zephyr",
+  "Chicago, Burlington & Quincy Railroad, official Zephyr 'Dawn-to-Dusk' record card, 1934. 1,015 miles, 785 minutes, 13 hours 5 minutes, Halsted Street, Chicago; average 77.6 mph; top speed 112.5 mph. Hennepin County Library / DPLA, No Copyright–United States.",
+  "Edward Budd Company photograph of the train, c. 1934. Public domain (copyright not renewed). https://commons.wikimedia.org/wiki/File:Pioneer_Zephyr.JPG",
+  "Press photograph of the Zephyr passing through Aurora, Illinois, on May 26, 1934, during the Denver-to-Chicago record run. Public domain. https://commons.wikimedia.org/wiki/File:Pioneer_Zephyr_Dawn_to_Dusk_at_Aurora_IL_May_26,_1934.JPG",
+  "Wendell MacRae, photograph of the Zephyr, in Railway Age, April 14, 1934 (before the train's debut). Public domain. https://commons.wikimedia.org/wiki/File:Pioneer_Zephyr_Railway_Age_1934.JPG",
+  "Coordinates on this page: 41.79170, -87.58296, at the Museum of Science and Industry, Hyde Park, where the train is displayed."
+ ],
+ "topic": "EVENTS",
+ "place": "The Pioneer Zephyr, Museum of Science and Industry, 5700 S. Lake Shore Drive, Chicago (Hyde Park)",
+ "lat": 41.79170,
+ "lng": -87.58296,
+ "year": 1934,
+ "slug": "238-the-pioneer-zephyr"
 }
 ]
