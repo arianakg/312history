@@ -6699,5 +6699,40 @@
  "lng": -87.58296,
  "year": 1934,
  "slug": "238-the-pioneer-zephyr"
+},
+{
+ "num": "241",
+ "title": "Rube Foster",
+ "hook": "Did you know a Chicago pitcher built a baseball league of his own?",
+ "facts": [
+  "Did you know a Chicago pitcher built a baseball league of his own?",
+  "In 1911, Rube Foster formed the Chicago American Giants",
+  "They played on the South Side, at the old White Sox park",
+  "On February 13, 1920, he founded the Negro National League",
+  "His Chicago team won the first three pennants",
+  "He was elected to the Baseball Hall of Fame in 1981"
+ ],
+ "extra": [
+  "Andrew “Rube” Foster was born on September 17, 1879, in Calvert, Texas. He became player-manager of Chicago's Leland Giants in 1907, and in 1911 he formed the Chicago American Giants in a partnership with John Schorling, who had leased the old White Sox grounds on the South Side. The park, at 39th Street between Princeton and Wentworth Avenues, was known as Schorling Park.",
+  "On February 13, 1920, Foster led the founding of the Negro National League, the first stable Black professional baseball league. The organizing meeting was held in Kansas City. Foster served as president and treasurer. His Chicago American Giants won the first three pennants, in 1920, 1921, and 1922. The Encyclopedia of Chicago also records later pennants in 1926 and 1927.",
+  "The National Baseball Hall of Fame, which inducted Foster in 1981, calls him the “father of black baseball.” He died on December 9, 1930, in Kankakee, Illinois, and is buried at Lincoln Cemetery in Blue Island.",
+  "Schorling Park does not still stand; the site is now Wentworth Gardens. The map pin is the park's historic location at 39th Street and Princeton Avenue, and is approximate."
+ ],
+ "images": "Schorling Park panorama and cameo portrait: from Souvenir of Negro Progress: Chicago, 1779–1925 (published 1925), New York Public Library, which believes the item is in the U.S. public domain. League meeting: photograph of the Negro National League annual meeting in Chicago, January 28, 1922 (public domain); Foster is in the front row. Hook, Hall of Fame, and cover frames: original 312 History engraving, based on the 1925 portrait (no lettering). Music: original.",
+ "sources_line": "",
+ "sources": [
+  "Encyclopedia of Chicago, Rob Ruck, “American Giants.” The American Giants began play in 1911 after Rube Foster left the Leland Giants; they won Negro National League championships in 1920, 1921, 1922, 1926, and 1927; Foster founded the NNL in 1920. https://encyclopedia.chicagohistory.org/pages/42.html",
+  "Encyclopedia of Chicago, Steven A. Riess, “Andrew ‘Rube’ Foster: A Baseball Legend.” Playing manager of the Leland Giants in 1907; on February 13, 1920, Foster piloted the formation of the Negro National League; president and treasurer; elected to the Baseball Hall of Fame in 1981. https://encyclopedia.chicagohistory.org/pages/2406.html",
+  "National Baseball Hall of Fame, Rube Foster (Class of 1981). Born September 17, 1879, Calvert, Texas; 1911 partnership with John Schorling at the old White Sox grounds; in 1920 he set the wheels in motion to create the Negro National League; his team won the first three pennants; died December 9, 1930, Kankakee, Illinois; “father of black baseball.” https://baseballhall.org/hall-of-famers/foster-rube",
+  "Souvenir of Negro Progress: Chicago, 1779–1925, plate titled “A crowd at Schorling's baseball park enjoying the national pastime; Home of Rube Foster's American Giants,” captioned at 39th Street and Princeton Avenue. New York Public Library Digital Collections, image ID 1169882. The Library believes the item is in the public domain in the United States. https://digitalcollections.nypl.org/items/510d47de-4d69-a3d9-e040-e00a18064a99",
+  "Photograph of the Negro National League annual meeting held in Chicago on January 28, 1922. Public domain. Wikimedia Commons, File:1922 Negro National League annual meeting.jpg.",
+  "Coordinates on this page: 41.8212, -87.6323, at the historic site of Schorling Park, 39th Street and Princeton Avenue, Chicago (Armour Square). Approximate."
+ ],
+ "topic": "SPORTS",
+ "place": "Schorling Park, 39th Street and Princeton Avenue, Chicago (Armour Square)",
+ "lat": 41.8212,
+ "lng": -87.6323,
+ "year": 1920,
+ "slug": "241-rube-foster"
 }
 ]
