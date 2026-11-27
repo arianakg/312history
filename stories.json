@@ -6770,5 +6770,40 @@
  "lng": -87.5997,
  "year": 1893,
  "slug": "242-chicago-basketball"
+},
+{
+ "num": "244",
+ "title": "The First TV Debate",
+ "hook": "Did you know the first televised presidential debate was in Chicago?",
+ "facts": [
+  "Did you know the first televised presidential debate was in Chicago?",
+  "On September 26, 1960, Kennedy and Nixon debated in Chicago",
+  "The debate was at the CBS studio on McClurg Court",
+  "More than 66 million people watched on television",
+  "It was the first of four debates that year",
+  "The studio is gone. A hospital stands on the site today"
+ ],
+ "extra": [
+  "On September 26, 1960, Senator John F. Kennedy and Vice President Richard Nixon met for the first general-election presidential debate ever shown on television. The debate was broadcast from WBBM-TV’s CBS Studio 1 at 630 N. McClurg Court, in Streeterville on the Near North Side. It ran from 8:30 to 9:30 p.m. in Chicago (9:30 to 10:30 p.m. Eastern).",
+  "The Commission on Presidential Debates puts the official audience at 66.4 million people. It was the first of four debates that year. The later debates were held on October 7 in Washington, October 13 (by split-screen, with the candidates in different cities), and October 21 in New York.",
+  "The studio building had opened in 1956 as the CBS Chicago broadcast center, in the former Chicago Arena / Riding Club of 1924. It was demolished in early 2009. The Shirley Ryan AbilityLab, formerly the Rehabilitation Institute of Chicago, opened in March 2017 at 355 E. Erie Street, on the same block. The studio itself does not still stand.",
+  "The map pin is the historic studio address, 630 N. McClurg Court, and is approximate. The photograph on this page is an Associated Press wirephoto taken in Chicago on September 26, 1960. The printed caption says Kennedy and Nixon are posing after the debate, not during it."
+ ],
+ "images": "Associated Press wirephoto, September 26, 1960, Chicago: Senator John F. Kennedy and Vice President Richard Nixon posing after their debate at a Chicago television studio. Published without a copyright notice (the original wirephoto back was inspected and has no © notice). U.S. public domain. Cover, hook, and later beats: original 312 History letter-free engraving, based on that photograph (natural aligned eyes; no lettering).",
+ "sources_line": "",
+ "sources": [
+  "Commission on Presidential Debates, “The 1960 Debates.” First general-election televised presidential debate, September 26, 1960, Chicago; official estimated viewership 66.4 million; first of four debates that year (October 7, 13, and 21). https://www.debates.org/debate-history/1960-debates/",
+  "John F. Kennedy Presidential Library, “Senator John F. Kennedy and Vice President Richard M. Nixon First Joint Radio-Television Broadcast, September 26, 1960.” CBS studio, Chicago. https://www.jfklibrary.org/archives/other-resources/john-f-kennedy-speeches/1st-nixon-kennedy-debate-19600926",
+  "John F. Kennedy Presidential Library, “First Kennedy-Nixon Debate, 26 September 1960.” https://www.jfklibrary.org/asset-viewer/archives/tnc-172",
+  "The CBS Chicago broadcast center at 630 N. McClurg Court opened in 1956 in the former Chicago Arena / Riding Club (1924) and was demolished in early 2009. The Shirley Ryan AbilityLab, formerly the Rehabilitation Institute of Chicago, opened in March 2017 at 355 E. Erie Street, on the site.",
+  "Associated Press wirephoto, September 26, 1960, Chicago. Wikimedia Commons, File:Kennedy Nixon debate first Chicago 1960.jpg. Published without a copyright notice; the original wirephoto back was inspected and has no © notice. U.S. public domain.",
+  "Coordinates on this page: 41.89270, -87.61779, at the historic address 630 N. McClurg Court, Chicago (Streeterville / Near North Side). Approximate. U.S. Census geocode."
+ ],
+ "topic": "EVENTS",
+ "place": "CBS Studio 1, 630 N. McClurg Court, Chicago (Streeterville)",
+ "lat": 41.8927,
+ "lng": -87.61779,
+ "year": 1960,
+ "slug": "244-the-first-tv-debate"
 }
 ]
